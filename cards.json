@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Learned Manuevers",
+        "level 0": [
+            {
+                "name": "Clumsy Dodge",
+                "description": "Move one square in any direction, and test AGL with DC {DC}. On a failure, gain the 'prone' card. On success, you may set your facing to any direction. Double the DC of the above check to move two squares in a straight line",
+                "pri": "1d8 + AGL",
+                "ap": 3,
+                "flip": 1,
+                "tags": [
+                    "movement"
+                ],
+                "combo": 0,
+		"cost": 0,
+		"variables": {
+		    "DC": "[This card's priority]" 
+		}
+            },
+            {
+                "name": "Step",
+                "description": "Move on square in any direction. Set faceing any direction. Next action in this stack gains +1 priority",
+                "pri": "AGL",
+                "ap": 3,
+                "tags": [
+                    "movement"
+                ],
+                "combo": 2,
+		"cost": 0
+            },
+            {
+	        "name": "Unarmed Strike",
+                "description": "Target: One forward square<br/><br/>Choose {NumEffects} of: <ul><li>Deal {DMG} Damage.</li><li>Enemy must make a DC {DC} STR or AGL check. On failure, they move one square away from you</li><li>Same check as above, but on failure, they gain the 'prone' effect</li><li>Same check as above, but on failure, they gain the 'grappled' effect (and you gain the 'grappling' effect), or 'pinned', if they are already grappled</li></ul>",
+                "pri": "4+TEC",
+                "ap": 5,
+                "flip": 2,
+                "tags": [
+                    "strike",
+                    "unarmed"
+                ],
+                "combo": 1,
+		"cost": 0,
+		"variables": {
+		    "DC": "STR-2",
+		    "DMG": "1d4 - 2 + STR/2",
+		    "NumEffects": "one"
+		}
+            },
+	    {
+		"name": "Shield Block",
+		"description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target",
+		"pri": "2d6 + TEC",
+		"ap": 3,
+		"flip": 0,
+		"tags": [],
+		"combo": 0,
+		"cost": 0
+	    }
+        ],
+	"level 1": [
+	    {
+		"name": "Weapon Block",
+		"description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target",
+		"pri": "2d4 + TEC",
+		"ap": 4,
+		"flip": 2,
+		"tags": [],
+		"combo": 2,
+		"cost": "8 - EMP, min 4"
+	    },
+	    {
+		"name": "Parry",
+		"description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.",
+		"pri": "(TEC + AGL)/2 + 2d4",
+		"ap": 7,
+		"flip": 5,
+		"tags": [
+		    "movement"
+		],
+		"combo": 5,
+		"cost": "13 - EMP, min 7",
+		"variables": {
+		    "DMG": "your STR + TEC"
+		}
+	    },
+	    {
+		"name": "Dodge",
+		"description": "Chose one of:<ul><li>Move one square in any direction.</li><li>Move two squares in a straight line, and test AGL with DC {DC}. On a failure, gain the 'prone' card. On success, you may set your facing to any direction{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul>",
+		"pri": "2d4 + AGL",
+		"ap": 3,
+		"flip": 1,
+		"tags": [
+                    "movement"
+		],
+		"combo": 1,
+		"cost": "10 - AGL, min 6",
+		"variables": {
+		    "DC": "[This card's priority]/2",
+		    "Extras": ""
+		}
+	    }
+	]
+    },
+    {
+        "name": "Natural Abilities",
+        "cards": [
+            {
+                "name": "Drag",
+                "description": "Move one square in any direction. Set facing that direction.",
+                "pri": "AGL",
+                "ap": 6,
+                "flip": 0,
+                "tags": [
+                    "movement",
+                    "prone"
+                ],
+                "combo": 0,
+		"cost": 0
+            },
+            {
+                "name": "Constrict",
+                "description": "Target: one grappled creature<br/><br/>Deal {DMG} damage",
+                "pri": "STR",
+                "ap": 6,
+                "tags": [
+                    "strike",
+                    "unarmed"
+                ],
+                "combo": 1,
+		"cost": 0,
+		"variables": {
+		    "DMG": "(STR/2)d4"
+		}
+            }
+        ]
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Learned Manuevers",
+	"level 1": [
+	    {
+                "name": "Basic Striking",
+		"description": "Add + TEC/2 to damage on Unarmed Strike. Gain another Unarmed Strike card",
+		"prerec": "Unarmed Strike ability card",
+		"cost": "3",
+		"code": [
+		    {
+			"type": "edit",
+			"target": "Unarmed Strike",
+			"priority": 10,
+			"DMG": "{DMG} + TEC/2"
+		    },
+		    {
+			"type": "new card",
+			"Unarmed Strike": 1
+		    }
+		]
+	    },
+	    {
+		"name": "Judo 101",
+		"description": "Change the DC of Unarmed Strike to MAX(STR, TEC) instead of STR-2.",
+		"prerec": "Unarmed Strike ability card",
+		"cost": "10 - EMP, min 4",
+		"code": [
+		    {
+			"type": "edit",
+			"target": "Unarmed Strike",
+			"priority": 100,
+			"DC": "MAX(STR, TEC)"
+		    }
+		]
+	    },
+	    {
+		"name": "Dodge+",
+		"description": "Turn 'Clumsy Dodge' into 'Dodge'",
+		"prerec": "Clumsy Dodge ability card",
+		"cost": 8,
+		"code": [
+		    {
+			"type": "transform card",
+			"Clumsy Dodge": "Dodge"
+		    }
+		]
+	    }
+	],
+	"level 2": [
+	    {
+		"name": "Judo+",
+		"description": "Add EMP/2 to the DC of Unarmed Strike. Add 2 to the flip of unarmed strike. Choose any two effects from Unarmed strike, instead of one",
+		"prerec": "Judo 101",
+		"cost": "15",
+		"code": [
+		    {
+			"type": "edit",
+			"target": "Unarmed Strike",
+			"priority": 10,
+			"DC": "{DC} + EMP/2",
+			"NumEffects": "two",
+			"flip": "{flip} + 2"
+		    }
+		]
+	    },
+	    {
+                "name": "Strike+",
+		"description": "Add + 1 damage on Unarmed Strike. Gain another Unarmed Strike card",
+		"prerec": "Basic Striking",
+		"cost": "3",
+		"special": "May be taken repeatedly. Each time taken doubles (expontentially) the cost",
+		"code": [
+		    {
+			"type": "edit",
+			"target": "Unarmed Strike",
+			"priority": 5,
+			"DMG": "{DMG} + 1"
+		    },
+		    {
+			"type": "new card",
+			"Unarmed Strike": 1
+		    }
+
+		]
+	    },
+	    {
+		"name": "Dodge Roll",
+		"description": "If you move two spaces on a dodge and make the check, you may move a third space in the same direction",
+		"prerec": "Dodge+",
+		"cost": 5,
+		"code": [
+		    {
+			"type": "edit",
+			"target": "Dodge",
+			"Extras": " and move a third space in the same direction"
+		    }
+		]
+	    }
+	],
+	"level 3": [
+	    {
+		"name": "Artful Dodger",
+		"description": "Add +1 to combo for Dodge. Gain another two dodge cards", 
+		"prerec": "Dodge+",
+		"cost": "25 - AGL",
+		"code": [
+		    {
+			"type": "edit",
+			"target": "Dodge",
+			"combo": "{combo} + 1"
+		    },
+		    {
+			"type": "new card",
+			"Dodge": 2
+		    }
+		]
+	    }
+	]
+    }
+]

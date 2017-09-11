@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<svg width = "1350" height = "1950" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <g>
+        <rect stroke="#000000" id="background" ry="20" rx="20" height="650" width="450" stroke-width="2" fill="white"/>
+        <text id="name" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="77.75" x="111.26563" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " stroke="#000000">UNARMED STIKE:</text>
+        
+        <switch>
+            <foreignObject id="description" height="500" width="300" y="150" x="50">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                DESCRIPTION HERE
+                </div>
+            </foreignObject>
+        </switch>
+
+        <switch>
+            <foreignObject id="tags" height="500" width="75" y="150" x="350">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                </div>
+            </foreignObject>
+        </switch>
+	<text transform="rotate(90)" stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="-10" x="100" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="Character Name">CHARACTER NAME HERE</text>
+        <text stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="41.5" x="10" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="flip">FLIP: 0</text>
+        <text stroke="#000000" xml:space="preserve" text-anchor="end" font-family="serif" font-size="24" y="41.5" x="440" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="pri">PRI: 4 +TEC </text>
+        <text stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="640" x="10" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="ap">AP: 5</text>
+        <text stroke="#000000" xml:space="preserve" text-anchor="end" font-family="serif" font-size="24" y="640" x="440" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="combo">COMBO: 1</text>
+    </g>
+</svg>
+  </body>
+</html>

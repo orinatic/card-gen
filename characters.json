@@ -1,0 +1,29 @@
+[
+    { 
+	"name": "Utter Noob",
+	"cards": [
+	    "Clumsy Dodge",
+	    "Step",
+	    "Unarmed Strike"
+	],
+	"modifiers": []
+    },
+    {
+	"name": "Decent Martial Artist",
+	"cards": [
+	    "Dodge",
+	    "Step",
+	    "Unarmed Strike",
+	    "Parry"
+	],
+	"modifiers": [
+	    "Basic Striking",
+	    "Judo 101",
+	    "Dodge+",
+	    "Judo+",
+	    "Strike+",
+	    "Dodge Roll",
+	    "Artful Dodger"
+	]
+    }
+]
