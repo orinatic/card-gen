@@ -17,7 +17,7 @@ class Characters:
     def genCharacter(self, name):
         if not name in self.chars:
             raise Exception(f"name {name} not in character list {self.chars.keys()}")
-        modNames = self.chars[name]["modifiers"]
+        modNames = self.chars[name].get("modifiers", [])
         cardNames = self.chars[name]["cards"]
 
         mods = Mods.parseMods(json.loads(open(self.modsJSON).read()), modNames)
@@ -31,7 +31,7 @@ class Characters:
     def printCharacters(self, names):
         cardsByChar = [self.genCharacter(name) for name in names]
         cardsToPrint = {}
-        for character in cardsByChar:
+        for character in cardsByChar: 
             for(card, num) in character.items():
                 cardsToPrint[card] = cardsToPrint.get(card, 0) + num
         self.cardMaker.printAll(cardsToPrint)

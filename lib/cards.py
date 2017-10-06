@@ -27,11 +27,15 @@ class Cards:
 
     def parseCards(raw_cards, cardsList):
         cards = {}
+        toParse = list(cardsList)
         for catagory in raw_cards:
             for (name, subcat) in {name:catagory[name] for name in catagory if name != "name"}.items():
                 for card in subcat:
                     if(card["name"]) in cardsList:
+                        toParse.remove(card["name"])
                         cards[card["name"]] = card
+        if(len(toParse) > 0):
+            raise Exception(f"Could not find cards {toParse}. List was {cardsList}")
         return cards
 
     def substituteVariables(cardJSON):
@@ -68,7 +72,7 @@ class Cards:
                 node = card_svg.find(f".//*[@id='{attribute}']")
                 if(node.tag == f"{Constants.ns['svg']}text"):
                     if(attribute == 'name'):
-                        node.text = value.capitalize()
+                        node.text = value.title()
                     else:
                         node.text = f"{attribute.upper()}: {value}"
                 elif(attribute == 'description'):

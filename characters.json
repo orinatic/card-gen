@@ -1,29 +1,74 @@
 [
     { 
-	"name": "Utter Noob",
-	"cards": [
-	    "Clumsy Dodge",
-	    "Step",
-	    "Unarmed Strike"
-	],
-	"modifiers": []
+    "name": "Utter Noob",
+    "cards": [
+        "Clumsy Dodge",
+        "Step",
+        "Unarmed Strike"
+    ],
+    "modifiers": []
     },
     {
-	"name": "Decent Martial Artist",
-	"cards": [
-	    "Dodge",
-	    "Step",
-	    "Unarmed Strike",
-	    "Parry"
-	],
-	"modifiers": [
-	    "Basic Striking",
-	    "Judo 101",
-	    "Dodge+",
-	    "Judo+",
-	    "Strike+",
-	    "Dodge Roll",
-	    "Artful Dodger"
-	]
+    "name": "Decent Martial Artist",
+    "cards": [
+        "QuickStep/Dodge",
+        "Step",
+        "Unarmed Strike",
+        "Parry",
+        "Dagger Strike",
+        "Judo Toss"
+    ],
+    "modifiers": [
+        "Basic Striking",
+        "Judo 101",
+        "Dodge+",
+        "Judo+",
+        "Strike+",
+        "Dodge Roll",
+        "Artful Dodger",
+        "Knife Training"
+    ]
+    },
+    {
+    "name": "Mideval Re-enactor",
+    "cards": [
+        "Clumsy Dodge",
+        "Step",
+        "Unarmed Strike",
+        "Weapon Block",
+        "Longsword Strike",
+        "Full Plate"
+    ],
+    "modifiers": [
+        "Basic Striking"
+    ]
+    },
+    {
+    "name": "Minor Hunger/Instinct Spirit",
+    "cards": [
+        "QuickStep/Dodge",
+        "Step",
+        "Chomp"
+    ]
+    },
+    {
+    "name": "Medium Hunger/Instinct Spirit",
+    "cards": [
+        "QuickStep/Dodge",
+        "Step",
+        "Chomp",
+        "Rip"
+    ]
+    },
+    {
+    "name": "Status Effects",
+    "cards": [
+        "Prone",
+        "Grappled",
+        "Grapping",
+        "Pinned",
+        "Latching On",
+        "Chomped"
+    ]
     }
 ]

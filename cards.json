@@ -12,125 +12,413 @@
                     "movement"
                 ],
                 "combo": 0,
-		"cost": 0,
-		"variables": {
-		    "DC": "[This card's priority]" 
-		}
+                "cost": 0,
+                "variables": {
+                    "DC": "3"
+                }
             },
             {
                 "name": "Step",
-                "description": "Move on square in any direction. Set faceing any direction. Next action in this stack gains +1 priority",
+                "description": "Move one square in any direction.<br/><br/>Return this card to your hand",
                 "pri": "AGL",
                 "ap": 3,
                 "tags": [
                     "movement"
                 ],
                 "combo": 2,
-		"cost": 0
+                "cost": 0
             },
             {
-	        "name": "Unarmed Strike",
-                "description": "Target: One forward square<br/><br/>Choose {NumEffects} of: <ul><li>Deal {DMG} Damage.</li><li>Enemy must make a DC {DC} STR or AGL check. On failure, they move one square away from you</li><li>Same check as above, but on failure, they gain the 'prone' effect</li><li>Same check as above, but on failure, they gain the 'grappled' effect (and you gain the 'grappling' effect), or 'pinned', if they are already grappled</li></ul>",
-                "pri": "4+TEC",
-                "ap": 5,
+                "name": "Unarmed Strike",
+                "description": "You may return this card to your pool and replace with the any 'basic attack' card.<br/><br/>Target: One square within reach 1 or your own square<br/><br/>Choose {NumEffects} of: <ul><li>Deal ({DMG}) damage.</li><li>Enemy must make a DC ({DC}) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</li><li>Same check as above, but on failure, they gain the 'prone' effect</li></ul>",
+                "pri": "5+TEC",
+                "ap": 3,
+                "flip": 1,
+                "tags": [
+                    "strike",
+                    "unarmed",
+                    "basic attack"
+                ],
+                "combo": 1,
+                "cost": 0,
+                "variables": {
+                    "DC": "STR-2",
+                    "DMG": "1d4 - 2 + STR/2",
+                    "NumEffects": "one"
+                }
+            },
+            {
+                "name": "Dagger Strike",
+                "description": "Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square.</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
+                "pri": "5+TEC",
+                "ap": 3,
                 "flip": 2,
                 "tags": [
                     "strike",
-                    "unarmed"
+                    "precise",
+                    "basic attack"
                 ],
                 "combo": 1,
-		"cost": 0,
-		"variables": {
-		    "DC": "STR-2",
-		    "DMG": "1d4 - 2 + STR/2",
-		    "NumEffects": "one"
-		}
+                "cost": 0,
+                "variables": {
+                    "ADV": "TEC - 1",
+                    "DMG": "1d8 + STR/2",
+                    "Range ADV": "TEC - 5",
+                    "Range DMG": "1d8 + STR/2, 1-3 on die means 0 dmg"
+                }
             },
-	    {
-		"name": "Shield Block",
-		"description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target",
-		"pri": "2d6 + TEC",
-		"ap": 3,
-		"flip": 0,
-		"tags": [],
-		"combo": 0,
-		"cost": 0
-	    }
+            {
+                "name": "Longsword Strike",
+                "description": "Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
+                "pri": "4+TEC",
+                "ap": 4,
+                "flip": 2,
+                "tags": [
+                    "strike",
+                    "basic attack"
+                ],
+                "combo": 2,
+                "cost": 0,
+                "variables": {
+                    "DMG": "TEC adv: 1d12 + STR/2"
+                }
+            },
+            {
+                "name": "Shield Block",
+                "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target",
+                "pri": "2d6 + TEC",
+                "ap": 3,
+                "flip": 0,
+                "tags": [],
+                "combo": 0,
+                "cost": 0
+            }
         ],
-	"level 1": [
-	    {
-		"name": "Weapon Block",
-		"description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target",
-		"pri": "2d4 + TEC",
-		"ap": 4,
-		"flip": 2,
-		"tags": [],
-		"combo": 2,
-		"cost": "8 - EMP, min 4"
-	    },
-	    {
-		"name": "Parry",
-		"description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.",
-		"pri": "(TEC + AGL)/2 + 2d4",
-		"ap": 7,
-		"flip": 5,
-		"tags": [
-		    "movement"
-		],
-		"combo": 5,
-		"cost": "13 - EMP, min 7",
-		"variables": {
-		    "DMG": "your STR + TEC"
-		}
-	    },
-	    {
-		"name": "Dodge",
-		"description": "Chose one of:<ul><li>Move one square in any direction.</li><li>Move two squares in a straight line, and test AGL with DC {DC}. On a failure, gain the 'prone' card. On success, you may set your facing to any direction{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul>",
-		"pri": "2d4 + AGL",
-		"ap": 3,
-		"flip": 1,
-		"tags": [
+        "level 1": [
+            {
+                "name": "Weapon Block",
+                "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target",
+                "pri": "2d4 + TEC",
+                "ap": 4,
+                "flip": 2,
+                "tags": [],
+                "combo": 2,
+                "cost": "8 - EMP, min 4"
+            },
+            {
+                "name": "Precise Strike",
+                "description": "Bid TEC vs the armor's Coverage. Every time your opponent uses a 'movement' card, your bid is removed. When you activate a 'strike' 'precise' card, their armor's bypass value counts as their armor's bid. You do not need to flip this card until you activate it",
+                "pri": "--",
+                "ap": 2,
+                "flip": "--",
+                "tags": [
+                    "modifier"
+                ],
+                "combo": 0,
+                "cost": "10 - TEC, min 5"
+            },
+            {
+                "name": "Parry",
+                "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit. Your attacker looses all their combo and cannot refresh this tick.",
+                "pri": "(TEC + AGL)/2 + 2d4",
+                "ap": 4,
+                "flip": 2,
+                "tags": [
                     "movement"
-		],
-		"combo": 1,
-		"cost": "10 - AGL, min 6",
-		"variables": {
-		    "DC": "[This card's priority]/2",
-		    "Extras": ""
-		}
-	    }
-	]
+                ],
+                "combo": 3,
+                "cost": "13 - EMP, min 7",
+                "variables": {
+                    "DMG": "your STR + TEC"
+                }
+            },
+            {
+                "name": "QuickStep/Dodge",
+                "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this stack gains +1 priority.</li><li>Move two squares in a straight line, and test AGL with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul>",
+                "pri": "2d4 + AGL",
+                "ap": 3,
+                "flip": 2,
+                "tags": [
+                    "movement"
+                ],
+                "combo": 1,
+                "cost": "10 - AGL, min 6",
+                "variables": {
+                    "DC": "4",
+                    "Extras": ""
+                }
+            }
+        ],
+        "level 2": [
+            {
+                "name": "Judo Toss",
+                "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all cards they currently have on the field are discarded. They gain the 'prone' status",
+                "pri": "(TEC + AGL)/2 + 2",
+                "ap": 4,
+                "flip": 2,
+                "tags": [
+                    "throw",
+                    "strike"
+                ],
+                "combo": 3,
+                "cost": "22 - EMP, min 12, half the time sunk into learning Parry counts for this as well"
+            }
+        ]
     },
     {
         "name": "Natural Abilities",
         "cards": [
             {
                 "name": "Drag",
-                "description": "Move one square in any direction. Set facing that direction.",
+                "description": "Move one square in any direction.",
                 "pri": "AGL",
-                "ap": 6,
+                "ap": 4,
                 "flip": 0,
                 "tags": [
                     "movement",
                     "prone"
                 ],
                 "combo": 0,
-		"cost": 0
+                "cost": 0
             },
             {
                 "name": "Constrict",
                 "description": "Target: one grappled creature<br/><br/>Deal {DMG} damage",
                 "pri": "STR",
-                "ap": 6,
+                "ap": 3,
                 "tags": [
                     "strike",
                     "unarmed"
                 ],
                 "combo": 1,
-		"cost": 0,
-		"variables": {
-		    "DMG": "(STR/2)d4"
-		}
+                "cost": 0,
+                "variables": {
+                    "DMG": "(STR/2)d4"
+                }
+            },
+            {
+                "name": "Chomp",
+                "description": "Target: One forward square<br/><br/>Deal 1d4 + STR - 1 damage. If you deal damage, you can latch on to your target. Gain the 'latched on' effect, while your target gains the 'chomped' effect",
+                "pri": "4 + TEC",
+                "ap": 3,
+                "tags": [
+                    "strike",
+                    "unarmed"
+                ],
+                "combo": 1,
+                "cost": 0
+            },
+            {
+                "name": "Rip",
+                "description": "Target: One entity which you latched on to and have at least 10 tokens on<br/><br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card",
+                "pri": "STR",
+                "ap": 4,
+                "tags": [
+                    "strike",
+                    "unarmed",
+                    "hunger"
+                ],
+                "combo": 1,
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "name": "Status Effects",
+        "cards": [
+            {
+                "name": "Prone",
+                "description": "You may not use 'movement' cards that do not also have the 'prone' tag.<br/>Can be removed by spending 2 AP",
+                "pri": "AGL + 2",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Grappled",
+                "description": "As long as this card is in effect, cannot use any 'movement' cards. This card may be turned into 'Grappling' if you have at least one bid token on it",
+                "pri": "STR",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Grapping",
+                "description": "As long as this card is in effect, any 'movement' cards you use have 0 combo, 1/2 priority, and affect both you and the person you are grappling. If you have at least one bid token on this card, you may chose to only affect yourself with movement cards. If you leave the square of the person you are grappling, discard this card.<br/><br/> You may turn this card's partner from 'Grappling' into 'Grappled' if you have at least your enemy's STR bid tokens on this card.<br/><br/>You may turn this card's partner from 'Grappled' into 'Pinned' if you have at least 2x your enemy's STR bid tokens on this card",
+                "pri": "STR",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Pinned",
+                "description": "As long as this card is in effect, cannot use any 'movement' or 'strike' cards. Your STR and TEC count as one lower for the purposes of bidding on this card. This card may be turned into 'Grappling' if you have at least one bid token on it",
+                "pri": "STR",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Latching On",
+                "description": "As long as this card is in effect, you may not use any 'movement' or 'strike' cards. You may voluntarily discard this card by paying 1 AP with priority TEC + 4. This card is discarded if its paired 'Chomped' card is discarded",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Chomped",
+                "description": "As long as this card is in effect, all 'movement' cards take + 1 AP, and apply to both you and the creature that has chomped you. All 'strike' cards have -1 priority. Each time you activate a 'movement' or 'strike' card, take 1d4-1 damage. Can be removed if you have at least one bid token on this card",
+                "pri": "2",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "name": "Equipment",
+        "cards": [
+            {
+                "name": "Motorcycle Gear",
+                "description": "Bypass: 10<br/><br/>Gain DR 2. Reduce your AGL by 3 - STR.",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "Equipment"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Riot Gear",
+                "description": "Bypass: 10<br/><br/>Gain DR 4. Reduce your AGL by 5 - STR.",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "Equipment"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Full Plate",
+                "description": "Bypass: 10<br/><br/>Gain DR 8. Reduce your AGL by 7 - STR.",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "Equipment"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "Bulletproof Vest",
+                "description": "Bypass: 4<br/><br/>Gain DR 8. Reduce your AGL by 2-STR.",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "Equipment"
+                ],
+                "combo": "--",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "name": "Emote",
+        "cards": [
+            {
+                "name": "1 Emote",
+                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "1 Emote"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "2 Emote",
+                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "2 Emote"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "3 Emote",
+                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "3 Emote"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "5 Emote",
+                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "5 Emote"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+            {
+                "name": "10 Emote",
+                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
+                "pri": "--",
+                "ap": "--",
+                "tags": [
+                    "5 Emote"
+                ],
+                "combo": "--",
+                "cost": 0
+            },
+        ]
+    },
+    {
+        "name": "Anger",
+        "level 0": [
+            {
+                "name": "Channel Anger",
+                "description": "Cost to pull: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Increase your target's STR or decrease your target's AGL or EMP by MAG/2",
+                "pri": "MAG * 2 + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
             }
         ]
     }

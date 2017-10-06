@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<svg width = "1350" height = "1950" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <rect stroke="#000000" ry="20" rx="20" height="675" width="475" stroke-width="2" fill="white"/>
+  <rect stroke="#000000" ry="20" rx="20" y="675" height="675" width="475" stroke-width="2" fill="white"/>
+  <rect stroke="#000000" ry="20" rx="20" y="625" x = "188" height="100" width="100" stroke-width="0" fill="white"/>
+  <text id="pri" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="100" y="708" x="237.5" stroke-width="0" fill="#000000">0</text>
+</svg>
+  </body>
+</html>
