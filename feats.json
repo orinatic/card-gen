@@ -111,6 +111,12 @@
                         "Extras": "On a success, you may move a third space in the same direction"
                     }
                 ]
+            },
+            {
+                "name": "Forceably re-allocate <Emote>",
+                "description": "Select one emote type. If you use an ability that locks that type, there is not enough emote free to lock all the emote you want, and there are other abilities active on that target which are locking that emote, you may bid your MAG - 1 vs their MAG to discard their locking card. While this bidding process goes on, your card takes no effect and you do not need to pay upkeep. As soon as the required emote is free (for whatever reason), discard all bid on your card and your card immediately takes its normal effect",
+                "prerec": "--",
+                "cost": 12
             }
         ],
         "level 3": [

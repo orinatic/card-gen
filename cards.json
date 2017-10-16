@@ -291,6 +291,17 @@
                 ],
                 "combo": "--",
                 "cost": 0
+            },
+            {
+                "name": "Targeted By Channel",
+                "description": "This is the pair of a 'Channel <emote>' card. Bid DISC vs chaneller's MAG to remove it.",
+                "pri": "2",
+                "ap": "--",
+                "tags": [
+                    "status"
+                ],
+                "combo": "--",
+                "cost": 0
             }
         ]
     },
@@ -395,7 +406,7 @@
         "level 0": [
             {
                 "name": "Channel Anger",
-                "description": "Cost to pull: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Increase your target's STR or decrease your target's AGL or EMP by MAG/2",
+                "description": "Cost to pull: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Lock up to 20 Anger from your target's pool and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
                 "pri": "MAG * 2 + 2",
                 "ap": 2,
                 "flip": 0,
@@ -414,6 +425,50 @@
                 "description": "Cost to pull: 8 + N*10 Emote<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<br/><br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. As long as this card is face up, take 1d2-1 damage during the AP phase of each round. You may spend 1 AP to move the discarded 8 + N*10 emote, along with this card to your pool",
                 "pri": "MAG * 2 + 2",
                 "ap": 5,
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            },
+            {
+                "name": "Channel Anger+",
+                "description": "Cost to pull: 7 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 5 Emote/tick<br/><br/>Lock up to 28 Anger from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "pri": "MAG * 2 + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            },
+            {
+                "name": "Multi-Channel Anger",
+                "description": "Cost to pull: 10 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 6 Emote/tick<br/><br/>Lock up to 20 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "pri": "MAG + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            }
+        ],
+        "level 2": [
+            {
+                "name": "Multi-Channel Anger+",
+                "description": "Cost to pull: 15 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 9 Emote/tick<br/><br/>Lock up to 28 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "pri": "MAG + 2",
+                "ap": 2,
                 "flip": 0,
                 "tags": [
                     "Anger",
