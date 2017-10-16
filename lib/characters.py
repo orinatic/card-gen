@@ -28,13 +28,13 @@ class Characters:
         return {cards[name]:cardsToNumbers[name] for name in cards.keys()} 
         
         
-    def printCharacters(self, names):
+    def printCharacters(self, names, output):
         cardsByChar = [self.genCharacter(name) for name in names]
         cardsToPrint = {}
         for character in cardsByChar: 
             for(card, num) in character.items():
                 cardsToPrint[card] = cardsToPrint.get(card, 0) + num
-        self.cardMaker.printAll(cardsToPrint)
+        self.cardMaker.printAll(cardsToPrint, output)
             
-    def printAll(self):
-        self.printCharacters(self.chars.keys())
+    def printAll(self, output):
+        self.printCharacters(self.chars.keys(), output)

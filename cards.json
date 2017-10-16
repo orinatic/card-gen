@@ -347,7 +347,7 @@
         "name": "Emote",
         "cards": [
             {
-                "name": "1 Emote",
+                "name": "1 {Emote}",
                 "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
                 "pri": "--",
                 "ap": "--",
@@ -355,10 +355,13 @@
                     "1 Emote"
                 ],
                 "combo": "--",
-                "cost": 0
+                "cost": 0,
+                "variables": {
+                    "Emote": "Emote"
+                }
             },
             {
-                "name": "2 Emote",
+                "name": "2 {Emote}",
                 "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
                 "pri": "--",
                 "ap": "--",
@@ -366,21 +369,13 @@
                     "2 Emote"
                 ],
                 "combo": "--",
-                "cost": 0
+                "cost": 0,
+                "variables": {
+                    "Emote": "Emote"
+                }
             },
             {
-                "name": "3 Emote",
-                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
-                "pri": "--",
-                "ap": "--",
-                "tags": [
-                    "3 Emote"
-                ],
-                "combo": "--",
-                "cost": 0
-            },
-            {
-                "name": "5 Emote",
+                "name": "5 {Emote}",
                 "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
                 "pri": "--",
                 "ap": "--",
@@ -388,19 +383,11 @@
                     "5 Emote"
                 ],
                 "combo": "--",
-                "cost": 0
-            },
-            {
-                "name": "10 Emote",
-                "description": "Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<br/><br/>Can be played on top of a currently active Emote card to pay its upkeep at any time",
-                "pri": "--",
-                "ap": "--",
-                "tags": [
-                    "5 Emote"
-                ],
-                "combo": "--",
-                "cost": 0
-            },
+                "cost": 0,
+                "variables": {
+                    "Emote": "Emote"
+                }
+            }
         ]
     },
     {
@@ -411,6 +398,22 @@
                 "description": "Cost to pull: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Increase your target's STR or decrease your target's AGL or EMP by MAG/2",
                 "pri": "MAG * 2 + 2",
                 "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            }
+        ],
+        "level 1": [
+            {
+                "name": "Manifest Anger(Small)",
+                "description": "Cost to pull: 8 + N*10 Emote<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<br/><br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. As long as this card is face up, take 1d2-1 damage during the AP phase of each round. You may spend 1 AP to move the discarded 8 + N*10 emote, along with this card to your pool",
+                "pri": "MAG * 2 + 2",
+                "ap": 5,
                 "flip": 0,
                 "tags": [
                     "Anger",

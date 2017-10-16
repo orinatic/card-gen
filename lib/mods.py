@@ -15,6 +15,7 @@ class Mods:
         return sorted(mods_flat, key = lambda mod: mod.get("priority", 0), reverse = True)
 
     def doEdit(var, value, target):
+        """Changes the value of var to value, in target card json target"""
         currentValue = target.get(var, "")
         newValue = Simplifier.simplify(str(value).replace(f"{{{var}}}", str(currentValue)))
         target[var] = newValue

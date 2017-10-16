@@ -12,7 +12,7 @@ class Cards:
         self.ts = TemplateService(template)
         self.cardsJSON = cardsJSON
     
-    def genTags(node, tags):
+    def genTags(self, node, tags):
         def iter(node, tags, first):
             if(tags == []):
                 return
@@ -25,7 +25,10 @@ class Cards:
                 iter(node, tags[1:], False)
         iter(node, tags, True)
 
-    def parseCards(raw_cards, cardsList):
+
+    def parseCards(self, raw_cards: dict, cardsList: list):
+        """Takes dictionary of raw cards and a list of cards to parse, and returns a dictionary
+        of name->card json"""
         cards = {}
         toParse = list(cardsList)
         for catagory in raw_cards:
@@ -38,7 +41,7 @@ class Cards:
             raise Exception(f"Could not find cards {toParse}. List was {cardsList}")
         return cards
 
-    def substituteVariables(cardJSON):
+    def substituteVariables(self, cardJSON):
         variables = cardJSON.get("variables", {})
 
         def subForString(s):
@@ -57,17 +60,19 @@ class Cards:
 
     # returns map of card names to card svg code
     def genCards(self, characterName, cardNames, mods):
-        card_svgs = {}
 
-        cards = Cards.parseCards(json.loads(open(self.cardsJSON).read()), cardNames)
+        cards = self.parseCards(json.loads(open(self.cardsJSON).read()), cardNames)
         
         Mods.applyEditMods(cards, mods)
 
-        unlabled_elements = ["description", "tags", "name"]
-        
-        for (name, card) in cards.items():
+        return self.doGenCards(characterName, cards.values())
+
+    def doGenCards(self, characterName, cardJSONS: list):
+        """Returns name -> svg"""
+        card_svgs = {}
+        for (card) in cardJSONS:
             card_svg = self.ts.getNewCard()
-            card = Cards.substituteVariables(card)
+            card = self.substituteVariables(card)
             for attribute, value in {attr:card[attr] for attr in card if (attr not in Constants.invisibleAttributes)}.items():
                 node = card_svg.find(f".//*[@id='{attribute}']")
                 if(node.tag == f"{Constants.ns['svg']}text"):
@@ -78,13 +83,14 @@ class Cards:
                 elif(attribute == 'description'):
                     list(node)[0].text = value
                 elif(attribute == 'tags'):
-                        Cards.genTags(list(node)[0], value)
+                        self.genTags(list(node)[0], value)
                 node = card_svg.find(f".//*[@id='Character Name']")
                 node.text = characterName.upper()
                 card_svgs[card["name"]] = card_svg
         return card_svgs
                 
-    def printAll(self, cards):
+    def printAll(self, cards, output):
+        """Takes a dictionary of cards->number of times to print"""
         for (card, num) in cards.items():
             self.ts.addCards(card, num)
-        self.ts.writeCards('test.svg')
+        self.ts.writeCards(output)

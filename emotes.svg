@@ -1,0 +1,195 @@
+<html xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.w3.org/2000/svg">
+  <body>
+<ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">1 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>1 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">1 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>1 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">1 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>1 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 0 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">2 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>2 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">2 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>2 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">2 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>2 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">5 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>5 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">5 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>5 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">5 Anger</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
+                <html:div>Any number of 'N Emote' cards can be discarded from your hand to pull one 'Emote' card from your pool with a Cost to pull less than or equal to the sum of the discarded cards<html:br/><html:br/>Can be played on top of a currently active Emote card to pay its upkeep at any time</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>5 Emote</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">EMOTES</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+</ns0:svg>
+  </body>
+</html>

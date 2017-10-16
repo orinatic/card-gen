@@ -5,4 +5,4 @@ print("Generating cards")
 
 chars = Characters('template.svg', 'characters.json', 'cards.json', 'feats.json')
 
-chars.printAll()
+chars.printAll('test.svg')
