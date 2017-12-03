@@ -95,15 +95,25 @@
             }
         ],
         "level 1": [
-            {
-                "name": "Weapon Block",
-                "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target",
-                "pri": "2d4 + TEC",
-                "ap": 4,
-                "flip": 2,
+            { 
+                "name": "Focus", 
+                "description": "Add +1 priority to another of your cards activated this tick",
+                "pri": "20",
+                "ap": 1,
+                "flip": 1,
                 "tags": [],
-                "combo": 2,
-                "cost": "8 - EMP, min 4"
+                "combo": 0,
+                "cost": "10 - DISC, min 5"
+            },
+            { 
+                "name": "Reckless Action", 
+                "description": "Add +1d4-2 priority to another of your cards activated this tick",
+                "pri": "20",
+                "ap": 1,
+                "flip": 1,
+                "tags": [],
+                "combo": 0,
+                "cost": "10 - COUR, min 5"
             },
             {
                 "name": "Precise Strike",
@@ -133,6 +143,16 @@
                 }
             },
             {
+                "name": "Weapon Block",
+                "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target",
+                "pri": "2d4 + TEC",
+                "ap": 4,
+                "flip": 2,
+                "tags": [],
+                "combo": 2,
+                "cost": "8 - EMP, min 4"
+            },
+            {
                 "name": "QuickStep/Dodge",
                 "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this stack gains +1 priority.</li><li>Move two squares in a straight line, and test AGL with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul>",
                 "pri": "2d4 + AGL",
@@ -142,7 +162,7 @@
                     "movement"
                 ],
                 "combo": 1,
-                "cost": "10 - AGL, min 6",
+                "cost": "--",
                 "variables": {
                     "DC": "4",
                     "Extras": ""
@@ -402,11 +422,243 @@
         ]
     },
     {
+        "name": "Joy",
+        "level 0": [
+            {
+                "name": "Channel Joy",
+                "description": "Cost to activate: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Lock up to 20 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 20 points, increase all of your target's stats by 1. Locked joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "pri": "MAG * 2 + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            }
+        ],
+        "level 1": [
+            {
+                "name": "Manifest Joy (Playfulness)",
+                "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material approximately the size of a baseball. The joy blob starts with a length stat (LEN) of N. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per 6 MAG toward each target at priority MAG * 2. If it enters the same square as a creature, it will poke the creature. If ignored or otherwise shooed away, it will retreat back toward the central body before growing toward a different target. If engaged (its poke is returned, for instance), it will attempt to wrap up its target, using one LEN per six MAG per tick until either its target is fully wrapped up, or it is stopped with a gentle nudge. Anything so encased (which can be just a single injury) rejuvinates slowly, healing 1 point each wound encased every 2d10 minutes so encased. This process uses up 10 Joy per point healed (reducing LEN by the same number), as the solid joy prods, pokes, and eventually incorporates itself into, the injury. This healing process takes energy, costing the healee 2 fatigue per point healed. <br/>This card can be recalled like any other manifestation.",
+                "pri": "MAG * 2 + 2",
+                "ap": 5,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 0,
+                "cost": "0"
+            },
+            {
+                "name": "Sunny Disposition",
+                "description": "Whenever you would gain Joy, gain +1 Joy",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "4 + DISC (max 8)"
+            },
+            {
+                "name": "The Party Don't Stop",
+                "description": "Cost to activate: 5 Joy<br/><br/>. Target: Anyone willing within arm's reach.<br/><br/>Lock 10 Joy. Targt gains 1d4 + MAG/2 to their fatigue limit",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "6 + DISC (max 10)"
+            },
+            {
+                "name": "Channel Joy+",
+                "description": "Cost to activate: 7 Joy<br/><br/>Target: Anyone within line of sight.<br/><br/>Lock up to 28 Joy from your target's pool and give them a 'Targeted By Channel' card. For every fourteen points locked, increase your al of your target's stats by 1. Locked joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "pri": "MAG * 2 + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "--"
+            },
+            {
+                "name": "Multi-Channel Joy",
+                "description": "Cost to activate: 10 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 6 Emote/tick<br/><br/>Lock up to 20 Joy from each of your target's pools and give them a 'Targeted By Channel' card. If your lock 20 points of joy, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "pri": "MAG + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            }
+        ],
+        "level 2" : [
+            {
+                "name": "Sunny Disposition+",
+                "description": "Whenever you would gain Joy, gain +1 Joy. Stacks with Sunny Disposition",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "6 + DISC (max 10)"
+            },
+            {
+                "name": "Multi-Channel Joy+",
+                "description": "Cost to activate: 15 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 9 Emote/tick<br/><br/>Lock up to 28 Joy from each of your target's pools and give them a 'Targeted By Channel' card. For every fourteen points locked,, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "pri": "MAG + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "--"
+            }
+        ],
+        "level 3": [
+            {
+                "name": "Manifest Joy (Ecstacy)",
+                "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material approximately the size of a baseball. This is highly, highly compressed Joy. The joy blob starts with a length stat (LEN) of N/5. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per MAG toward each target at priority  MAG * 4. If it enters the same square as a creature, it will immediately wrap around the creature, using one LEN per MAG per tick until its target is encased, and dealing 1d4 damage per LEN spent --  unlike its cousin, Ecstacy is not gentle. It wraps and crushes and burrows into whatever it catches. Once a creature is fully encased (if it's alive), it heals 1 point for each wound encased for every tick so encased. This process uses up 15 joy per point healed (reducing LEN by the same number). Unlike Playfulness, Ecstacy is unhindered by energy limits and healing does not give fatigue. <br/>This card can be recalled like any other manifestation.",
+                "pri": "MAG * 2 + 2",
+                "ap": 7,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 0,
+                "cost": "0"
+            }
+        ]
+    },
+    {
+        "name": "Template",
+        "level 0": [
+            {
+                "name": "Channel Joy",
+                "description": "Cost to activate: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Lock up to 20 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 20 points, increase all of your target's stats by 1. Locked joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "pri": "MAG * 2 + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            }
+        ],
+        "level 1": [
+            {
+                "name": "Channel Joy+",
+                "description": "Cost to activate: 7 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 5 Emote/tick<br/><br/>Lock up to 28 Joy from your target's pool and give them a 'Targeted By Channel' card. For every fourteen points locked, increase your al of your target's stats by 1. Locked joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "pri": "MAG * 2 + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "--"
+            },
+            {
+                "name": "Festering Rage",
+                "description": "Whenever you would gain Anger, gain +1 Anger",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "4 + DISC (max 8)"
+            },
+            {
+                "name": "Multi-Channel Joy",
+                "description": "Cost to activate: 10 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 6 Emote/tick<br/><br/>Lock up to 20 Joy from each of your target's pools and give them a 'Targeted By Channel' card. If your lock 20 points of joy, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "pri": "MAG + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "0"
+            }
+        ],
+        "level 2" : [
+            {
+                "name": "Festering Rage+",
+                "description": "Whenever you would gain Anger, gain +1 Anger. Stacks with Festering Rage",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "6 + DISC (max 10)"
+            }
+        ],
+        "level 3" : [
+            {
+                "name": "Multi-Channel Joy+",
+                "description": "Cost to activate: 15 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 9 Emote/tick<br/><br/>Lock up to 28 Joy from each of your target's pools and give them a 'Targeted By Channel' card. For every fourteen points locked,, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "pri": "MAG + 2",
+                "ap": 2,
+                "flip": 0,
+                "tags": [
+                    "Joy",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 1,
+                "cost": "--"
+            }
+        ]
+    },
+    {
         "name": "Anger",
         "level 0": [
             {
                 "name": "Channel Anger",
-                "description": "Cost to pull: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Lock up to 20 Anger from your target's pool and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "description": "Cost to activate: 5 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 3 Emote/tick<br/><br/>Lock up to 20 Anger from your target's pool and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
                 "pri": "MAG * 2 + 2",
                 "ap": 2,
                 "flip": 0,
@@ -421,8 +673,8 @@
         ],
         "level 1": [
             {
-                "name": "Manifest Anger(Small)",
-                "description": "Cost to pull: 8 + N*10 Emote<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<br/><br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. As long as this card is face up, take 1d2-1 damage during the AP phase of each round. You may spend 1 AP to move the discarded 8 + N*10 emote, along with this card to your pool",
+                "name": "Manifest Anger (Barb)",
+                "description": "Cost to activate: 8 + N*5 Anger<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<br/><br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. Anyone touching/holding/wielding the dagger takes 1d2 - 1 damage during the AP phase of each round. You may spend 1 AP to move the emote spent, along with this card, to your pool. <br/><br/>If you hit someone with this 'dagger', you may discard this card to give them 1/2 of the Anger originally put into this card",
                 "pri": "MAG * 2 + 2",
                 "ap": 5,
                 "flip": 0,
@@ -436,7 +688,7 @@
             },
             {
                 "name": "Channel Anger+",
-                "description": "Cost to pull: 7 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 5 Emote/tick<br/><br/>Lock up to 28 Anger from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+                "description": "Cost to activate: 7 Emote<br/><br/>Target: Anyone within line of sight.<br/><br/>Upkeep: 5 Emote/tick<br/><br/>Lock up to 28 Anger from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
                 "pri": "MAG * 2 + 2",
                 "ap": 2,
                 "flip": 0,
@@ -446,11 +698,25 @@
                     "Mental"
                 ],
                 "combo": 1,
-                "cost": "0"
+                "cost": "--"
+            },
+            {
+                "name": "Festering Rage",
+                "description": "Whenever you would gain Anger, gain +1 Anger",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "4 + DISC (max 8)"
             },
             {
                 "name": "Multi-Channel Anger",
-                "description": "Cost to pull: 10 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 6 Emote/tick<br/><br/>Lock up to 20 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "description": "Cost to activate: 10 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 6 Emote/tick<br/><br/>Lock up to 20 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
                 "pri": "MAG + 2",
                 "ap": 2,
                 "flip": 0,
@@ -465,8 +731,37 @@
         ],
         "level 2": [
             {
+                "name": "Manifest Anger (Area)",
+                "description": "Cost to activate: N*15 Anger <br/><br/>Cover N squares with manifested anger crystals. The squares must be continious and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the AP phase. Until you use a movement card, leave this card face up (although not necessarily in one of your active slots). If this card is face up, you may spend 1 AP to move the emote spent, along with this card, to your pool. Whenever a creature takes damage from occupying an affected square, you may discard this card to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.",
+                "pri": "MAG + 4",
+                "ap": "5",
+                "flip": 3,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental",
+                    "Area"
+                ],
+                "combo": "2",
+                "cost": "8"
+            },
+            {
+                "name": "Festering Rage+",
+                "description": "Whenever you would gain Anger, gain +1 Anger. Stacks with Festering Rage",
+                "pri": "MAG + 2",
+                "ap": "--",
+                "flip": 0,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": "--",
+                "cost": "6 + DISC (max 10)"
+            },
+            {
                 "name": "Multi-Channel Anger+",
-                "description": "Cost to pull: 15 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 9 Emote/tick<br/><br/>Lock up to 28 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+                "description": "Cost to activate: 15 Emote<br/><br/>Target: Anyone within line of sight, up to MAG targets.<br/><br/>Upkeep: 9 Emote/tick<br/><br/>Lock up to 28 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
                 "pri": "MAG + 2",
                 "ap": 2,
                 "flip": 0,
@@ -476,7 +771,38 @@
                     "Mental"
                 ],
                 "combo": 1,
-                "cost": "0"
+                "cost": "--"
+            }
+        ],
+        "level 3": [
+            {
+                "name": "Manifest Defensiveness",
+                "description": "Cost to activate: N * 5 Anger <br/><br/>Create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N * 5. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places)",
+                "pri": "MAG + 2d4",
+                "ap": 1,
+                "flip": 1,
+                "tags": [
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 0,
+                "cost": "16"
+            },
+            {
+                "name": "Unstoppable Rage",
+                "description": "Cost to activate: 25 Anger<br/><br/>Upkeep: 7 Anger/tick<br/><br/>Until you are at -4*Max HP, take no negative effects from damage or lack of fatigue.",
+                "pri": "0",
+                "ap": 4,
+                "flip": 0,
+                "tags": [
+                    "Trance",
+                    "Anger",
+                    "Emote",
+                    "Mental"
+                ],
+                "combo": 4,
+                "cost": "15 + DISC (max 25)"
             }
         ]
     }

@@ -16,7 +16,8 @@
             "Unarmed Strike",
             "Parry",
             "Dagger Strike",
-            "Judo Toss"
+            "Judo Toss",
+            "Focus"
         ],
         "modifiers": [
             "Basic Striking",
@@ -41,6 +42,23 @@
         ],
         "modifiers": [
             "Basic Striking"
+        ]
+    },
+    {
+        "name": "Crazed Rage Guy",
+        "cards": [
+            "Clumsy Dodge",
+            "Step",
+            "Unarmed Strike",
+            "Dagger Strike",
+            "Reckless Action",
+            "Channel Anger+",
+            "Manifest Anger (Small)",
+            "Manifest Anger (Area)",
+            "Festering Rage",
+            "Festering Rage+",
+            "Manifest Defensiveness",
+            "Unstoppable Rage"
         ]
     },
     {
@@ -69,7 +87,7 @@
             "Pinned",
             "Latching On",
             "Chomped",
-            "Targeted by Channel"
+            "Targeted By Channel"
         ]
     }
 ]

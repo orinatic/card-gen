@@ -7,8 +7,10 @@ class Mods:
         
         for catagory in raw_mods:
             for (name, subcat) in {name:catagory[name] for name in catagory if name != "name"}.items():
+                print(f"SUBCAT: {subcat}")
                 for mod in subcat:
-                    if(mod["name"] in applicableMods):
+                    print(mod)
+                    if(mod["name"] in applicableMods) and "code" in mod:
                         mods_list.append(mod)
 
         mods_flat = [mod for mods in [mod["code"] for mod in mods_list] for mod in mods]
