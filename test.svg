@@ -556,11 +556,11 @@
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Anger (Small)</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Anger (Barb)</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
-                <html:div>Cost to pull: 8 + N*5 Anger<html:br/><html:br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<html:br/><html:br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. Anyone touching/holding/wielding the dagger takes 1d2 - 1 damage during the AP phase of each round. You may spend 1 AP to move the emote spent, along with this card, to your pool. <html:br/><html:br/>If you hit someone with this 'dagger', you may discard this card to give them 1/2 of the Anger originally put into this card</html:div>
+                <html:div>Cost to activate: 8 + N*5 Anger<html:br/><html:br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<html:br/><html:br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. Anyone touching/holding/wielding the dagger takes 1d2 - 1 damage during the AP phase of each round. You may spend 1 AP to move the emote spent, along with this card, to your pool. <html:br/><html:br/>If you hit someone with this 'dagger', you may discard this card to give them 1/2 of the Anger originally put into this card</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -583,7 +583,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
-                <html:div>Cost to pull: 7 Emote<html:br/><html:br/>Target: Anyone within line of sight.<html:br/><html:br/>Upkeep: 5 Emote/tick<html:br/><html:br/>Lock up to 28 Anger from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.</html:div>
+                <html:div>Target: Anyone within line of sight.<html:br/><html:br/>Lock up to 28 Anger from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -625,7 +625,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
-                <html:div>Cost to pull: N*15 Anger <html:br/><html:br/>Cover N squares with manifested anger crystals. The squares must be continious and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <html:br/><html:br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the AP phase. Until you use a movement card, leave this card face up (although not necessarily in one of your active slots). If this card is face up, you may spend 1 AP to move the emote spent, along with this card, to your pool. Whenever a creature takes damage from occupying an affected square, you may discard this card to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.</html:div>
+                <html:div>Cost to activate: N*15 Anger <html:br/><html:br/>Cover N squares with manifested anger crystals. The squares must be continious and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <html:br/><html:br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the AP phase. Until you use a movement card, leave this card face up (although not necessarily in one of your active slots). If this card is face up, you may spend 1 AP to move the emote spent, along with this card, to your pool. Whenever a creature takes damage from occupying an affected square, you may discard this card to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -667,7 +667,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
-                <html:div>Cost to pull: N * 5 Anger <html:br/><html:br/>Create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N * 5. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places)</html:div>
+                <html:div>Cost to activate: N Anger<html:br/><html:br/>Create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places)</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -688,13 +688,13 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="150">
-                <html:div>Cost to pull: 25 Anger<html:br/><html:br/>Upkeep: 7 Anger/tick<html:br/><html:br/>Until you are at -4*Max HP, take no negative effects from damage or lack of fatigue.</html:div>
+                <html:div>Until you are at -4*Max HP, take no negative effects from damage or lack of fatigue.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
         <ns0:switch>
             <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>Anger<html:br />Emote<html:br />Mental</html:div>
+                <html:div>Trance<html:br />Anger<html:br />Emote<html:br />Mental</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">CRAZED RAGE GUY</ns0:text>
