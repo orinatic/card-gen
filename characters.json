@@ -43,7 +43,7 @@
             "Weapon Block",
             "Longsword Strike",
             "Faux Plate",
-            "Multi-Channel Joy",
+            "Channel Joy",
             "The Party Don't Stop",
             "Manifest Joy (Playfulness)",
             "Manifest Joy (Ecstacy)"
@@ -80,12 +80,14 @@
             "QuickStep/Dodge",
             "Step",
             "Chomp",
-            "Rip"
+            "Rip",
+            "Thick Skin"
         ]
     },
     {
         "name": "Starving Mother",
         "cards": [
+            "Thick Skin",
             "QuickStep/Dodge",
             "Step",
             "Chomp",
@@ -116,6 +118,25 @@
         ]
     },
     {
+        "name": "Manifested Playfulness",
+        "cards": [
+            "Manifested Joy",
+            "Extend Tendril (P)",
+            "Make Contact (P)",
+            "Envelop (P)",
+            "Heal (P)"
+        ]
+    },
+    {
+        "name": "Manifested Esctacy",
+        "cards": [
+            "Manifested Joy",
+            "Extend Tendril (E)",
+            "Envelop (E)",
+            "Heal (E)"
+        ]
+    },
+    {
         "name": "Status Effects",
         "cards": [
             "Prone",
@@ -123,8 +144,7 @@
             "Grappling",
             "Pinned",
             "Latching On",
-            "Chomped",
-            "Targeted By Channel"
+            "Chomped"
         ]
     }
 ]
