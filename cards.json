@@ -415,7 +415,9 @@
     "level 0": [
       {
         "name": "Channel Joy",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 5 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 5 points, increase all of your target's stats by 1. Locked joy cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: "
+        
+        "Target: Anyone within line of sight.<br/><br/>Lock up to 5 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 5 points, increase all of your target's stats by 1. Locked joy cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
