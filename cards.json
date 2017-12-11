@@ -4,7 +4,7 @@
     "level 0": [
       {
         "name": "Clumsy Dodge",
-        "description": "Move one square in any direction, and test AGL with DC {DC}. On a failure, gain the 'prone' card. On success, you may set your facing to any direction. Double the DC of the above check to move two squares in a straight line",
+        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. On success, you may set your facing to any direction. Double the DC of the above check to move two squares in a straight line",
         "pri": "1d6 + AGL",
         "ap": 3,
         "flip": 1,
@@ -14,23 +14,40 @@
         "combo": 0,
         "cost": 0,
         "variables": {
-          "DC": "3"
+          "DC": "4"
         }
       },
       {
         "name": "Step",
         "description": "Move one square in any direction.<br/><br/>Return this card to your hand",
         "pri": "AGL",
-        "ap": 3,
+        "ap": 1,
         "tags": [
           "movement"
         ],
-        "combo": 2,
+        "combo": 0,
         "cost": 0
       },
       {
+        "name": "Untrained Unarmed Strike",
+        "description": "From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<br/>Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 1,
+        "tags": [
+          "strike",
+          "unarmed",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0,
+        "variables": {
+          "DMG": "1d4 - 2 + STR/2"
+        }
+      },
+      {
         "name": "Unarmed Strike",
-        "description": "You may return this card from your hand to your pool and replace with the any 'basic attack' card.<br/><br/>Target: One square within reach 1 or your own square<br/><br/>Choose {NumEffects} of: <ul><li>Deal ({DMG}) damage.</li><li>Enemy must make a DC ({DC}) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</li><li>Same check as above, but on failure, they gain the 'prone' effect</li></ul><br/><br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.",
+        "description": "From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<br/>Target: One square within reach 1 or your own square<br/><br/>Choose {NumEffects} of: <ul><li>Deal ({DMG}) damage.</li><li>Enemy must make a DC ({DC}) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</li><li>Same check as above, but on failure, they gain the 'prone' effect</li></ul>",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 1,
@@ -49,7 +66,7 @@
       },
       {
         "name": "Dagger Strike",
-        "description": "Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square.</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
+        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -69,8 +86,8 @@
       },
       {
         "name": "Longsword Strike",
-        "description": "Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
-        "pri": "1d6+TEC",
+        "description": "Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
+        "pri": "1d8+TEC",
         "ap": 4,
         "flip": 2,
         "tags": [
@@ -84,8 +101,21 @@
         }
       },
       {
+        "name": "Megaton Hammer Strike",
+        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
+        "pri": "1d4 + STR",
+        "ap": 4,
+        "flip": 2,
+        "tags": [
+          "strike",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0
+      },
+      {
         "name": "Shield Block",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target<br/><br/>Return this card to your hand",
         "pri": "2d4 + TEC",
         "ap": 3,
         "flip": 0,
@@ -107,7 +137,7 @@
       },
       { 
         "name": "Reckless Action", 
-        "description": "Add +1d4-2 priority to another of your cards activated this tick",
+        "description": "Add +1d6-2 priority to another of your cards activated this tick",
         "pri": "20",
         "ap": 1,
         "flip": 1,
@@ -117,7 +147,7 @@
       },
       {
         "name": "Precise Strike",
-        "description": "Bid TEC vs the armor's Coverage. Every time your opponent uses a 'movement' card, your bid is removed. When you activate a 'strike' 'precise' card, their armor's bypass value counts as their armor's bid. You do not need to flip this card until you activate it",
+        "description": "Add +4 to the priority against armor of another card you activate this tick",
         "pri": "--",
         "ap": 2,
         "flip": "--",
@@ -144,7 +174,7 @@
       },
       {
         "name": "Weapon Block",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target<br/><br/>Return this card to your hand",
         "pri": "2d4 + TEC",
         "ap": 4,
         "flip": 2,
@@ -154,17 +184,17 @@
       },
       {
         "name": "QuickStep/Dodge",
-        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this stack gains +1 priority.</li><li>Move two squares in a straight line, and test AGL with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul> <br/><br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.",
+        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul> <br/><br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.",
         "pri": "2d4 + AGL",
-        "ap": 3,
-        "flip": 2,
+        "ap": 2,
+        "flip": 1,
         "tags": [
           "movement"
         ],
-        "combo": 1,
+        "combo": 0,
         "cost": "--",
         "variables": {
-          "DC": "4",
+          "DC": "5",
           "Extras": ""
         }
       }
@@ -173,9 +203,9 @@
       {
         "name": "Judo Toss",
         "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They gain the 'prone' status",
-        "pri": "(TEC + AGL)/2 + 1d10",
+        "pri": "(TEC + AGL)/2 + 1d4",
         "ap": 4,
-        "flip": 2,
+        "flip": 3,
         "tags": [
           "throw",
           "strike"
@@ -188,34 +218,6 @@
   {
     "name": "Natural Abilities",
     "cards": [
-      {
-        "name": "Drag",
-        "description": "Move one square in any direction.",
-        "pri": "AGL + 1d6 - 3",
-        "ap": 4,
-        "flip": 0,
-        "tags": [
-          "movement",
-          "prone"
-        ],
-        "combo": 0,
-        "cost": 0
-      },
-      {
-        "name": "Constrict",
-        "description": "Target: one grappled creature<br/><br/>Deal {DMG} damage",
-        "pri": "STR",
-        "ap": 3,
-        "tags": [
-          "strike",
-          "unarmed"
-        ],
-        "combo": 1,
-        "cost": 0,
-        "variables": {
-          "DMG": "(STR/2)d4"
-        }
-      },
       {
         "name": "Chomp",
         "description": "Target: One forward square<br/><br/>Deal 1d4 + STR - 1 damage. If you deal damage, you can latch on to your target. Gain the 'latched on' effect, while your target gains the 'chomped' effect",
@@ -232,13 +234,36 @@
         "name": "Rip",
         "description": "Target: One entity which you latched on to and have at least 10 tokens on<br/><br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card",
         "pri": "STR",
-        "ap": 4,
+        "ap": 2,
         "tags": [
           "strike",
           "unarmed",
           "hunger"
         ],
         "combo": 1,
+        "cost": 0
+      }, 
+      {
+        "name": "Spawn",
+        "description": "Create 1d4 Minor Hunger Spirits adjancent to you.",
+        "pri": "MAG/2",
+        "ap": 6,
+        "tags": [
+          "nurture"
+        ],
+        "combo": 0,
+        "cost": 0
+      },
+      {
+        "name": "Feed",
+        "description": "Take 8 damage. Turn one Minor Hunger Spirit within your reach into a Medium Hunger Spirit",
+        "pri": "MAG * 2",
+        "ap": 1,
+        "tags": [
+          "nurture",
+          "hunger"
+        ],
+        "combo": 0,
         "cost": 0
       }
     ]
@@ -269,8 +294,8 @@
         "cost": 0
       },
       {
-        "name": "Grapping",
-        "description": "As long as this card is in effect, any 'movement' cards you use have 0 combo, 1/2 priority, and affect both you and the person you are grappling. If you have at least one bid token on this card, you may chose to only affect yourself with movement cards. If you leave the square of the person you are grappling, discard this card.<br/><br/> You may turn this card's partner from 'Grappling' into 'Grappled' if you have at least your enemy's STR bid tokens on this card.<br/><br/>You may turn this card's partner from 'Grappled' into 'Pinned' if you have at least 2x your enemy's STR bid tokens on this card",
+        "name": "Grappling",
+        "description": "As long as this card is in effect, any 'movement' cards you use have 0 combo and affect both you and the person you are grappling. If you have at least one bid token on this card, you may chose to only affect yourself with movement cards. If you leave the square of the person you are grappling, discard this card.<br/><br/> You may turn this card's partner from 'Grappling' into 'Grappled' if you have at least your enemy's STR bid tokens on this card.<br/><br/>You may turn this card's partner from 'Grappled' into 'Pinned' if you have at least 2x your enemy's STR bid tokens on this card",
         "pri": "STR",
         "ap": "--",
         "tags": [
@@ -330,8 +355,8 @@
     "cards": [
       {
         "name": "Motorcycle Gear",
-        "description": "Bypass: 10<br/><br/>Gain DR 2. Reduce your AGL by 3 - STR.",
-        "pri": "--",
+        "description": "DR 2. Reduce your AGL by 3 - STR.",
+        "pri": "+10",
         "ap": "--",
         "tags": [
           "Equipment"
@@ -341,8 +366,19 @@
       },
       {
         "name": "Riot Gear",
-        "description": "Bypass: 10<br/><br/>Gain DR 4. Reduce your AGL by 5 - STR.",
-        "pri": "--",
+        "description": "DR 4. Reduce your AGL by 5 - STR.",
+        "pri": "+10",
+        "ap": "--",
+        "tags": [
+          "Equipment"
+        ],
+        "combo": "--",
+        "cost": 0
+      },
+      {
+        "name": "Faux Plate",
+        "description": "DR 5. Reduce your AGL by 3 - STR",
+        "pri": "+6",
         "ap": "--",
         "tags": [
           "Equipment"
@@ -352,8 +388,8 @@
       },
       {
         "name": "Full Plate",
-        "description": "Bypass: 10<br/><br/>Gain DR 8. Reduce your AGL by 7 - STR.",
-        "pri": "--",
+        "description": "DR 8. Reduce your AGL by 7 - STR.",
+        "pri": "+8",
         "ap": "--",
         "tags": [
           "Equipment"
@@ -363,8 +399,8 @@
       },
       {
         "name": "Bulletproof Vest",
-        "description": "Bypass: 4<br/><br/>Gain DR 8. Reduce your AGL by 2-STR.",
-        "pri": "--",
+        "description": "DR 8. Reduce your AGL by 2-STR.",
+        "pri": "+4",
         "ap": "--",
         "tags": [
           "Equipment"
@@ -379,7 +415,7 @@
     "level 0": [
       {
         "name": "Channel Joy",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 20 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 20 points, increase all of your target's stats by 1. Locked joy cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 5 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 5 points, increase all of your target's stats by 1. Locked joy cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -395,7 +431,7 @@
     "level 1": [
       {
         "name": "Manifest Joy (Playfulness)",
-        "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material approximately the size of a baseball. The joy blob starts with a length stat (LEN) of N. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per 6 MAG toward each target at priority MAG * 2. If it enters the same square as a creature, it will poke the creature. If ignored or otherwise shooed away, it will retreat back toward the central body before growing toward a different target. If engaged (its poke is returned, for instance), it will attempt to wrap up its target, using one LEN per six MAG per tick until either its target is fully wrapped up, or it is stopped with a gentle nudge. Anything so encased (which can be just a single injury) rejuvinates slowly, healing 1 point each wound encased every 2d10 minutes so encased. This process uses up 10 Joy per point healed (reducing LEN by the same number), as the solid joy prods, pokes, and eventually incorporates itself into, the injury. This healing process takes energy, costing the healee 2 fatigue per point healed. <br/>This card can be recalled like any other manifestation.",
+        "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material  the size of a basketball. The joy blob starts with a length (LEN) of N * 4. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN/4. Each tick, it extends a tendril one square per 6 MAG toward each target at priority MAG * 2. If it gets to a creature, it will poke the creature. If ignored or otherwise shooed away, it will retreat back toward the central body before growing toward a different target. If the poke is encouraged, it will attempt to wrap up its target, using one LEN per six MAG per tick until either its target is fully wrapped up or it is stopped with a gentle nudge. Any part of anything so encased rejuvinates slowly, healing 1 point each wound encased every 2d10 minutes. This process uses up 2 Joy per point healed (reducing LEN by 8), as the solid joy prods, pokes, and eventually incorporates itself into, the injury. This healing process takes energy, costing the healee 2 fatigue per point healed. <br/>This card can be recalled like any other manifestation.",
         "pri": "MAG * 2 + 2",
         "ap": 5,
         "flip": 0,
@@ -423,7 +459,7 @@
       },
       {
         "name": "The Party Don't Stop",
-        "description": "Target: Anyone willing within arm's reach.<br/><br/>Lock 10 Joy. Targt gains 1d4 + MAG/2 to their fatigue limit",
+        "description": "Target: Anyone willing within arm's reach.<br/><br/>Lock 2 Joy. Targt gains 1d4 + MAG/2 to their fatigue limit",
         "pri": "MAG + 2",
         "ap": "--",
         "flip": 0,
@@ -437,7 +473,7 @@
       },
       {
         "name": "Channel Joy+",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 28 Joy from your target's pool and give them a 'Targeted By Channel' card. For every fourteen points locked, increase all of your target's stats by 1. Locked joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 6 Joy from your target's pool and give them a 'Targeted By Channel' card. For every 3 points locked, increase all of your target's stats by 1. Locked joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -451,7 +487,7 @@
       },
       {
         "name": "Multi-Channel Joy",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 20 Joy from each of your target's pools and give them a 'Targeted By Channel' card. If you lock 20 points of joy, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 5 Joy from each of your target's pools and give them a 'Targeted By Channel' card. If you lock 5 points of joy, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
         "pri": "MAG + 2",
         "ap": 2,
         "flip": 0,
@@ -481,7 +517,7 @@
       },
       {
         "name": "Multi-Channel Joy+",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 28 Joy from each of your target's pools and give them a 'Targeted By Channel' card. For every fourteen points locked,, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 6 Joy from each of your target's pools and give them a 'Targeted By Channel' card. For every 3 points locked,, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
         "pri": "MAG + 2",
         "ap": 2,
         "flip": 0,
@@ -497,7 +533,7 @@
     "level 3": [
       {
         "name": "Manifest Joy (Ecstacy)",
-        "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material approximately the size of a baseball. This is highly, highly compressed Joy. The joy blob starts with a length stat (LEN) of N/5. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per MAG toward each target at priority  MAG * 4. If it enters the same square as a creature, it will immediately wrap around the creature, using one LEN per MAG per tick until its target is encased, and dealing 1d4 damage per LEN spent --  unlike its cousin, Ecstacy is not gentle. It wraps and crushes and burrows into whatever it catches. Once a creature is fully encased (if it's alive), it heals 1 point for each wound encased for every tick so encased. This process uses up 15 joy per point healed (reducing LEN by the same number). Unlike Playfulness, Ecstacy is unhindered by energy limits and healing does not give fatigue. <br/>This card can be recalled like any other manifestation.",
+        "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material approximately the size of a baseball. This is highly, highly compressed Joy. The joy blob starts with a length stat (LEN) of N. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per MAG toward each target at priority  MAG * 4. If it enters the same square as a creature, it will immediately wrap around the creature, using one LEN per MAG per tick until its target is encased, and dealing 1d4 damage per LEN spent --  unlike its cousin, Ecstacy is not gentle. It wraps and crushes and burrows into whatever it catches. Once a creature is fully encased (if it's alive), it heals 1 point for each wound encased for every tick so encased. This process uses up 4 joy per point healed (reducing LEN by the same number). Unlike Playfulness, Ecstacy is unhindered by energy limits and healing does not give fatigue. <br/>This card can be recalled like any other manifestation.",
         "pri": "MAG * 2 + 2",
         "ap": 7,
         "flip": 0,
@@ -516,7 +552,7 @@
     "level 0": [
       {
         "name": "Channel Anger",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 20 Anger from your target's pool and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 4 Anger from your target's pool and give them a 'Targeted By Channel' card. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -532,7 +568,7 @@
     "level 1": [
       {
         "name": "Manifest Anger (Barb)",
-        "description": "Cost to activate: 8 + N*5 Anger<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional 10 emote spent on this card, increase damage by 1d8<br/><br/>As long as you maintain contact with the dagger (i.i. don't throw it), leave this card face up (although not necessarily in one of your active slots). Once it leaves your hand, discard this card. Anyone touching/holding/wielding the dagger takes 1d2 - 1 damage during the AP phase of each round. You may spend 1 AP to move the emote spent, along with this card, to your pool. <br/><br/>If you hit someone with this 'dagger', you may discard this card to give them 1/2 of the Anger originally put into this card",
+        "description": "Cost to activate: 2 + N Anger<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional point of Anger spent on this card, increase damage by 1d8<br/><br/> Anyone touching/holding/wielding the dagger takes 1d2 - 1 damage during the AP phase of each round.<br/><br/>If you are still connected to it and hit someone with this 'dagger', you may destory the dagger give them 1/2 of the Anger originally put into this card",
         "pri": "MAG * 2 + 2",
         "ap": 5,
         "flip": 0,
@@ -546,7 +582,7 @@
       },
       {
         "name": "Channel Anger+",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 28 Anger from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 8 Anger from your target's pool and give them a 'Targeted By Channel' card. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -574,7 +610,7 @@
       },
       {
         "name": "Multi-Channel Anger",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 20 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every ten points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 4 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
         "pri": "MAG + 2",
         "ap": 2,
         "flip": 0,
@@ -589,8 +625,8 @@
     ],
     "level 2": [
       {
-        "name": "Manifest Anger (Area)",
-        "description": "Cost to activate: N*15 Anger <br/><br/>Cover N squares with manifested anger crystals. The squares must be continious and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the AP phase. Until you use a movement card, leave this card face up (although not necessarily in one of your active slots). If this card is face up, you may spend 1 AP to move the emote spent, along with this card, to your pool. Whenever a creature takes damage from occupying an affected square, you may discard this card to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.",
+        "name": "Manifest Collateral Damage",
+        "description": "Cost to activate: N*3 Anger <br/><br/>Cover N squares with manifested anger crystals. The squares must be contiguous and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the AP phase. Using a movement card will break your connection with the anger. Direct (spike) damage does not affect you, but radiant damage does. If you are connected to the anger and a creature takes damage from occupying an affected square, you may destroy the anger to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.",
         "pri": "MAG + 4",
         "ap": "5",
         "flip": 3,
@@ -619,7 +655,7 @@
       },
       {
         "name": "Multi-Channel Anger+",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 28 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 8 Anger from each of your target's pools and give them a 'Targeted By Channel' card. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
         "pri": "MAG + 2",
         "ap": 2,
         "flip": 0,
@@ -635,7 +671,7 @@
     "level 3": [
       {
         "name": "Manifest Defensiveness",
-        "description": "Cost to activate: N Anger<br/><br/>Create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places)",
+        "description": "Cost to activate: N Anger<br/><br/>Create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N*6. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>Return this card to your hand",
         "pri": "MAG + 2d4",
         "ap": 1,
         "flip": 1,
@@ -649,7 +685,7 @@
       },
       {
         "name": "Unstoppable Rage",
-        "description": "Until you are at -4*Max HP, take no negative effects from damage or lack of fatigue.",
+        "description": "Take no negative effects from damage or lack of fatigue. When you take damage, pay N anger or discard this card, where N is number of health states you should have moved down",
         "pri": "0",
         "ap": 4,
         "flip": 0,
@@ -669,7 +705,7 @@
     "level 0": [
       {
         "name": "Channel Anticipation",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 20 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every 10 points so locked, increase your target's priority on all cards by 1. Locked anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 6 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every 3 points so locked, increase your target's priority on all cards by 1. Locked anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -685,7 +721,7 @@
     "level 1": [
       {
         "name": "Channel Anticipation+",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 28 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's priority on all cards by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
+        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 6 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every 2 points locked, increase your target's priority on all cards by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -713,7 +749,7 @@
       },
       {
         "name": "Multi-Channel Anticipation",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 20 Anticipation from each of your target's pools and give them a 'Targeted By Channel' card. For every 10 Anticipation locked, increase the priority of all of your target's cards by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 6 Anticipation from each of your target's pools and give them a 'Targeted By Channel' card. For every 3 Anticipation locked, increase the priority of all of your target's cards by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
         "pri": "MAG + 2",
         "ap": 2,
         "flip": 0,
@@ -727,7 +763,7 @@
       },
       {
         "name": "Manifest Expectation",
-        "description": "Cost to activate: 8 + N Anticipation <br/><br/>Choose a trigger which you could, unaided, detect visually. A small black blob appears in your hand. Anyone who touches it can feel energy coursing around and around just below the black surface. If the trigger happens within line of sight of the blob, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of one square per two MAG. When it gets there, it excitedly flits around them. Once active, it burns through 1 Anticipation every 10 minutes.<br/>This card can be recalled like any other manifestation.",
+        "description": "Cost to activate: 2 + N Anticipation <br/><br/>Choose a trigger which you could, unaided, detect visually. A small black blob appears in your hand. Anyone who touches it can feel energy coursing around and around just below the black surface. If the trigger happens within line of sight of the blob, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of one square per two MAG. When it gets there, it excitedly flits around them. Once active, it burns through 1 Anticipation every half hour.<br/>This card can be recalled like any other manifestation.",
         "pri": "MAG + 4",
         "ap": "5",
         "flip": 3,
@@ -759,7 +795,7 @@
     "level 3": [
       {
         "name": "Multi-Channel Anticipation+",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 28 Anticipation from each of your target's pools and give them a 'Targeted By Channel' card. For every seven points locked, increase all of your target's stats by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
+        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 6 Anticipation from each of your target's pools and give them a 'Targeted By Channel' card. For every 2 points locked, increase all of your target's stats by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
         "pri": "MAG + 2",
         "ap": 2,
         "flip": 0,
@@ -773,7 +809,7 @@
       },
       {
         "name": "Manifest Vigilance",
-        "description": "Cost to activate: 30+ Anticipation (N)<br/><br/>Choose a trigger which has a theoretically measurable effect on the world. A small black blob appears in your hand. Anyone who touches it can feel absurd amounts of energy coursing around and around just below the black surface. If the trigger happens within line of sight, or within N squares, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of two squares per MAG. When it gets there, it excitedly flits around the activator. Once active, it burns through 1 Anticipation every 10 minutes.<br/>This card can be recalled like any other manifestation.",
+        "description": "Cost to activate: 8+ Anticipation (N)<br/><br/>Choose a trigger which has a theoretically measurable effect on the world. A small black blob appears in your hand. Anyone who touches it can feel absurd amounts of energy coursing around and around just below the black surface. If the trigger happens within line of sight, or within N squares, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of two squares per MAG. When it gets there, it excitedly flits around the activator. Once active, it burns through 1 Anticipation every half hour.<br/>This card can be recalled like any other manifestation.",
         "pri": "MAG + 4",
         "ap": "5",
         "flip": 3,
@@ -786,101 +822,5 @@
         "cost": "8"
       }
     ]
-  },
-  {
-    "name": "Template",
-    "level 0": [
-      {
-        "name": "Channel Anticipation",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 20 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every 10 points so locked, increase your target's priority on all cards by 1. Locked anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
-        "pri": "MAG * 2 + 2",
-        "ap": 2,
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "combo": 1,
-        "cost": "0"
-      }
-    ],
-    "level 1": [
-      {
-        "name": "Channel Anticipation+",
-        "description": "Target: Anyone within line of sight.<br/><br/>Lock up to 28 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every seven points locked, increase your target's priority on all cards by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.",
-        "pri": "MAG * 2 + 2",
-        "ap": 2,
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "combo": 1,
-        "cost": "--"
-      },
-      {
-        "name": "Forward Thinking",
-        "description": "Whenever you would gain Anticipation, gain +1 Anticipation",
-        "pri": "MAG + 2",
-        "ap": "--",
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "combo": "--",
-        "cost": "4 + DISC (max 8)"
-      },
-      {
-        "name": "Multi-Channel Anticipation",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 20 Anticipation from each of your target's pools and give them a 'Targeted By Channel' card. For every 10 Anticipation locked, increase the priority of all of your target's cards by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
-        "pri": "MAG + 2",
-        "ap": 2,
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "combo": 1,
-        "cost": "0"
-      }
-    ],
-    "level 2": [
-      {
-        "name": "Forward Thinking+",
-        "description": "Whenever you would gain Anticipation, gain +1 Anticipation. Stacks with Forward Thinking",
-        "pri": "MAG + 2",
-        "ap": "--",
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "combo": "--",
-        "cost": "6 + DISC (max 10)"
-      }
-    ],
-    "level 3": [
-      {
-        "name": "Multi-Channel Anticipation+",
-        "description": "Target: Anyone within line of sight, up to MAG targets.<br/><br/>Lock up to 28 Anticipation from each of your target's pools and give them a 'Targeted By Channel' card. For every seven points locked, increase all of your target's stats by 1. Locked Anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).",
-        "pri": "MAG + 2",
-        "ap": 2,
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "combo": 1,
-        "cost": "--"
-      }
-    ]
   }
-
 ]

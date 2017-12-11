@@ -4,7 +4,8 @@
         "cards": [
             "Clumsy Dodge",
             "Step",
-            "Unarmed Strike"
+            "Untrained Unarmed Strike",
+            "Longsword Strike"
         ],
         "modifiers": []
     },
@@ -17,7 +18,10 @@
             "Parry",
             "Dagger Strike",
             "Judo Toss",
-            "Focus"
+            "Focus",
+            "Weapon Block",
+            "Channel Anticipation",
+            "Precise Strike"
         ],
         "modifiers": [
             "Basic Striking",
@@ -31,34 +35,35 @@
         ]
     },
     {
-        "name": "Mideval Re-enactor",
+        "name": "Joyous Swordsman",
         "cards": [
-            "Clumsy Dodge",
+            "QuickStep/Dodge",
             "Step",
-            "Unarmed Strike",
+            "Untrained Unarmed Strike",
             "Weapon Block",
             "Longsword Strike",
-            "Full Plate"
-        ],
-        "modifiers": [
-            "Basic Striking"
+            "Faux Plate",
+            "Multi-Channel Joy",
+            "The Party Don't Stop",
+            "Manifest Joy (Playfulness)",
+            "Manifest Joy (Ecstacy)"
         ]
     },
     {
-        "name": "Crazed Rage Guy",
+        "name": "Berserker",
         "cards": [
-            "Clumsy Dodge",
             "Step",
             "Unarmed Strike",
-            "Dagger Strike",
-            "Reckless Action",
+            "Megaton Hammer Strike",
             "Channel Anger+",
             "Manifest Anger (Barb)",
-            "Manifest Anger (Area)",
+            "Dagger Strike",
+            "Manifest Collateral Damage",
             "Festering Rage",
             "Festering Rage+",
             "Manifest Defensiveness",
-            "Unstoppable Rage"
+            "Unstoppable Rage",
+            "Reckless Action"
         ]
     },
     {
@@ -79,11 +84,43 @@
         ]
     },
     {
+        "name": "Starving Mother",
+        "cards": [
+            "QuickStep/Dodge",
+            "Step",
+            "Chomp",
+            "Rip",
+            "Spawn",
+            "Feed"
+        ]
+    },
+    {
+        "name": "Legend Of A Serial Killer",
+        "cards": [
+            "QuickStep/Dodge",
+            "Parry",
+            "Focus", 
+            "Weapon Block",
+            "Channel Anticipation",
+            "Manifest Anger (Barb)",
+            "Manifest Defensiveness",
+            "Manifest Joy (Ecstacy)",
+            "Channel Joy",
+            "Dagger Strike"
+        ],
+        "modifiers": [
+            "Dodge+",
+            "Dodge Roll",
+            "Artful Dodger",
+            "Knife Training"
+        ]
+    },
+    {
         "name": "Status Effects",
         "cards": [
             "Prone",
             "Grappled",
-            "Grapping",
+            "Grappling",
             "Pinned",
             "Latching On",
             "Chomped",

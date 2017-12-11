@@ -7,7 +7,7 @@
         <text id="name" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="77.75" x="111.26563" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " stroke="#000000">UNARMED STIKE:</text>
         
         <switch>
-            <foreignObject id="description" height="500" width="290" y="150" x="50">
+            <foreignObject id="description" height="500" width="290" y="130" x="50">
                 <div xmlns="http://www.w3.org/1999/xhtml">
                 DESCRIPTION HERE
                 </div>

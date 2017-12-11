@@ -66,7 +66,7 @@
         "level 2": [
             {
                 "name": "Judo+",
-                "description": "Add EMP/2 to the DC of Unarmed Strike. Add 1 to the flip of unarmed strike. Choose any two effects from Unarmed strike, instead of one",
+                "description": "Add EMP/2 to the DC of Unarmed Strike. Add 1 to the flip of unarmed strike. Choose any two effects from Unarmed strike, instead of one. Increase the priority die of Judo Toss to 1d10",
                 "prerec": "Judo 101",
                 "cost": "15",
                 "code": [
@@ -77,6 +77,12 @@
                         "DC": "{DC} + EMP/2",
                         "NumEffects": "two",
                         "flip": "{flip} + 1"
+                    },
+                    {
+                        "type": "edit",
+                        "target": "Judo Toss",
+                        "priority": 10,
+                        "pri": "(TEC + AGL)/2 + 1d10"
                     }
                 ]
             },
