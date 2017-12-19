@@ -7,7 +7,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction, and test AGL with DC 3. On a failure, gain the 'prone' card. On success, you may set your facing to any direction. Double the DC of the above check to move two squares in a straight line</html:div>
+                <html:div>Move one square in any direction, and roll AGL + 1d6 with DC 4. On a failure, gain the 'prone' card. On success, you may set your facing to any direction. Double the DC of the above check to move two squares in a straight line</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -28,7 +28,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -40,16 +40,16 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">UTTER NOOB</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Unarmed Strike</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Untrained Unarmed Strike</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose one of: <html:ul><html:li>Deal (1d4 - 2 + STR/2) damage.</html:li><html:li>Enemy must make a DC (STR-2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<html:br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Deal (1d4 - 2 + STR/2) damage.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -91,7 +91,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -103,8 +103,8 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -112,7 +112,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose two of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +1) damage.</html:li><html:li>Enemy must make a DC (MAX(STR, TEC) + EMP/2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<html:br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose two of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +1) damage.</html:li><html:li>Enemy must make a DC (MAX(STR, TEC) + EMP/2) STR or AGL check. On failure, they move one square away from or towards you, your choice.</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul></html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -133,7 +133,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose two of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +1) damage.</html:li><html:li>Enemy must make a DC (MAX(STR, TEC) + EMP/2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<html:br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose two of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +1) damage.</html:li><html:li>Enemy must make a DC (MAX(STR, TEC) + EMP/2) STR or AGL check. On failure, they move one square away from or towards you, your choice.</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul></html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -154,7 +154,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose two of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +1) damage.</html:li><html:li>Enemy must make a DC (MAX(STR, TEC) + EMP/2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<html:br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose two of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +1) damage.</html:li><html:li>Enemy must make a DC (MAX(STR, TEC) + EMP/2) STR or AGL check. On failure, they move one square away from or towards you, your choice.</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul></html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -216,6 +216,27 @@
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Precise Strike</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Add +4 to the priority against armor of another card you activate this tick</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>modifier</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Parry</ns0:text>
         
         <ns0:switch>
@@ -235,13 +256,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 3</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Weapon Block</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target</html:div>
+                <html:div>Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -257,34 +278,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>movement</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
-    </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -294,10 +294,10 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -305,7 +305,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -315,12 +315,33 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 0 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>movement</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Judo Toss</ns0:text>
         
@@ -336,18 +357,18 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: (TEC + AGL)/2 + 1d10</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 3</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Anticipation</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within line of sight.<html:br/><html:br/>Lock up to 6 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every 3 points so locked, increase your target's priority on all cards by 1. Locked anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -362,13 +383,15 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Step</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -377,42 +400,19 @@
                 <html:div>movement</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
-    </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Unarmed Strike</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose one of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +0) damage.</html:li><html:li>Enemy must make a DC (STR-2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>strike<html:br />unarmed<html:br />basic attack</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 1d8+TEC</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Unarmed Strike</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Untrained Unarmed Strike</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose one of: <html:ul><html:li>Deal (TEC adv: 1d4 + STR/2 +0) damage.</html:li><html:li>Enemy must make a DC (STR-2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<html:br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Deal (1d4 - 2 + STR/2) damage.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -421,7 +421,7 @@
                 <html:div>strike<html:br />unarmed<html:br />basic attack</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 1d8+TEC</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
@@ -442,7 +442,7 @@
                 <html:div>strike<html:br />basic attack</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 1d8+TEC</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
@@ -454,7 +454,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target</html:div>
+                <html:div>Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -464,7 +464,7 @@
                 </html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + TEC</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
@@ -476,7 +476,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -485,11 +485,11 @@
                 <html:div>movement</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -506,7 +506,7 @@
                 <html:div>Equipment</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: +6</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
@@ -514,11 +514,11 @@
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Joy (Playfulness)</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Joy</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Cost to activate: N Joy<html:br/><html:br/>Create an iridescent blob of squishy material  the size of a basketball. The joy blob starts with a length (LEN) of N * 4. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN/4. Each tick, it extends a tendril one square per 6 MAG toward each target at priority MAG * 2. If it gets to a creature, it will poke the creature. If ignored or otherwise shooed away, it will retreat back toward the central body before growing toward a different target. If the poke is encouraged, it will attempt to wrap up its target, using one LEN per six MAG per tick until either its target is fully wrapped up or it is stopped with a gentle nudge. Any part of anything so encased rejuvinates slowly, healing 1 point each wound encased every 2d10 minutes. This process uses up 2 Joy per point healed (reducing LEN by 8), as the solid joy prods, pokes, and eventually incorporates itself into, the injury. This healing process takes energy, costing the healee 2 fatigue per point healed. <html:br/>This card can be recalled like any other manifestation.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse 4 Joy into your target, and increase all of their stats by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -527,13 +527,34 @@
                 <html:div>Joy<html:br />Emote<html:br />Mental</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 0</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2 + 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Joy (Playfulness)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Cost to activate: N Joy<html:br/><html:br/>Create an iridescent blob of squishy material the size of a basketball. It acts according to the 'Manifested Playfulness' card/deck. It starts with a LEN of N*4, and a MAG of your mag when this card was activated.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>Joy<html:br />Emote<html:br />Mental</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 0</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 0</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 5</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">The Party Don'T Stop</ns0:text>
         
@@ -548,32 +569,11 @@
                 <html:div>Joy<html:br />Emote<html:br />Mental</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 0</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG + 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
-    </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Multi-Channel Joy</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within line of sight, up to MAG targets.<html:br/><html:br/>Lock up to 5 Joy from each of your target's pools and give them a 'Targeted By Channel' card. If you lock 5 points of joy, increase all of your target's stats by 1. Locked Joy cannot be drawn, and cannot be used in any other ability. Your target may remove this card from them by bidding DISC vs your MAG (compare your bid value to the values on each of their cards and remove individually).</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>Joy<html:br />Emote<html:br />Mental</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 0</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG + 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
 </ns0:svg>
   <ns0:svg height="1950" width="1350">
@@ -583,7 +583,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Cost to activate: N Joy<html:br/><html:br/>Create an iridescent blob of squishy material approximately the size of a baseball. This is highly, highly compressed Joy. The joy blob starts with a length stat (LEN) of N. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per MAG toward each target at priority  MAG * 4. If it enters the same square as a creature, it will immediately wrap around the creature, using one LEN per MAG per tick until its target is encased, and dealing 1d4 damage per LEN spent --  unlike its cousin, Ecstacy is not gentle. It wraps and crushes and burrows into whatever it catches. Once a creature is fully encased (if it's alive), it heals 1 point for each wound encased for every tick so encased. This process uses up 4 joy per point healed (reducing LEN by the same number). Unlike Playfulness, Ecstacy is unhindered by energy limits and healing does not give fatigue. <html:br/>This card can be recalled like any other manifestation.</html:div>
+                <html:div>Cost to activate: N Joy<html:br/><html:br/>Create an iridescent blob of squishy material the size of a basketball.This is highly, highly compressed Joy. It acts according to the 'Manifested Esctacy' card/deck. It starts with a LEN of N, and a MAG of your mag when this card was activated.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -592,7 +592,7 @@
                 <html:div>Joy<html:br />Emote<html:br />Mental</html:div>
             </ns0:foreignObject>
         </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORD FIGHTER</ns0:text>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 0</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2 + 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 7</ns0:text>
@@ -604,7 +604,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -616,8 +616,8 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">BERSERKER</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -625,7 +625,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>You may return this card from your hand to your pool and replace with the any 'basic attack' card.<html:br/><html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose one of: <html:ul><html:li>Deal (1d4 - 2 + STR/2) damage.</html:li><html:li>Enemy must make a DC (STR-2) STR or AGL check. On failure, they move one square away from or towards you, your choice. Remember that, if a character moves into another character's square for any reason, if either character desires, both characters gain opposed 'grappling' cards</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<html:br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<html:br/>Target: One square within reach 1 or your own square<html:br/><html:br/>Choose one of: <html:ul><html:li>Deal (1d4 - 2 + STR/2) damage.</html:li><html:li>Enemy must make a DC (STR) STR or AGL check. On failure, they move one square away from or towards you, your choice.</html:li><html:li>Same check as above, but on failure, they gain the 'prone' effect</html:li></html:ul></html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -667,7 +667,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Requires a giant hammer<html:br/><html:br/>Choose one of: <html:ul><html:li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 5)* 2 or fall prone</html:li><html:li>Deal (STR/2)d4 damage, targeting a cone of two squares.</html:li></html:ul>. Lose 2 PRI on all actions next tick.</html:div>
+                <html:div>Requires a giant hammer<html:br/><html:br/>Choose one of: <html:ul><html:li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</html:li><html:li>Deal (STR/2)d4 damage, targeting a cone of two squares.</html:li></html:ul>. Lose 2 PRI on all actions next tick.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -731,7 +731,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within line of sight.<html:br/><html:br/>Lock up to 8 Anger from your target's pool and give them a 'Targeted By Channel' card. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1. Locked anger cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse up to 8 Anger into your target. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -859,7 +859,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -871,8 +871,8 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MINOR HUNGER/INSTINCT SPIRIT</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -880,7 +880,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -890,10 +890,10 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MINOR HUNGER/INSTINCT SPIRIT</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -922,7 +922,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -934,8 +934,8 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
@@ -943,7 +943,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -953,14 +953,36 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
 </ns0:svg>
   <ns0:svg height="1950" width="1350">
     <ns0:g transform="matrix(1 0 0 1 0 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Thick Skin</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>DR 4. On any tick you use 'Chomp', reduce the PRI of this card to +0</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: +8</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomp</ns0:text>
         
@@ -981,13 +1003,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Rip</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: One entity which you latched on to and have at least 10 tokens on<html:br/><html:br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card</html:div>
+                <html:div>Target: One entity which you latched on to and have at least 8 bid tokens on<html:br/><html:br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -999,16 +1021,16 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Step</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
+                <html:div>Move two squares in any direction.<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1020,16 +1042,16 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card..</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1039,12 +1061,34 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Thick Skin</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>DR 4. On any tick you use 'Chomp', reduce the PRI of this card to +0</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: +8</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomp</ns0:text>
         
@@ -1065,13 +1109,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Rip</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: One entity which you latched on to and have at least 10 tokens on<html:br/><html:br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card</html:div>
+                <html:div>Target: One entity which you latched on to and have at least 8 bid tokens on<html:br/><html:br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1083,10 +1127,10 @@
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Spawn</ns0:text>
         
@@ -1107,7 +1151,9 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 6</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Feed</ns0:text>
         
@@ -1128,7 +1174,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Dagger Strike</ns0:text>
         
@@ -1149,9 +1195,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Focus</ns0:text>
         
@@ -1173,7 +1217,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Parry</ns0:text>
         
@@ -1194,13 +1238,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 3</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Weapon Block</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target</html:div>
+                <html:div>Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target<html:br/><html:br/>Return this card to your hand</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1216,55 +1260,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>movement</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
-    </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>movement</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
-    </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and test AGL with DC 4. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1274,18 +1276,60 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 0 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>movement</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>movement</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Joy</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within line of sight.<html:br/><html:br/>Lock up to 5 Joy from your target's pool and give them a 'Targeted By Channel' card. If you lock 5 points, increase all of your target's stats by 1. Locked joy cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse 4 Joy into your target, and increase all of their stats by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1300,13 +1344,15 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Joy (Ecstacy)</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Cost to activate: N Joy<html:br/><html:br/>Create an iridescent blob of squishy material approximately the size of a baseball. This is highly, highly compressed Joy. The joy blob starts with a length stat (LEN) of N. At no time can it be using more LEN than it has avaliable. It targets the nearest MAG creatures within LEN. Each tick, it extends a tendril one square per MAG toward each target at priority  MAG * 4. If it enters the same square as a creature, it will immediately wrap around the creature, using one LEN per MAG per tick until its target is encased, and dealing 1d4 damage per LEN spent --  unlike its cousin, Ecstacy is not gentle. It wraps and crushes and burrows into whatever it catches. Once a creature is fully encased (if it's alive), it heals 1 point for each wound encased for every tick so encased. This process uses up 4 joy per point healed (reducing LEN by the same number). Unlike Playfulness, Ecstacy is unhindered by energy limits and healing does not give fatigue. <html:br/>This card can be recalled like any other manifestation.</html:div>
+                <html:div>Cost to activate: N Joy<html:br/><html:br/>Create an iridescent blob of squishy material the size of a basketball.This is highly, highly compressed Joy. It acts according to the 'Manifested Esctacy' card/deck. It starts with a LEN of N, and a MAG of your mag when this card was activated.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1321,7 +1367,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 7</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Anger (Barb)</ns0:text>
         
@@ -1342,9 +1388,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 5</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Defensiveness</ns0:text>
         
@@ -1365,13 +1409,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Anticipation</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within line of sight.<html:br/><html:br/>Lock up to 6 Anticipation from your target's pool and give them a 'Targeted By Channel' card. For every 3 points so locked, increase your target's priority on all cards by 1. Locked anticipation cannot be drawn, and cannot be used in any other ability. Your target may remove this card by bidding DISC vs your MAG.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1386,7 +1430,207 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifested Joy</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Target the nearest MAG creatures within LEN/4. Each tick, use Extend Tendril toward each of your targets. If a target gets out of range, choose a new target.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED PLAYFULNESS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Extend Tendril (P)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Invest one LEN. Extend this tendril one square toward the target. If you extend into a creature's square, move to 'Make Contact'</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED PLAYFULNESS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Make Contact (P)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Exploratorily prod the creature you have touched. If they do not rebuff you, move to 'Envelop'. If rebuffed, the entire tedril instantly retreats back to the central body. Gain back all invested LEN (burned LEN is not recovered). At any point after contact is made, your target can push the tendril away.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED PLAYFULNESS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Envelop (P)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Invest one LEN. Wrap up the creature you have touched. The creature can stop you at any time. It takes 8 LEN to completely wrap up a human, but a creature can direct you to a specific wound/location for 1 LEN per wound. Once a wound is attended, use Heal, but keep enveloping until rebuffed or the target is entirely enveloped.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED PLAYFULNESS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Heal (P)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Use the following effect on each enveloped wound every 2d10 minutes: <html:br/><html:br/>Burn 8 LEN (as the solid joy pokes, prods, and eventually incorporates itself into the injury). Heal the target wound 1 HP. Target gains 2 Fatigue.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED PLAYFULNESS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifested Joy</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Target the nearest MAG creatures within LEN/4. Each tick, use Extend Tendril toward each of your targets. If a target gets out of range, choose a new target.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED ESCTACY</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Extend Tendril (E)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Invest MAG LEN. Extend this tendril MAG squares toward the target. If your extend into a creature's sqaure, move to 'Envelop'</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED ESCTACY</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2 + 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Envelop (E)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Attempt to envelop your target. Give them a 'Grappled' card. Bid MAG + 2 on this card. For each new bid token on this card at the end of the tick, invest 1 LEN, and deal 1d4 damage as the ecstacy wraps and crushes and burrows into whatever it catches. Once the creature is fully encased (a total of 8 bid tokens on a human creature), use Heal instead.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED ESCTACY</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2 + 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 0 650)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Heal (E)</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Use the following effect on each enveloped wound every tick: <html:br/><html:br/>Burn 4 LEN. Heal the target wound 1 HP. Unlike Playfulness, Ecstacy is unhindered by energy limits and healing does not give fatigue.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>
+                </html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MANIFESTED ESCTACY</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2 + 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Prone</ns0:text>
         
@@ -1407,55 +1651,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Grappled</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>As long as this card is in effect, cannot use any 'movement' cards. This card may be turned into 'Grappling' if you have at least one bid token on it</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>status</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STATUS EFFECTS</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
-    </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Grappling</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>As long as this card is in effect, any 'movement' cards you use have 0 combo, 1/2 priority, and affect both you and the person you are grappling. If you have at least one bid token on this card, you may chose to only affect yourself with movement cards. If you leave the square of the person you are grappling, discard this card.<html:br/><html:br/> You may turn this card's partner from 'Grappling' into 'Grappled' if you have at least your enemy's STR bid tokens on this card.<html:br/><html:br/>You may turn this card's partner from 'Grappled' into 'Pinned' if you have at least 2x your enemy's STR bid tokens on this card</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>status</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STATUS EFFECTS</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
-    </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Pinned</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>As long as this card is in effect, cannot use any 'movement' or 'strike' cards. Your STR and TEC count as one lower for the purposes of bidding on this card. This card may be turned into 'Grappling' if you have at least one bid token on it</html:div>
+                <html:div>Bid STR<html:br/><html:br/>As long as this card is in effect, cannot use any 'movement' cards. This card may be turned into 'Grappling' if you have at least one bid token on it</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1472,11 +1674,53 @@
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Grappling</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Bid STR<html:br/><html:br/>As long as this card is in effect, any 'movement' cards you use have 0 combo and affect both you and the person you are grappling. If you have at least one bid token on this card, you may chose to only affect yourself with movement cards. If you leave the square of the person you are grappling, discard this card.<html:br/><html:br/> You may turn this card's partner from 'Grappling' into 'Grappled' if you have at least your enemy's STR bid tokens on this card.<html:br/><html:br/>You may turn this card's partner from 'Grappled' into 'Pinned' if you have at least 2x your enemy's STR bid tokens on this card</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>status</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STATUS EFFECTS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Pinned</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Bid STR<html:br/><html:br/>As long as this card is in effect, cannot use any 'movement' or 'strike' cards. Your STR and TEC count as one lower for the purposes of bidding on this card. This card may be turned into 'Grappling' if you have at least one bid token on it</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>status</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STATUS EFFECTS</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Latching On</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>As long as this card is in effect, you may not use any 'movement' or 'strike' cards. You may voluntarily discard this card by paying 1 AP with priority TEC + 4. This card is discarded if its paired 'Chomped' card is discarded</html:div>
+                <html:div>Bid STR + 2<html:br/><html:br/>As long as this card is in effect, you may not use any 'movement' or 'strike' cards. You may voluntarily discard this card by paying 1 AP with priority TEC + 4. This card is discarded if its paired 'Chomped' card is discarded</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1491,34 +1735,15 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomped</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>As long as this card is in effect, all 'movement' cards take + 1 AP, and apply to both you and the creature that has chomped you. All 'strike' cards have -1 priority. Each time you activate a 'movement' or 'strike' card, take 1d4-1 damage. Can be removed if you have at least one bid token on this card</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>status</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STATUS EFFECTS</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
-    </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Targeted By Channel</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>This is the pair of a 'Channel &lt;emote&gt;' card. Bid DISC vs chaneller's MAG to remove it.</html:div>
+                <html:div>Bid STR<html:br/><html:br/>As long as this card is in effect, all 'movement' cards take + 1 AP, and apply to both you and the creature that has chomped you. All 'strike' cards have -1 priority. Each time you activate a 'movement' or 'strike' card, take 1d4-1 damage. Can be removed if you have at least one bid token on this card.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 

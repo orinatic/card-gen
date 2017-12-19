@@ -29,8 +29,12 @@
         "cost": 0
       },
       {
-        "name": "Untrained Unarmed Strike",
-        "description": "From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<br/>Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.",
+        "name": "Single Strike",
+        "description": "From your hand, swap this card with any card with the 'Basic Attack' tag in either your overflow <b>or<b/> discard. If you have another 'Single Strike' in your overflow, you may immediately draw it into your hand"
+      },
+      {
+        "name": "Hard-Style Strike",
+        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 1,
@@ -46,27 +50,27 @@
         }
       },
       {
-        "name": "Unarmed Strike",
-        "description": "From your hand, you may swap this card with any 'basic attack' card from either your overflow or discard pile.<br/>When this card is removed from your hand of any reason, you may immediately pull another copy of it from your overflow.<br/>Target: One square within reach 1 or your own square<br/><br/>Choose {NumEffects} of: <ul><li>Deal ({DMG}) damage.</li><li>Enemy must make a DC ({DC}) STR or AGL check. On failure, they move one square away from or towards you, your choice.</li><li>Same check as above, but on failure, they gain the 'prone' effect</li></ul>",
+        "name": "Soft-Style Strike",
+        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next tick have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.",
         "pri": "1d8+TEC",
         "ap": 3,
-        "flip": 1,
+        "flip": 2,
         "tags": [
           "strike",
           "unarmed",
           "basic attack"
         ],
-        "combo": 1,
+        "combo": 2,
         "cost": 0,
         "variables": {
-          "DC": "STR",
+          "DC": "STR + 2",
           "DMG": "1d4 - 2 + STR/2",
           "NumEffects": "one"
         }
       },
       {
         "name": "Dagger Strike",
-        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
+        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -86,7 +90,7 @@
       },
       {
         "name": "Longsword Strike",
-        "description": "Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
+        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
         "pri": "1d8+TEC",
         "ap": 4,
         "flip": 2,
@@ -102,7 +106,7 @@
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
+        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
         "pri": "1d4 + STR",
         "ap": 4,
         "flip": 2,

@@ -4,7 +4,8 @@
         "cards": [
             "Clumsy Dodge",
             "Step",
-            "Untrained Unarmed Strike",
+            "Hard-Style Strike",
+            "Single Attack",
             "Longsword Strike"
         ],
         "modifiers": []
@@ -14,7 +15,9 @@
         "cards": [
             "QuickStep/Dodge",
             "Step",
-            "Unarmed Strike",
+            "Hard-Style Strike",
+            "Soft-Style Stike",
+            "Single Attack",
             "Parry",
             "Dagger Strike",
             "Judo Toss",
@@ -39,7 +42,8 @@
         "cards": [
             "QuickStep/Dodge",
             "Step",
-            "Untrained Unarmed Strike",
+            "Hard-Style Strike",
+            "Single Attack",
             "Weapon Block",
             "Longsword Strike",
             "Faux Plate",
@@ -47,13 +51,16 @@
             "The Party Don't Stop",
             "Manifest Joy (Playfulness)",
             "Manifest Joy (Ecstacy)"
+        ],
+        "modifiers": [
+            "Basic Striking"
         ]
     },
     {
         "name": "Berserker",
         "cards": [
             "Step",
-            "Unarmed Strike",
+            "Hard-Style Strike",
             "Megaton Hammer Strike",
             "Channel Anger+",
             "Manifest Anger (Barb)",
@@ -64,6 +71,9 @@
             "Manifest Defensiveness",
             "Unstoppable Rage",
             "Reckless Action"
+        ],
+        "modifiers":[
+            "Basic Striking"
         ]
     },
     {
