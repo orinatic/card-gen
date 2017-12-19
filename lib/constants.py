@@ -4,5 +4,5 @@ class Constants:
 
     invisibleAttributes = ["cost", "variables"]
     editMetadata = ["type", "target", "priority"]
-    htmlTags = ["br", "li", "ul"]
+    htmlTags = ["br", "li", "ul", "b"]
 

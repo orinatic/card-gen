@@ -4,7 +4,7 @@
     "level 0": [
       {
         "name": "Clumsy Dodge",
-        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. On success, you may set your facing to any direction. Double the DC of the above check to move two squares in a straight line",
+        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line",
         "pri": "1d6 + AGL",
         "ap": 3,
         "flip": 1,
@@ -22,6 +22,7 @@
         "description": "Move two squares in any direction.<br/><br/>Return this card to your hand",
         "pri": "AGL",
         "ap": 1,
+        "flip": 1,
         "tags": [
           "movement"
         ],
@@ -29,12 +30,12 @@
         "cost": 0
       },
       {
-        "name": "Single Strike",
-        "description": "From your hand, swap this card with any card with the 'Basic Attack' tag in either your overflow <b>or<b/> discard. If you have another 'Single Strike' in your overflow, you may immediately draw it into your hand"
+        "name": "Single Attack",
+        "description": "From your hand, swap this card with any card with the 'Basic Attack' tag in either your overflow <b>or</b> discard. If you have another 'Single Strike' in your overflow, you may immediately draw it into your hand"
       },
       {
         "name": "Hard-Style Strike",
-        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 1,
@@ -51,7 +52,7 @@
       },
       {
         "name": "Soft-Style Strike",
-        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next tick have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next tick have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -70,7 +71,7 @@
       },
       {
         "name": "Dagger Strike",
-        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -90,7 +91,7 @@
       },
       {
         "name": "Longsword Strike",
-        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
         "pri": "1d8+TEC",
         "ap": 4,
         "flip": 2,
@@ -106,7 +107,7 @@
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "<b>This card cannot be directly drawn<b/><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
         "pri": "1d4 + STR",
         "ap": 4,
         "flip": 2,
@@ -152,9 +153,8 @@
       {
         "name": "Precise Strike",
         "description": "Add +4 to the priority against armor of another card you activate this tick",
-        "pri": "--",
         "ap": 2,
-        "flip": "--",
+        "flip": 2,
         "tags": [
           "modifier"
         ],
@@ -163,7 +163,7 @@
       },
       {
         "name": "Parry",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit. Your attacker looses all their combo and cannot refresh this tick.",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.<br/><br/>If you can set all of their relevant stats to 0, their card is cancelled, your attacker looses all their active AP, cannot refresh this tick, and, if you are in their square, you may move them to any adjacent square",
         "pri": "(TEC + AGL)/2 + 2d4",
         "ap": 4,
         "flip": 2,
@@ -196,7 +196,6 @@
           "movement"
         ],
         "combo": 0,
-        "cost": "--",
         "variables": {
           "DC": "5",
           "Extras": ""
@@ -206,7 +205,7 @@
     "level 2": [
       {
         "name": "Judo Toss",
-        "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They gain the 'prone' status",
+        "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They cannot refresh their hand this tick. They gain the 'prone' status",
         "pri": "(TEC + AGL)/2 + 1d4",
         "ap": 4,
         "flip": 3,
@@ -226,9 +225,7 @@
         "name": "Thick Skin",
         "description": "DR 4. On any tick you use 'Chomp', reduce the PRI of this card to +0",
         "pri": "+8",
-        "ap": "--",
         "tags": [],
-        "combo": "--",
         "cost": 0
       },
       {
@@ -247,6 +244,7 @@
         "name": "Rip",
         "description": "Target: One entity which you latched on to and have at least 8 bid tokens on<br/><br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card",
         "pri": "STR",
+        "flip": 1,
         "ap": 2,
         "tags": [
           "strike",
@@ -260,6 +258,7 @@
         "name": "Spawn",
         "description": "Create 1d4 Minor Hunger Spirits adjancent to you.",
         "pri": "MAG/2",
+        "flip": 1,
         "ap": 6,
         "tags": [
           "nurture"
@@ -271,6 +270,7 @@
         "name": "Feed",
         "description": "Take 8 damage. Turn one Minor Hunger Spirit within your reach into a Medium Hunger Spirit",
         "pri": "MAG * 2",
+        "flip": 1,
         "ap": 1,
         "tags": [
           "nurture",
@@ -288,66 +288,53 @@
         "name": "Prone",
         "description": "You may not use 'movement' cards that do not also have the 'prone' tag.<br/>Can be removed by spending 2 AP",
         "pri": "AGL + 2",
-        "ap": "--",
         "tags": [
           "status"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Grappled",
         "description": "Bid STR<br/><br/>As long as this card is in effect, cannot use any 'movement' cards. This card may be turned into 'Grappling' if you have at least one bid token on it",
         "pri": "STR",
-        "ap": "--",
         "tags": [
           "status"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Grappling",
         "description": "Bid STR<br/><br/>As long as this card is in effect, any 'movement' cards you use have 0 combo and affect both you and the person you are grappling. If you have at least one bid token on this card, you may chose to only affect yourself with movement cards. If you leave the square of the person you are grappling, discard this card.<br/><br/> You may turn this card's partner from 'Grappling' into 'Grappled' if you have at least your enemy's STR bid tokens on this card.<br/><br/>You may turn this card's partner from 'Grappled' into 'Pinned' if you have at least 2x your enemy's STR bid tokens on this card",
         "pri": "STR",
-        "ap": "--",
         "tags": [
           "status"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Pinned",
         "description": "Bid STR<br/><br/>As long as this card is in effect, cannot use any 'movement' or 'strike' cards. Your STR and TEC count as one lower for the purposes of bidding on this card. This card may be turned into 'Grappling' if you have at least one bid token on it",
         "pri": "STR",
-        "ap": "--",
         "tags": [
           "status"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Latching On",
         "description": "Bid STR + 2<br/><br/>As long as this card is in effect, you may not use any 'movement' or 'strike' cards. You may voluntarily discard this card by paying 1 AP with priority TEC + 4. This card is discarded if its paired 'Chomped' card is discarded",
-        "pri": "--",
-        "ap": "--",
         "tags": [
           "status"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Chomped",
         "description": "Bid STR<br/><br/>As long as this card is in effect, all 'movement' cards take + 1 AP, and apply to both you and the creature that has chomped you. All 'strike' cards have -1 priority. Each time you activate a 'movement' or 'strike' card, take 1d4-1 damage. Can be removed if you have at least one bid token on this card.",
         "pri": "2",
-        "ap": "--",
         "tags": [
           "status"
         ],
-        "combo": "--",
         "cost": 0
       }
     ]
@@ -359,55 +346,45 @@
         "name": "Motorcycle Gear",
         "description": "DR 2. Reduce your AGL by 3 - STR.",
         "pri": "+10",
-        "ap": "--",
         "tags": [
           "Equipment"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Riot Gear",
         "description": "DR 4. Reduce your AGL by 5 - STR.",
         "pri": "+10",
-        "ap": "--",
         "tags": [
           "Equipment"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Faux Plate",
         "description": "DR 5. Reduce your AGL by 3 - STR",
         "pri": "+6",
-        "ap": "--",
         "tags": [
           "Equipment"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Full Plate",
         "description": "DR 8. Reduce your AGL by 7 - STR.",
         "pri": "+8",
-        "ap": "--",
         "tags": [
           "Equipment"
         ],
-        "combo": "--",
         "cost": 0
       },
       {
         "name": "Bulletproof Vest",
         "description": "DR 8. Reduce your AGL by 2-STR.",
         "pri": "+4",
-        "ap": "--",
         "tags": [
           "Equipment"
         ],
-        "combo": "--",
         "cost": 0
       }
     ]
@@ -419,7 +396,6 @@
         "name": "Manifested Joy",
         "description": "Target the nearest MAG creatures within LEN/4. Each tick, use Extend Tendril toward each of your targets. If a target gets out of range, choose a new target.",
         "pri": "MAG * 2",
-        "ap": "--"
       },
       {
         "name": "Extend Tendril (P)",
@@ -500,29 +476,25 @@
       {
         "name": "Sunny Disposition",
         "description": "Whenever you would gain Joy, gain +1 Joy",
-        "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Joy",
           "Emote",
-          "Mental"
+          "Mental",
+          "Passive"
         ],
-        "combo": "--",
         "cost": "4 + DISC (max 8)"
       },
       {
         "name": "The Party Don't Stop",
         "description": "Target: Anyone willing within arm's reach.<br/><br/>Lock 2 Joy. Targt gains 1d4 + MAG/2 to their fatigue limit",
         "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Joy",
           "Emote",
           "Mental"
         ],
-        "combo": "--",
         "cost": "6 + DISC (max 10)"
       },
       {
@@ -537,7 +509,6 @@
           "Mental"
         ],
         "combo": 1,
-        "cost": "--"
       }
     ],
     "level 2" : [
@@ -545,14 +516,13 @@
         "name": "Sunny Disposition+",
         "description": "Whenever you would gain Joy, gain +1 Joy. Stacks with Sunny Disposition",
         "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Joy",
           "Emote",
-          "Mental"
+          "Mental",
+          "Passive"
         ],
-        "combo": "--",
         "cost": "6 + DISC (max 10)"
       }
     ],
@@ -617,21 +587,18 @@
           "Emote",
           "Mental"
         ],
-        "combo": 1,
-        "cost": "--"
+        "combo": 1
       },
       {
         "name": "Festering Rage",
         "description": "Whenever you would gain Anger, gain +1 Anger",
         "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Anger",
           "Emote",
           "Mental"
         ],
-        "combo": "--",
         "cost": "4 + DISC (max 8)"
       }
     ],
@@ -655,14 +622,12 @@
         "name": "Festering Rage+",
         "description": "Whenever you would gain Anger, gain +1 Anger. Stacks with Festering Rage",
         "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Anger",
           "Emote",
           "Mental"
         ],
-        "combo": "--",
         "cost": "6 + DISC (max 10)"
       }
     ],
@@ -729,20 +694,17 @@
           "Mental"
         ],
         "combo": 1,
-        "cost": "--"
       },
       {
         "name": "Forward Thinking",
         "description": "Whenever you would gain Anticipation, gain +1 Anticipation",
         "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Anticipation",
           "Emote",
           "Mental"
         ],
-        "combo": "--",
         "cost": "4 + DISC (max 8)"
       },
       {
@@ -765,14 +727,12 @@
         "name": "Forward Thinking+",
         "description": "Whenever you would gain Anticipation, gain +1 Anticipation. Stacks with Forward Thinking",
         "pri": "MAG + 2",
-        "ap": "--",
         "flip": 0,
         "tags": [
           "Anticipation",
           "Emote",
           "Mental"
         ],
-        "combo": "--",
         "cost": "6 + DISC (max 10)"
       }
     ],

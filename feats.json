@@ -10,7 +10,7 @@
                 "code": [
                     {
                         "type": "edit",
-                        "target": "Hard-Style strike",
+                        "target": "Hard-Style Strike",
                         "priority": 10,
                         "DMG": "TEC adv: {DMG} + 2"
                     },
@@ -106,7 +106,7 @@
                     },
                     {
                         "type": "new card",
-                        "Single Strike": 1
+                        "Single Attack": 1
                     }
                 ]
             },
