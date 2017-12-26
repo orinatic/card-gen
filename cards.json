@@ -4,7 +4,7 @@
     "level 0": [
       {
         "name": "Clumsy Dodge",
-        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line",
+        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line.",
         "pri": "1d6 + AGL",
         "ap": 3,
         "flip": 1,
@@ -64,9 +64,7 @@
         "combo": 2,
         "cost": 0,
         "variables": {
-          "DC": "STR + 2",
-          "DMG": "1d4 - 2 + STR/2",
-          "NumEffects": "one"
+          "DC": "STR + 2"
         }
       },
       {
@@ -107,7 +105,7 @@
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
         "pri": "1d4 + STR",
         "ap": 4,
         "flip": 2,
@@ -395,7 +393,7 @@
       {
         "name": "Manifested Joy",
         "description": "Target the nearest MAG creatures within LEN/4. Each tick, use Extend Tendril toward each of your targets. If a target gets out of range, choose a new target.",
-        "pri": "MAG * 2",
+        "pri": "MAG * 2"
       },
       {
         "name": "Extend Tendril (P)",
@@ -508,7 +506,7 @@
           "Emote",
           "Mental"
         ],
-        "combo": 1,
+        "combo": 1
       }
     ],
     "level 2" : [
@@ -668,7 +666,7 @@
     "level 0": [
       {
         "name": "Channel Anticipation",
-        "description": "Target: Anyone within touch.<br/><br/>. Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.",
+        "description": "Target: Anyone within touch.<br/><br/>Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
@@ -693,7 +691,7 @@
           "Emote",
           "Mental"
         ],
-        "combo": 1,
+        "combo": 1
       },
       {
         "name": "Forward Thinking",

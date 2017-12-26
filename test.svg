@@ -7,7 +7,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Move one square in any direction, and roll AGL + 1d6 with DC 4. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line</html:div>
+                <html:div>Move one square in any direction, and roll AGL + 1d6 with DC 4. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -38,7 +38,7 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">UTTER NOOB</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
@@ -123,7 +123,7 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
@@ -297,8 +297,8 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">DECENT MARTIAL ARTIST</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: -- </ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
@@ -437,7 +437,7 @@
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -468,7 +468,7 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
@@ -561,6 +561,29 @@
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Precise Strike</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Add +4 to the priority against armor of another card you activate this tick</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>modifier</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">JOYOUS SWORDSMAN</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: -- </ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
+    </ns0:g>
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Weapon Block</ns0:text>
         
         <ns0:switch>
@@ -581,9 +604,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
@@ -604,7 +625,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Faux Plate</ns0:text>
         
@@ -625,7 +646,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Joy</ns0:text>
         
@@ -646,7 +667,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Joy (Playfulness)</ns0:text>
         
@@ -667,7 +688,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 5</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">The Party Don'T Stop</ns0:text>
         
@@ -688,7 +709,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Joy (Ecstacy)</ns0:text>
         
@@ -709,7 +730,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 7</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Step</ns0:text>
         
@@ -725,12 +746,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">BERSERKER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Single Attack</ns0:text>
         
@@ -752,7 +773,9 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Hard-Style Strike</ns0:text>
         
@@ -773,9 +796,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Dagger Strike</ns0:text>
         
@@ -796,13 +817,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Megaton Hammer Strike</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div><html:b>This card cannot be directly drawn</html:b><html:br/><html:br/>Requires a giant hammer<html:br/><html:br/>Choose one of: <html:ul><html:li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</html:li><html:li>Deal (STR/2)d4 damage, targeting a cone of two squares.</html:li></html:ul>. Lose 2 PRI on all actions next tick.</html:div>
+                <html:div><html:b>This card cannot be directly drawn</html:b><html:br/><html:br/>Requires a giant hammer<html:br/><html:br/>Choose one of: <html:ul><html:li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</html:li><html:li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</html:li></html:ul>. Lose 2 PRI on all actions next tick.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -817,7 +838,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Reckless Action</ns0:text>
         
@@ -839,7 +860,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Anger (Barb)</ns0:text>
         
@@ -860,7 +881,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 5</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Anger+</ns0:text>
         
@@ -881,7 +902,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Festering Rage</ns0:text>
         
@@ -902,7 +923,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Collateral Damage</ns0:text>
         
@@ -923,7 +944,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 5</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Festering Rage+</ns0:text>
         
@@ -944,7 +965,9 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Defensiveness</ns0:text>
         
@@ -965,9 +988,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Unstoppable Rage</ns0:text>
         
@@ -988,7 +1009,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 4</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Step</ns0:text>
         
@@ -1004,12 +1025,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MINOR HUNGER/INSTINCT SPIRIT</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
@@ -1030,7 +1051,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomp</ns0:text>
         
@@ -1051,7 +1072,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Step</ns0:text>
         
@@ -1067,12 +1088,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
@@ -1093,7 +1114,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Thick Skin</ns0:text>
         
@@ -1115,7 +1136,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomp</ns0:text>
         
@@ -1134,33 +1155,33 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 1d6 + TEC</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
-    </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Rip</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: One entity which you latched on to and have at least 8 bid tokens on<html:br/><html:br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>strike<html:br />unarmed<html:br />hunger</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
 </ns0:svg>
   <ns0:svg height="1950" width="1350">
     <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Rip</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Target: One entity which you latched on to and have at least 8 bid tokens on<html:br/><html:br/>Deal STRd4 damage. Heal half the damage you dealt. If that would put you over maximum, gain 1/10th of the additional as permanent extra HP. Do not round -- extra bits add up over uses of this card</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>strike<html:br />unarmed<html:br />hunger</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">MEDIUM HUNGER/INSTINCT SPIRIT</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 450 0)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Step</ns0:text>
         
         <ns0:switch>
@@ -1175,12 +1196,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: AGL</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
         
@@ -1201,7 +1222,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Thick Skin</ns0:text>
         
@@ -1223,7 +1244,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomp</ns0:text>
         
@@ -1244,7 +1265,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Rip</ns0:text>
         
@@ -1260,12 +1281,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: STR</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Spawn</ns0:text>
         
@@ -1281,12 +1302,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG/2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 6</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Feed</ns0:text>
         
@@ -1302,12 +1323,12 @@
             </ns0:foreignObject>
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STARVING MOTHER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: MAG * 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Dagger Strike</ns0:text>
         
@@ -1328,7 +1349,9 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 3</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Focus</ns0:text>
         
@@ -1350,9 +1373,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Parry</ns0:text>
         
@@ -1373,7 +1394,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 3</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Weapon Block</ns0:text>
         
@@ -1395,27 +1416,6 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 4</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 2</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
-        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
-        
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-
-        <ns0:switch>
-            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
-                <html:div>movement</html:div>
-            </ns0:foreignObject>
-        </ns0:switch>
-	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
-    </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
@@ -1460,6 +1460,27 @@
     </ns0:g>
 <ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Quickstep/Dodge</ns0:text>
+        
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
+                <html:div>Chose one of:<html:ul><html:li>Move one square in any direction. Next action in this slot gains +1 priority.</html:li><html:li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card.On a success, you may move a third space in the same direction.</html:li><html:li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</html:li></html:ul> <html:br/><html:br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+
+        <ns0:switch>
+            <ns0:foreignObject height="500" id="tags" width="75" x="350" y="150">
+                <html:div>movement</html:div>
+            </ns0:foreignObject>
+        </ns0:switch>
+	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">LEGEND OF A SERIAL KILLER</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: 1</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: 2d4 + AGL</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
+    </ns0:g>
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
+        <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Joy</ns0:text>
         
         <ns0:switch>
@@ -1479,7 +1500,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Joy (Ecstacy)</ns0:text>
         
@@ -1500,7 +1521,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 7</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Anger (Barb)</ns0:text>
         
@@ -1521,7 +1542,9 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 5</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifest Defensiveness</ns0:text>
         
@@ -1542,15 +1565,13 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 0</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Channel Anticipation</ns0:text>
         
         <ns0:switch>
             <ns0:foreignObject height="500" id="description" width="290" x="50" y="130">
-                <html:div>Target: Anyone within touch.<html:br/><html:br/>. Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.</html:div>
+                <html:div>Target: Anyone within touch.<html:br/><html:br/>Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.</html:div>
             </ns0:foreignObject>
         </ns0:switch>
 
@@ -1565,7 +1586,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 2</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: 1</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifested Joy</ns0:text>
         
@@ -1587,7 +1608,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Extend Tendril (P)</ns0:text>
         
@@ -1609,7 +1630,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Make Contact (P)</ns0:text>
         
@@ -1631,7 +1652,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Envelop (P)</ns0:text>
         
@@ -1653,7 +1674,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Heal (P)</ns0:text>
         
@@ -1675,7 +1696,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Manifested Joy</ns0:text>
         
@@ -1697,7 +1718,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 1300)">
+<ns0:g transform="matrix(1 0 0 1 900 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Extend Tendril (E)</ns0:text>
         
@@ -1719,7 +1740,9 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 1300)">
+</ns0:svg>
+  <ns0:svg height="1950" width="1350">
+    <ns0:g transform="matrix(1 0 0 1 0 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Envelop (E)</ns0:text>
         
@@ -1741,9 +1764,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-</ns0:svg>
-  <ns0:svg height="1950" width="1350">
-    <ns0:g transform="matrix(1 0 0 1 0 0)">
+<ns0:g transform="matrix(1 0 0 1 450 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Heal (E)</ns0:text>
         
@@ -1765,7 +1786,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: 1</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 0)">
+<ns0:g transform="matrix(1 0 0 1 900 0)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Prone</ns0:text>
         
@@ -1786,7 +1807,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 0)">
+<ns0:g transform="matrix(1 0 0 1 0 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Grappled</ns0:text>
         
@@ -1807,7 +1828,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 650)">
+<ns0:g transform="matrix(1 0 0 1 450 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Grappling</ns0:text>
         
@@ -1828,7 +1849,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 450 650)">
+<ns0:g transform="matrix(1 0 0 1 900 650)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Pinned</ns0:text>
         
@@ -1849,7 +1870,7 @@
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 900 650)">
+<ns0:g transform="matrix(1 0 0 1 0 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Latching On</ns0:text>
         
@@ -1866,11 +1887,11 @@
         </ns0:switch>
 	<ns0:text fill="#000000" font-family="serif" font-size="24" id="Character Name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" transform="rotate(90)" x="100" y="-10" xml:space="preserve">STATUS EFFECTS</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="flip" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="41.5" xml:space="preserve">FLIP: --</ns0:text>
-        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: --</ns0:text>
+        <ns0:text fill="#000000" font-family="serif" font-size="24" id="pri" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="41.5" xml:space="preserve">PRI: -- </ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="ap" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="start" x="10" y="640" xml:space="preserve">AP: --</ns0:text>
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="combo" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="end" x="440" y="640" xml:space="preserve">COMBO: --</ns0:text>
     </ns0:g>
-<ns0:g transform="matrix(1 0 0 1 0 1300)">
+<ns0:g transform="matrix(1 0 0 1 450 1300)">
         <ns0:rect fill="white" height="650" id="background" rx="20" ry="20" stroke="#000000" stroke-width="2" width="450" />
         <ns0:text fill="#000000" font-family="serif" font-size="24" id="name" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1.3744130134582517,0,0,1.3744130134582517,57.53082942217588,-8.247938513755798) " x="111.26563" y="77.75" xml:space="preserve">Chomped</ns0:text>
         

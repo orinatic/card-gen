@@ -50,11 +50,24 @@
             "Channel Joy",
             "The Party Don't Stop",
             "Manifest Joy (Playfulness)",
-            "Manifest Joy (Ecstacy)"
+            "Manifest Joy (Ecstacy)",
+            "Precise Strike"
         ],
         "modifiers": [
             "Basic Striking"
-        ]
+        ], 
+        "emote map": {
+            "internal": [
+                "injuring",
+                "killing",
+                "near-miss",
+                "control"
+            ],
+            "external": [
+                "injured",
+                "moved"
+            ]
+        }
     },
     {
         "name": "Berserker",
