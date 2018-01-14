@@ -19,7 +19,7 @@ class TemplateService:
     def unescape(file):
         text = ""
         with open(file, "r") as f:
-            text = f.read();
+            text = f.read()
         new_text = text
         for tag in Constants.htmlTags:
             new_text = new_text.replace(f"&lt;{tag}/&gt;", f"<html:{tag}/>")
@@ -36,7 +36,7 @@ class TemplateService:
         if(n == 9):
             self.finishedPages.append(self.currentPage)
             self.currentPage = copy.deepcopy(self.pageTemplate)
-            n = 0;
+            n = 0
         x = n % 3
         y = n // 3
         card.set("transform", f"matrix(1 0 0 1 {450 * x} {650 * y})")
