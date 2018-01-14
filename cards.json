@@ -105,7 +105,7 @@
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul>. Lose 2 PRI on all actions next tick.",
+        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next tick.",
         "pri": "1d4 + STR",
         "ap": 4,
         "flip": 2,
@@ -443,14 +443,15 @@
     "level 0": [
       {
         "name": "Channel Joy",
-        "description": "Target: Anyone within touch.<br/><br/>. Infuse 4 Joy into your target, and increase all of their stats by 1.",
+        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within touch.<br/><br/>Your target wins all ties.<br/><br/> Empower 1: Increase all of your target's stats by 1.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Joy",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 1,
         "cost": "0"
@@ -459,7 +460,7 @@
     "level 1": [
       {
         "name": "Manifest Joy (Playfulness)",
-        "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material the size of a basketball. It acts according to the 'Manifested Playfulness' card/deck. It starts with a LEN of N*4, and a MAG of your mag when this card was activated.",
+        "description": "Invest N levels of Joy<br/><br/>Create an iridescent blob of squishy material the size of a basketball. It acts according to the 'Manifested Playfulness' card/deck. It starts with a LEN of N*8, and a MAG of your mag when this card was activated.",
         "pri": "0",
         "ap": 5,
         "flip": 0,
@@ -472,62 +473,37 @@
         "cost": "0"
       },
       {
-        "name": "Sunny Disposition",
-        "description": "Whenever you would gain Joy, gain +1 Joy",
-        "flip": 0,
-        "tags": [
-          "Joy",
-          "Emote",
-          "Mental",
-          "Passive"
-        ],
-        "cost": "4 + DISC (max 8)"
-      },
-      {
         "name": "The Party Don't Stop",
-        "description": "Target: Anyone willing within arm's reach.<br/><br/>Lock 2 Joy. Targt gains 1d4 + MAG/2 to their fatigue limit",
+        "description": "<b>Upkeep: 4</b><br/><br/>Target: Anyone willing within arm's reach.<br/><br/>Targt gains 1d4 + MAG/2 to their fatigue limit",
         "pri": "MAG + 2",
         "flip": 0,
         "tags": [
           "Joy",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(EXPR)"
         ],
         "cost": "6 + DISC (max 10)"
       },
       {
         "name": "Channel Joy+",
-        "description":  "Target: Anyone within touch.<br/><br/>. Infuse up to 6 Joy into your target. for every 3 points locked, increase all of your tatget's stats by 1.",
+        "description":  "<b>Upkeep: 3</b><br/><br/>Target: Anyone within touch.<br/><br/>Increase all of your target's stats by 1.<br/><br/> Empower 1: Increase all of your target's stats by 1.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Joy",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 1
-      }
-    ],
-    "level 2" : [
-      {
-        "name": "Sunny Disposition+",
-        "description": "Whenever you would gain Joy, gain +1 Joy. Stacks with Sunny Disposition",
-        "pri": "MAG + 2",
-        "flip": 0,
-        "tags": [
-          "Joy",
-          "Emote",
-          "Mental",
-          "Passive"
-        ],
-        "cost": "6 + DISC (max 10)"
       }
     ],
     "level 3": [
       {
         "name": "Manifest Joy (Ecstacy)",
-        "description": "Cost to activate: N Joy<br/><br/>Create an iridescent blob of squishy material the size of a basketball.This is highly, highly compressed Joy. It acts according to the 'Manifested Esctacy' card/deck. It starts with a LEN of N, and a MAG of your mag when this card was activated.",
+        "description": "Invest N levels of Joy<br/><br/>Create an iridescent blob of squishy material the size of a basketball.This is highly, highly compressed Joy. It acts according to the 'Manifested Esctacy' card/deck. It starts with a LEN of N*2, and a MAG of your mag when this card was activated.",
         "pri": "MAG * 2 + 2",
         "ap": 7,
         "flip": 0,
@@ -546,14 +522,15 @@
     "level 0": [
       {
         "name": "Channel Anger",
-        "description": "Target: Anyone within touch.<br/><br/>. Infuse up to 4 Anger into your target. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1.",
+        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within touch.<br/><br/>Increase your targets STR, or decrease their AGL, EMP, or EXPR by 1.<br/><br/>Empower 1: Same change, +1.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Anger",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 1,
         "cost": "0"
@@ -562,7 +539,7 @@
     "level 1": [
       {
         "name": "Manifest Anger (Barb)",
-        "description": "Cost to activate: 2 + N Anger<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 2d8 instead of 1d8 damage. For each additional point of Anger spent on this card, increase damage by 1d8<br/><br/> Anyone touching/holding/wielding the dagger takes 1d2 - 1 damage during the AP phase of each round.<br/><br/>If you are still connected to it and hit someone with this 'dagger', you may destory the dagger give them 1/2 of the Anger originally put into this card",
+        "description": "<b>Upkeep: No cost, but anyone holding the dagger takes 1d4 - 2 damage</b><br/><br/>Invest N levels of Anger<br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing (2N)d8 instead of 1d8 damage.<br/><br/>If you are still connected to it and hit someone with this 'dagger', you may destory the dagger give them 1/2 of the Anger originally put into this card",
         "pri": "MAG * 2 + 2",
         "ap": 5,
         "flip": 0,
@@ -576,34 +553,23 @@
       },
       {
         "name": "Channel Anger+",
-        "description": "Target: Anyone within touch.<br/><br/>. Infuse up to 8 Anger into your target. For every 2 points locked, increase your target's STR, or decrease their AGL or EMP, by 1.",
+        "description": "<b>Upkeep: 3</b><br/><br/>Target: Anyone within touch.<br/><br/>Increase your targets STR, or decrease their AGL, EMP, or EXPR by 2.<br/><br/> Empower 1: Same change, +2.",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Anger",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 1
-      },
-      {
-        "name": "Festering Rage",
-        "description": "Whenever you would gain Anger, gain +1 Anger",
-        "pri": "MAG + 2",
-        "flip": 0,
-        "tags": [
-          "Anger",
-          "Emote",
-          "Mental"
-        ],
-        "cost": "4 + DISC (max 8)"
       }
     ],
     "level 2": [
       {
         "name": "Manifest Collateral Damage",
-        "description": "Cost to activate: N*3 Anger <br/><br/>Cover N squares with manifested anger crystals. The squares must be contiguous and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the AP phase. Using a movement card will break your connection with the anger. Direct (spike) damage does not affect you, but radiant damage does. If you are connected to the anger and a creature takes damage from occupying an affected square, you may destroy the anger to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.",
+        "description": "Invest N levels of Anger <br/><br/>Cover N squares with manifested anger crystals. The squares must be contiguous and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the Upkeep phase. Using a movement card will break your connection with the anger. Direct (spike) damage does not affect you, but radiant damage does. If you are connected to the anger and a creature takes damage from occupying an affected square, you may destroy the anger to give 1/2 of the Anger originally put into this card spread evenly, to all affected creatures.",
         "pri": "MAG + 4",
         "ap": "5",
         "flip": 3,
@@ -615,24 +581,12 @@
         ],
         "combo": "2",
         "cost": "8"
-      },
-      {
-        "name": "Festering Rage+",
-        "description": "Whenever you would gain Anger, gain +1 Anger. Stacks with Festering Rage",
-        "pri": "MAG + 2",
-        "flip": 0,
-        "tags": [
-          "Anger",
-          "Emote",
-          "Mental"
-        ],
-        "cost": "6 + DISC (max 10)"
       }
     ],
     "level 3": [
       {
         "name": "Manifest Defensiveness",
-        "description": "Cost to activate: N Anger<br/><br/>Create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N*6. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>Return this card to your hand",
+        "description": "Invest N levels of Anger<br/><br/>Momentarily create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by N*12. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>Return this card to your hand, and gain your invested anger back",
         "pri": "MAG + 2d4",
         "ap": 1,
         "flip": 1,
@@ -646,7 +600,7 @@
       },
       {
         "name": "Unstoppable Rage",
-        "description": "Take no negative effects from damage or lack of fatigue. When you take damage, pay N anger or discard this card, where N is number of health states you should have moved down",
+        "description": "<b>Upkeep: D*2 (D = 0 if you are fine, +1 for each state you are down)</b><br/><br/>Only useable if you are Overpowering or Rationality Lost in Anger. Take no negative effects from damage or fatigue.",
         "pri": "0",
         "ap": 4,
         "flip": 0,
@@ -654,7 +608,8 @@
           "Trance",
           "Anger",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 4,
         "cost": "15 + DISC (max 25)"
@@ -666,14 +621,15 @@
     "level 0": [
       {
         "name": "Channel Anticipation",
-        "description": "Target: Anyone within touch.<br/><br/>Infuse up to 6 Anticipation into your target. For every 3 points locked, increase your target's priority on all cards by 1.",
+        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within touch.<br/><br/>Increase your targets priority on all cards by 1.<br/><br/>Empower 1: Increase your targets priority on all cards by 1",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Anticipation",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 1,
         "cost": "0"
@@ -682,32 +638,21 @@
     "level 1": [
       {
         "name": "Channel Anticipation+",
-        "description": "Target: Anyone within touch.<br/><br/>. Infuse up to 6 Anticipation into your target. For every 2 points locked, increase your target's priority on all cards by 1.",
+        "description": "<b>Upkeep: 3</b><br/><br/>Target: Anyone within touch.<br/><br/>Increase your targets priority on all cards by 1.<br/><br/>Empower 1: Increase your targets priority on all cards by 2",
         "pri": "MAG * 2 + 2",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Anticipation",
           "Emote",
-          "Mental"
+          "Mental",
+          "Upkeep(MAG)"
         ],
         "combo": 1
       },
       {
-        "name": "Forward Thinking",
-        "description": "Whenever you would gain Anticipation, gain +1 Anticipation",
-        "pri": "MAG + 2",
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "cost": "4 + DISC (max 8)"
-      },
-      {
         "name": "Manifest Expectation",
-        "description": "Cost to activate: 2 + N Anticipation <br/><br/>Choose a trigger which you could, unaided, detect visually. A small black blob appears in your hand. Anyone who touches it can feel energy coursing around and around just below the black surface. If the trigger happens within line of sight of the blob, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of one square per two MAG. When it gets there, it excitedly flits around them. Once active, it burns through 1 Anticipation every half hour.<br/>This card can be recalled like any other manifestation.",
+        "description": "Invest N Anticipation <br/><br/>Choose a trigger which you could, unaided, detect visually. A small black blob appears in your hand. Anyone who touches it can feel energy coursing around and around just below the black surface. If the trigger happens within line of sight of the blob, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of one square per two MAG. When it gets there, it excitedly flits around them. Once active, it burns through 1 Anticipation every hour.<br/>This card can be recalled like any other manifestation.",
         "pri": "MAG + 4",
         "ap": "5",
         "flip": 3,
@@ -720,24 +665,10 @@
         "cost": 0
       }
     ],
-    "level 2": [
-      {
-        "name": "Forward Thinking+",
-        "description": "Whenever you would gain Anticipation, gain +1 Anticipation. Stacks with Forward Thinking",
-        "pri": "MAG + 2",
-        "flip": 0,
-        "tags": [
-          "Anticipation",
-          "Emote",
-          "Mental"
-        ],
-        "cost": "6 + DISC (max 10)"
-      }
-    ],
     "level 3": [
       {
         "name": "Manifest Vigilance",
-        "description": "Cost to activate: 8+ Anticipation (N)<br/><br/>Choose a trigger which has a theoretically measurable effect on the world. A small black blob appears in your hand. Anyone who touches it can feel absurd amounts of energy coursing around and around just below the black surface. If the trigger happens within line of sight, or within N squares, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of two squares per MAG. When it gets there, it excitedly flits around the activator. Once active, it burns through 1 Anticipation every half hour.<br/>This card can be recalled like any other manifestation.",
+        "description": "Cost to activate: 2+ Anticipation (N)<br/><br/>Choose a trigger which has a theoretically measurable effect on the world. A small black blob appears in your hand. Anyone who touches it can feel absurd amounts of energy coursing around and around just below the black surface. If the trigger happens within line of sight, or within N squares, the blob instantly activates: its outer black material falls away, and a bright ball of light/energy (think ball lightning, maybe?) is revealed. It breaks contact with its caster and moves off toward whatever set it off, following them at the rate of two squares per MAG. When it gets there, it excitedly flits around the activator. Once active, it burns through 1 Anticipation every half hour.<br/>This card can be recalled like any other manifestation.",
         "pri": "MAG + 4",
         "ap": "5",
         "flip": 3,

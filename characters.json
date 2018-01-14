@@ -55,19 +55,7 @@
         ],
         "modifiers": [
             "Basic Striking"
-        ], 
-        "emote map": {
-            "internal": [
-                "injuring",
-                "killing",
-                "near-miss",
-                "control"
-            ],
-            "external": [
-                "injured",
-                "moved"
-            ]
-        }
+        ]
     },
     {
         "name": "Berserker",
@@ -79,8 +67,6 @@
             "Manifest Anger (Barb)",
             "Dagger Strike",
             "Manifest Collateral Damage",
-            "Festering Rage",
-            "Festering Rage+",
             "Manifest Defensiveness",
             "Unstoppable Rage",
             "Reckless Action"

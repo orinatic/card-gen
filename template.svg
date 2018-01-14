@@ -15,7 +15,7 @@
         </switch>
 
         <switch>
-            <foreignObject id="tags" height="500" width="75" y="150" x="350">
+            <foreignObject id="tags" height="500" width="90" y="150" x="350">
                 <div xmlns="http://www.w3.org/1999/xhtml">
                 </div>
             </foreignObject>
