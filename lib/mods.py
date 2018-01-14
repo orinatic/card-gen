@@ -7,9 +7,9 @@ class Mods:
         
         for catagory in raw_mods:
             for (name, subcat) in {name:catagory[name] for name in catagory if name != "name"}.items():
-                print(f"SUBCAT: {subcat}")
+                #print(f"SUBCAT: {subcat}")
                 for mod in subcat:
-                    print(mod)
+                    #print(mod)
                     if(mod["name"] in applicableMods) and "code" in mod:
                         mods_list.append(mod)
 
@@ -35,7 +35,14 @@ class Mods:
                     raise Exception(f"Edit {edit} could not be applied to card {target} because {var} was not found in the card")
 
     def generateCardList(mods, initialCards):
-        cards = {card: 1 for card in initialCards}
+        cards = {}
+        for cardName in initialCards:
+            if(cardName in cards):
+                cards[cardName]+= 1
+            else:
+                cards[cardName] = 1
+        print(initialCards)
+        print(cards)
         additions = [mod for mod in mods if mod["type"] == "new card"]
         transforms = [mod for mod in mods if mod["type"] == "transform card"]
         for addition in additions:

@@ -3,10 +3,10 @@
         "name": "Utter Noob",
         "cards": [
             "Clumsy Dodge",
+            "Clumsy Dodge",
             "Step",
             "Hard-Style Strike",
-            "Single Attack",
-            "Longsword Strike"
+            "Dagger Strike"
         ],
         "modifiers": []
     },
@@ -17,7 +17,6 @@
             "Step",
             "Hard-Style Strike",
             "Soft-Style Strike",
-            "Single Attack",
             "Parry",
             "Dagger Strike",
             "Judo Toss",
@@ -43,7 +42,6 @@
             "QuickStep/Dodge",
             "Step",
             "Hard-Style Strike",
-            "Single Attack",
             "Weapon Block",
             "Longsword Strike",
             "Faux Plate",

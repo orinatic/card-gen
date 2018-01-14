@@ -19,8 +19,8 @@
       },
       {
         "name": "Step",
-        "description": "Move two squares in any direction.<br/><br/>Return this card to your hand",
-        "pri": "AGL",
+        "description": "Simple version: Move AGL/2 + 1 squares.<br/><br/>Correct version (stops some game-breaking problems with multiple square movement): Move one square in any direction. If this card was activated at more than 2 priority, move this card down the priority track by two spots. It may be activated again.<br/><br/>Return this card to your hand",
+        "pri": "AGL + 2",
         "ap": 1,
         "flip": 1,
         "tags": [
@@ -30,12 +30,8 @@
         "cost": 0
       },
       {
-        "name": "Single Attack",
-        "description": "From your hand, swap this card with any card with the 'Basic Attack' tag in either your overflow <b>or</b> discard. If you have another 'Single Strike' in your overflow, you may immediately draw it into your hand"
-      },
-      {
         "name": "Hard-Style Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.<br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 1,
@@ -52,7 +48,7 @@
       },
       {
         "name": "Soft-Style Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next tick have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next tick have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.<br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -69,7 +65,7 @@
       },
       {
         "name": "Dagger Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul>",
+        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul><br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -81,7 +77,7 @@
         "combo": 1,
         "cost": 0,
         "variables": {
-          "ADV": "TEC - 1",
+          "ADV": "TEC/2 - 1",
           "DMG": "1d8 + STR/2",
           "Range ADV": "TEC - 5",
           "Range DMG": "1d8 + STR/2, 1-3 on die means 0 dmg"
@@ -89,7 +85,7 @@
       },
       {
         "name": "Longsword Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul>",
+        "description": "Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul><br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 4,
         "flip": 2,
@@ -105,7 +101,7 @@
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "<b>This card cannot be directly drawn</b><br/><br/>Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next tick.",
+        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next tick.<br/><br/>Return this card to your hand",
         "pri": "1d4 + STR",
         "ap": 4,
         "flip": 2,
@@ -130,7 +126,7 @@
     "level 1": [
       { 
         "name": "Focus", 
-        "description": "Add +2 priority to another of your cards activated this tick",
+        "description": "Add +2 priority to another of your cards activated this tick. <br/><br/>Return this card to your hand",
         "pri": "20",
         "ap": 1,
         "flip": 1,
@@ -140,7 +136,7 @@
       },
       { 
         "name": "Reckless Action", 
-        "description": "Add +1d6-2 priority to another of your cards activated this tick",
+        "description": "Add +1d6-2 priority to another of your cards activated this tick. <br/><br/>Return this card to your hand",
         "pri": "20",
         "ap": 1,
         "flip": 1,
@@ -150,7 +146,7 @@
       },
       {
         "name": "Precise Strike",
-        "description": "Add +4 to the priority against armor of another card you activate this tick",
+        "description": "Add +4 to the priority against armor of another card you activate this tick<br/><br/>Return this card to your hand",
         "ap": 2,
         "flip": 2,
         "tags": [
@@ -161,7 +157,7 @@
       },
       {
         "name": "Parry",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.<br/><br/>If you can set all of their relevant stats to 0, their card is cancelled, your attacker looses all their active AP, cannot refresh this tick, and, if you are in their square, you may move them to any adjacent square",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.<br/><br/>If you can set all of their relevant stats to 0, their card is cancelled, your attacker looses all their active AP, cannot refresh this tick, and, if you are in their square, you may move them to any adjacent square<br/><br/>Return this card to your hand",
         "pri": "(TEC + AGL)/2 + 2d4",
         "ap": 4,
         "flip": 2,
@@ -186,7 +182,7 @@
       },
       {
         "name": "QuickStep/Dodge",
-        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul> <br/><br/>When this card is removed from your hand for any reason, you may immediately pull another copy of it from your pool.",
+        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul> <br/><br/>Retrieval: 1 Fatigue for all copies",
         "pri": "2d4 + AGL",
         "ap": 2,
         "flip": 1,
@@ -203,7 +199,7 @@
     "level 2": [
       {
         "name": "Judo Toss",
-        "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They cannot refresh their hand this tick. They gain the 'prone' status",
+        "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They cannot refresh their hand this tick. They gain the 'prone' status<br/><br/>Retrieval: 1 Fatigue for all copies",
         "pri": "(TEC + AGL)/2 + 1d4",
         "ap": 4,
         "flip": 3,
@@ -221,7 +217,7 @@
     "cards": [
       {
         "name": "Thick Skin",
-        "description": "DR 4. On any tick you use 'Chomp', reduce the PRI of this card to +0",
+        "description": "DR 6. On any tick you use 'Chomp', reduce the PRI of this card to +0",
         "pri": "+8",
         "tags": [],
         "cost": 0

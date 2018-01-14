@@ -4,7 +4,7 @@
         "level 1": [
             {
                 "name": "Basic Striking",
-                "description": "Gain TEC advantage + 2 to damage on Hard-Style Strikes. Gain another Single Attack card",
+                "description": "Gain TEC/2 advantage + 2 to damage on Hard-Style Strike",
                 "prerec": "Unarmed Strike ability card",
                 "cost": "3",
                 "code": [
@@ -12,11 +12,7 @@
                         "type": "edit",
                         "target": "Hard-Style Strike",
                         "priority": 10,
-                        "DMG": "TEC adv: {DMG} + 2"
-                    },
-                    {
-                        "type": "new card",
-                        "Single Attack": 1
+                        "DMG": "TEC/2 adv: {DMG} + 2"
                     }
                 ]
             },
@@ -48,7 +44,7 @@
             },
             {
                 "name": "Knife Training",
-                "description": "Gain 1 adv on Dagger strike adjancent option, and change damage of the throw Dagger Stike option to TEC - 3 avg: 1d8 + STR/2, 1 on a die means 0 dmg",
+                "description": "Gain 1 adv on Dagger strike adjacent option, and change damage of the throw Dagger Stike option to 'TEC - 3 avg: 1d8 + STR/2, 1 on a die means 0 dmg'",
                 "prerec": "Dagger Strike ability card",
                 "cost": "15 - TEC, min 8",
                 "code": [
@@ -93,7 +89,7 @@
             },
             {
                 "name": "Strike+",
-                "description": "Add + 1 damage on Hard-Style Strike. Gain another Single Strike card",
+                "description": "Add + 1 damage on Hard-Style Strike",
                 "prerec": "Basic Striking",
                 "cost": "3",
                 "special": "May be taken repeatedly. Each time taken doubles (expontentially) the cost",
@@ -103,16 +99,12 @@
                         "target": "Hard-Style Strike",
                         "priority": 5,
                         "DMG": "{DMG} + 1"
-                    },
-                    {
-                        "type": "new card",
-                        "Single Attack": 1
                     }
                 ]
             },
             {
                 "name": "Dodge Roll",
-                "description": "If you move two spaces on a dodge and make the check, you may move a third space in the same direction",
+                "description": "If you move two spaces on a dodge and make the check, you may move a third space in the same direction. Gain another dodge card",
                 "prerec": "Dodge+",
                 "cost": 5,
                 "code": [
@@ -120,20 +112,18 @@
                         "type": "edit",
                         "target": "QuickStep/Dodge",
                         "Extras": "On a success, you may move a third space in the same direction"
+                    },
+                    {
+                        "type": "new card",
+                        "QuickStep/Dodge": 1
                     }
                 ]
-            },
-            {
-                "name": "Forceably re-allocate <Emote>",
-                "description": "Select one emote type when you take this ability. If you use an ability that locks that type, there is not enough emote free to lock all the emote you want, and there are other abilities active on that target which are locking that emote, you may bid your MAG - 1 vs their MAG to discard their locking card. While this bidding process goes on, your card takes no effect and you do not need to pay upkeep. As soon as the required emote is free (for whatever reason), discard all bid on your card and your card immediately takes its normal effect",
-                "prerec": "--",
-                "cost": 12
             }
         ],
         "level 3": [
             {
                 "name": "Artful Dodger",
-                "description": "Add +1 to combo for QuickStep/Dodge. Gain another two dodge cards",
+                "description": "Add +1 to combo for QuickStep/Dodge. Gain another  dodge card",
                 "prerec": "Dodge+",
                 "cost": "25 - AGL",
                 "code": [
@@ -144,7 +134,7 @@
                     },
                     {
                         "type": "new card",
-                        "QuickStep/Dodge": 2
+                        "QuickStep/Dodge": 1
                     }
                 ]
             }

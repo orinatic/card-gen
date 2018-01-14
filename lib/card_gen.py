@@ -77,7 +77,7 @@ def substituteVariables(cardJSON):
         out = s
         for (var, value) in variables.items():
             out = out.replace(f"{{{var}}}", value)
-        print(out)
+        #print(out)
         return out
     
     for name, value in cardJSON.items():
