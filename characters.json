@@ -10,7 +10,7 @@
         "modifiers": []
     },
     {
-        "name": "Decent Martial Artist",
+        "name": "Curious Martial Artist",
         "cards": [
             "QuickStep/Dodge",
             "Step",
@@ -21,8 +21,9 @@
             "Judo Toss",
             "Focus",
             "Weapon Block",
-            "Channel Anticipation",
-            "Precise Strike"
+            "Precise Strike",
+            "Anticipate Action",
+            "I've seen this coming!"
         ],
         "modifiers": [
             "Basic Striking",
@@ -36,7 +37,7 @@
         ]
     },
     {
-        "name": "Joyous Swordsman",
+        "name": "Needy Swordsman",
         "cards": [
             "QuickStep/Dodge",
             "Step",
@@ -44,10 +45,9 @@
             "Weapon Block",
             "Longsword Strike",
             "Faux Plate",
-            "Channel Joy",
-            "The Party Don't Stop",
-            "Manifest Joy (Playfulness)",
-            "Manifest Joy (Ecstacy)",
+            "Notice Me (Senpai)!",
+            "Puppy-Dog Eyes",
+            "Channel Attention-Seeking",
             "Precise Strike"
         ],
         "modifiers": [
@@ -60,7 +60,7 @@
             "Step",
             "Hard-Style Strike",
             "Megaton Hammer Strike",
-            "Channel Anger+",
+            "Channel Anger",
             "Manifest Anger (Barb)",
             "Dagger Strike",
             "Manifest Collateral Damage",
@@ -109,11 +109,10 @@
             "Parry",
             "Focus", 
             "Weapon Block",
-            "Channel Anticipation",
+            "What's on your mind?",
             "Manifest Anger (Barb)",
             "Manifest Defensiveness",
-            "Manifest Joy (Ecstacy)",
-            "Channel Joy",
+            "Channel Curiousity",
             "Dagger Strike"
         ],
         "modifiers": [
@@ -121,25 +120,6 @@
             "Dodge Roll",
             "Artful Dodger",
             "Knife Training"
-        ]
-    },
-    {
-        "name": "Manifested Playfulness",
-        "cards": [
-            "Manifested Joy",
-            "Extend Tendril (P)",
-            "Make Contact (P)",
-            "Envelop (P)",
-            "Heal (P)"
-        ]
-    },
-    {
-        "name": "Manifested Esctacy",
-        "cards": [
-            "Manifested Joy",
-            "Extend Tendril (E)",
-            "Envelop (E)",
-            "Heal (E)"
         ]
     },
     {
