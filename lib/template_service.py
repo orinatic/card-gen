@@ -1,9 +1,12 @@
 import xml.etree.ElementTree as ET
 import copy
 from .constants import Constants
+from .diff import Diff
 
 class TemplateService:
     def __init__(self, template):
+        self.diff = Diff()
+        self.cards = []
         self.template = ET.parse(template)
 
         self.cardTemplate = self.template.getroot()[0][0][0]
@@ -32,6 +35,13 @@ class TemplateService:
         return copy.deepcopy(self.cardTemplate)
 
     def addCard(self, card):
+        self.cards.append(copy.deepcopy(card))
+    
+    def addCards(self, card, num):
+        for i in range(num):
+            self.addCard(card)
+
+    def addCardToSVG(self, card):
         n = len(list(self.currentPage))
         if(n == 9):
             self.finishedPages.append(self.currentPage)
@@ -42,11 +52,17 @@ class TemplateService:
         card.set("transform", f"matrix(1 0 0 1 {450 * x} {650 * y})")
         self.currentPage.append(card)
     
-    def addCards(self, card, num):
+    def addCardsToSVG(self, card, num):
         for i in range(num):
             self.addCard(copy.deepcopy(card))
 
     def writeCards(self, target):
+        self.diff.parseOriginal("lastprint.svg")
+        for card in self.diff.getAddedCards(self.cards):
+            self.addCardToSVG(card)
+        for card in self.diff.getRemovedCards(self.cards):
+            print(f"removed card:{card}")
+
         self.finishedPages.append(self.currentPage)
         for page in self.finishedPages:
             self.template.getroot()[0].append(page)

@@ -41,8 +41,6 @@ class Mods:
                 cards[cardName]+= 1
             else:
                 cards[cardName] = 1
-        print(initialCards)
-        print(cards)
         additions = [mod for mod in mods if mod["type"] == "new card"]
         transforms = [mod for mod in mods if mod["type"] == "transform card"]
         for addition in additions:
