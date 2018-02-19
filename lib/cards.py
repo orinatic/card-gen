@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import json
 import sys
 import html
+import string
 from .constants import Constants
 from .mods import Mods
 from .template_service import TemplateService
@@ -60,11 +61,8 @@ class Cards:
 
     # returns map of card names to card svg code
     def genCards(self, characterName, cardNames, mods):
-
         cards = self.parseCards(json.loads(open(self.cardsJSON).read()), cardNames)
-        
         Mods.applyEditMods(cards, mods)
-
         return self.doGenCards(characterName, cards.values())
 
     def doGenCards(self, characterName, cardJSONS: list):
@@ -77,7 +75,7 @@ class Cards:
                 node = card_svg.find(f".//*[@id='{attribute}']")
                 if(node.tag == f"{Constants.ns['svg']}text"):
                     if(attribute == 'name'):
-                        node.text = value.title()
+                        node.text = string.capwords(value)
                     else:
                         node.text = f"{attribute.upper()}: {value}"
                 elif(attribute == 'description'):

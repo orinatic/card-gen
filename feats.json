@@ -1,182 +1,182 @@
 [
-    {
-        "name": "Learned Manuevers",
-        "level 1": [
-            {
-                "name": "Basic Striking",
-                "description": "Gain TEC/2 advantage + 2 to damage on Hard-Style Strike",
-                "prerec": "Unarmed Strike ability card",
-                "cost": "3",
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "Hard-Style Strike",
-                        "priority": 10,
-                        "DMG": "TEC/2 adv: {DMG} + 2"
-                    }
-                ]
-            },
-            {
-                "name": "Judo 101",
-                "description": "Change the DC of Soft-style stike to MAX(STR, TEC) + 4 instead of STR + 2.",
-                "prerec": "Soft-style Strike ability card",
-                "cost": "10 - EMP, min 4",
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "Soft-Style Strike",
-                        "priority": 100,
-                        "DC": "MAX(STR, TEC)"
-                    }
-                ]
-            },
-            {
-                "name": "Dodge+",
-                "description": "Turn 'Clumsy Dodge' into 'Dodge'",
-                "prerec": "Clumsy Dodge ability card",
-                "cost": "10 - AGL, min 6",
-                "code": [
-                    {
-                        "type": "transform card",
-                        "Clumsy Dodge": "QuickStep/Dodge"
-                    }
-                ]
-            },
-            {
-                "name": "Knife Training",
-                "description": "Gain 1 adv on Dagger strike adjacent option, and change damage of the throw Dagger Stike option to 'TEC - 3 avg: 1d8 + STR/2, 1 on a die means 0 dmg'",
-                "prerec": "Dagger Strike ability card",
-                "cost": "15 - TEC, min 8",
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "Dagger Strike",
-                        "Range ADV": "TEC - 3",
-                        "Range DMG": "1d8 + STR/2, 1 on a die means 0 dmg",
-                        "ADV": "TEC",
-                        "DMG": "1d8 + STR/2"
-                    }
-                ]
-            }
-        ],
-        "level 2": [
-            {
-                "name": "Judo+",
-                "description": "Add EMP/2 to the DC of Soft-Style Strike. Add 1 to the flip of Hard-Style Strike and Soft-Style Strike. Increase the priority die of Judo Toss to 1d10",
-                "prerec": "Judo 101",
-                "cost": "15",
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "Soft-Style Strike",
-                        "priority": 10,
-                        "DC": "{DC} + EMP/2",
-                        "flip": "{flip} + 1"
-                    },
-                    {
-                        "type": "edit",
-                        "target": "Hard-Style Strike",
-                        "priority": 10,
-                        "flip": "{flip} + 1"
-                    },
-                    {
-                        "type": "edit",
-                        "target": "Judo Toss",
-                        "priority": 10,
-                        "pri": "(TEC + AGL)/2 + 1d10"
-                    }
-                ]
-            },
-            {
-                "name": "Strike+",
-                "description": "Add + 1 damage on Hard-Style Strike",
-                "prerec": "Basic Striking",
-                "cost": "3",
-                "special": "May be taken repeatedly. Each time taken doubles (expontentially) the cost",
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "Hard-Style Strike",
-                        "priority": 5,
-                        "DMG": "{DMG} + 1"
-                    }
-                ]
-            },
-            {
-                "name": "Dodge Roll",
-                "description": "If you move two spaces on a dodge and make the check, you may move a third space in the same direction. Gain another dodge card",
-                "prerec": "Dodge+",
-                "cost": 5,
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "QuickStep/Dodge",
-                        "Extras": "On a success, you may move a third space in the same direction"
-                    },
-                    {
-                        "type": "new card",
-                        "QuickStep/Dodge": 1
-                    }
-                ]
-            }
-        ],
-        "level 3": [
-            {
-                "name": "Artful Dodger",
-                "description": "Add +1 to combo for QuickStep/Dodge. Gain another  dodge card",
-                "prerec": "Dodge+",
-                "cost": "25 - AGL",
-                "code": [
-                    {
-                        "type": "edit",
-                        "target": "QuickStep/Dodge",
-                        "combo": "{combo} + 1"
-                    },
-                    {
-                        "type": "new card",
-                        "QuickStep/Dodge": 1
-                    }
-                ]
-            }
+  {
+    "name": "Learned Manuevers",
+    "level 1": [
+      {
+        "name": "Basic Striking",
+        "description": "Gain TEC/2 advantage + 2 to damage on Hard-Style Strike",
+        "prerec": "Unarmed Strike ability card",
+        "cost": "3",
+        "code": [
+          {
+            "type": "edit",
+            "target": "Hard-Style Strike",
+            "priority": 10,
+            "DMG": "TEC/2 adv: {DMG} + 2"
+          }
         ]
-    },
-    {
-        "name": "Anger",
-        "level 0":  [
-            {
-                "name": "Cold Rage",
-                "description": "Your manifested rage freezes instead of ignites. Ideally take this before you take any rage manifestations. The only mechanical effect this has is that any effects that would cause objects to catch fire instead cause them to freeze",
-                "prerec": "--",
-                "cost": "0"
-            }
-        ],
-        "level 1": [
-            {
-                "name": "Channel Anger+",
-                "description": "turn 'Channel Anger' into Channel Anger+",
-                "prerec": "Channel Anger",
-                "cost": "8",
-                "code": [
-                    {
-                        "type": "transform card",
-                        "Channel Anger": "Channel Anger+"
-                    }
-                ]
-            }
-        ],
-        "level 2": [
-            {
-                "name": "Multi-Channel Anger+",
-                "description": "turn 'Multi-Channel Anger' into Multi-Channel Anger+",
-                "prerec": "Multi-Channel Anger",
-                "cost": "12",
-                "code": [
-                    {
-                        "type": "transform card",
-                        "Multi-Channel Anger": "Multi-Channel Anger+"
-                    }
-                ]
-            }
+      },
+      {
+        "name": "Judo 101",
+        "description": "Change the DC of Soft-style stike to MAX(STR, TEC) + 4 instead of STR + 2.",
+        "prerec": "Soft-style Strike ability card",
+        "cost": "10 - EMP, min 4",
+        "code": [
+          {
+            "type": "edit",
+            "target": "Soft-Style Strike",
+            "priority": 100,
+            "DC": "MAX(STR, TEC)"
+          }
         ]
-    }
+      },
+      {
+        "name": "Dodge+",
+        "description": "Turn 'Clumsy Dodge' into 'Dodge'",
+        "prerec": "Clumsy Dodge ability card",
+        "cost": "10 - AGL, min 6",
+        "code": [
+          {
+            "type": "transform card",
+            "Clumsy Dodge": "QuickStep/Dodge"
+          }
+        ]
+      },
+      {
+        "name": "Knife Training",
+        "description": "Gain 1 adv on Dagger strike adjacent option, and change damage of the throw Dagger Stike option to 'TEC - 3 avg: 1d8 + STR/2, 1 on a die means 0 dmg'",
+        "prerec": "Dagger Strike ability card",
+        "cost": "15 - TEC, min 8",
+        "code": [
+          {
+            "type": "edit",
+            "target": "Dagger Strike",
+            "Range ADV": "TEC - 3",
+            "Range DMG": "1d8 + STR/2, 1 on a die means 0 dmg",
+            "ADV": "TEC",
+            "DMG": "1d8 + STR/2"
+          }
+        ]
+      }
+    ],
+    "level 2": [
+      {
+        "name": "Judo+",
+        "description": "Add EMP/2 to the DC of Soft-Style Strike. Add 1 to the flip of Hard-Style Strike and Soft-Style Strike. Increase the priority die of Judo Toss to 1d10",
+        "prerec": "Judo 101",
+        "cost": "15",
+        "code": [
+          {
+            "type": "edit",
+            "target": "Soft-Style Strike",
+            "priority": 10,
+            "DC": "{DC} + EMP/2",
+            "flip": "{flip} + 1"
+          },
+          {
+            "type": "edit",
+            "target": "Hard-Style Strike",
+            "priority": 10,
+            "flip": "{flip} + 1"
+          },
+          {
+            "type": "edit",
+            "target": "Judo Toss",
+            "priority": 10,
+            "pri": "(TEC + AGL)/2 + 1d10"
+          }
+        ]
+      },
+      {
+        "name": "Strike+",
+        "description": "Add + 1 damage on Hard-Style Strike",
+        "prerec": "Basic Striking",
+        "cost": "3",
+        "special": "May be taken repeatedly. Each time taken doubles (expontentially) the cost",
+        "code": [
+          {
+            "type": "edit",
+            "target": "Hard-Style Strike",
+            "priority": 5,
+            "DMG": "{DMG} + 1"
+          }
+        ]
+      },
+      {
+        "name": "Dodge Roll",
+        "description": "If you move two spaces on a dodge and make the check, you may move a third space in the same direction. Gain another dodge card",
+        "prerec": "Dodge+",
+        "cost": 5,
+        "code": [
+          {
+            "type": "edit",
+            "target": "QuickStep/Dodge",
+            "Extras": "On a success, you may move a third space in the same direction"
+          },
+          {
+            "type": "new card",
+            "QuickStep/Dodge": 1
+          }
+        ]
+      }
+    ],
+    "level 3": [
+      {
+        "name": "Artful Dodger",
+        "description": "Add +1 to combo for QuickStep/Dodge. Gain another  dodge card",
+        "prerec": "Dodge+",
+        "cost": "25 - AGL",
+        "code": [
+          {
+            "type": "edit",
+            "target": "QuickStep/Dodge",
+            "combo": "{combo} + 1"
+          },
+          {
+            "type": "new card",
+            "QuickStep/Dodge": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Anger",
+    "level 0":  [
+      {
+        "name": "Cold Rage",
+        "description": "Your manifested rage freezes instead of ignites. Ideally take this before you take any rage manifestations. The only mechanical effect this has is that any effects that would cause objects to catch fire instead cause them to freeze",
+        "prerec": "--",
+        "cost": "0"
+      }
+    ],
+    "level 1": [
+      {
+        "name": "Channel Anger+",
+        "description": "turn 'Channel Anger' into Channel Anger+",
+        "prerec": "Channel Anger",
+        "cost": "8",
+        "code": [
+          {
+            "type": "transform card",
+            "Channel Anger": "Channel Anger+"
+          }
+        ]
+      }
+    ],
+    "level 2": [
+      {
+        "name": "Multi-Channel Anger+",
+        "description": "turn 'Multi-Channel Anger' into Multi-Channel Anger+",
+        "prerec": "Multi-Channel Anger",
+        "cost": "12",
+        "code": [
+          {
+            "type": "transform card",
+            "Multi-Channel Anger": "Multi-Channel Anger+"
+          }
+        ]
+      }
+    ]
+  }
 ]

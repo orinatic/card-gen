@@ -4,7 +4,7 @@
     "level 0": [
       {
         "name": "Clumsy Dodge",
-        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line.",
+        "description": "Move one square in any direction, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card. Double the DC of the above check to move two squares in a straight line.<br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Retrieval: 1 Fatigue",
         "pri": "1d6 + AGL",
         "ap": 3,
         "flip": 1,
@@ -101,7 +101,7 @@
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone within one square of that must test AGL with DC (STR - 3) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next tick.<br/><br/>Return this card to your hand",
+        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone (except you) within one square of that roll 1d6 + AGL with DC (STR - 2) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next tick.<br/><br/>Return this card to your hand",
         "pri": "1d4 + STR",
         "ap": 4,
         "flip": 2,
@@ -114,12 +114,12 @@
       },
       {
         "name": "Shield Block",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target<br/><br/>Return this card to your hand",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your shield takes damage from the attack. If it is destroyed, any leftover damage continues toward the original target<br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Return this card to your hand",
         "pri": "2d4 + TEC",
-        "ap": 3,
+        "ap": 2,
         "flip": 0,
         "tags": [],
-        "combo": 0,
+        "combo": 1,
         "cost": 0
       }
     ],
@@ -172,17 +172,17 @@
       },
       {
         "name": "Weapon Block",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target<br/><br/>Return this card to your hand",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Your weapon takes damage from the attack. If your weapon is destroyed, any leftover damage continues toward the original target<br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Return this card to your hand",
         "pri": "2d4 + TEC",
-        "ap": 4,
+        "ap": 2,
         "flip": 2,
         "tags": [],
-        "combo": 2,
+        "combo": 1,
         "cost": "8 - EMP, min 4"
       },
       {
         "name": "QuickStep/Dodge",
-        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul> <br/><br/>Retrieval: 1 Fatigue for all copies",
+        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul><br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Retrieval: 1 Fatigue for all copies",
         "pri": "2d4 + AGL",
         "ap": 2,
         "flip": 1,
@@ -226,6 +226,7 @@
         "name": "Chomp",
         "description": "Target: One forward square<br/><br/>Deal 1d4 + STR - 1 damage. If you deal damage, you can latch on to your target. Gain the 'latched on' effect, while your target gains the 'chomped' effect",
         "pri": "1d6 + TEC",
+        "flip": 1,
         "ap": 3,
         "tags": [
           "strike",
@@ -425,6 +426,31 @@
         "tags": [ "Curiousity", "Mental" ],
         "combo": 0,
         "cost": 0
+        }
+    ]
+  },
+  {
+    "name": "Hedonism",
+    "cards": [
+      {
+        "name": "Addicted To That Feel",
+        "description": "Target: Someone within line of sight who has activated a card within this tick. <br/><br/>Chose one card your target has activated this tick, call it C. They must roll DISC + 1d6 vs MAG + N, where N is 2 if C was unsuccessful, and 5 if C was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
+        "pri": "MAG",
+        "ap": 3,
+        "flip": 1,
+        "tags": ["Hedonism", "Mental" ],
+        "combo": 0,
+        "cost": 0
+      },
+      {
+        "name": "Addicted To Those Feels",
+        "description": "Target: Someone within line of sight who has activated a card within this tick. <br/><br/>For each card your target has activated this tick, they must roll DISC + 1d6 vs MAG + N, where N is 2 if the card was unsuccessful, and 5 if it was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
+        "pri": "MAG",
+        "ap": 3,
+        "flip": 1,
+        "tags": ["Hedonism", "Mental" ],
+        "combo": 0,
+        "cost": 0
       }
     ]
   },
@@ -446,7 +472,7 @@
         "description": "Target: Anyone with line of sight to you.<br/><br/>This tick, if they are targeting you with a card you do not wish to be targeted with, They must roll 1d6 + DISC vs 1d6 + CHARM + MAG/2. If they lose, their card is negated as though they had voluntarity discarded it<br/><br/>Retrieval: 3 Fatigue",
         "pri": "MAG + 2d4",
         "ap": 1,
-        "flip": 0,
+        "flip": 1,
         "tags": ["Attention", "Mental"],
         "combo": 0,
         "cost": 0
@@ -474,7 +500,6 @@
         "flip": 0,
         "tags": [
           "Anger",
-          "Emote",
           "Mental",
           "Upkeep(MAG)"
         ],
@@ -491,7 +516,6 @@
         "flip": 0,
         "tags": [
           "Anger",
-          "Emote",
           "Mental"
         ],
         "combo": 1,
@@ -505,7 +529,6 @@
         "flip": 0,
         "tags": [
           "Anger",
-          "Emote",
           "Mental",
           "Upkeep(MAG)"
         ],
@@ -514,6 +537,18 @@
     ],
     "level 2": [
       {
+        "name": "Scapegoat",
+        "description": "Chose a target within line of sight that has done something to anger you. Your choice on what qualifies. (If you're <b>that</b> kind of character, this could mean target anyone.) As long as this card is in effect, you may only take actions that directly lead toward you defeating that target. This includes defending yourself, but does not include attacking anything that is not <b>directly</b> in your way. Gain a +2 bonus on all actions against your scapegoat.",
+        "pri": "MAG",
+        "ap": 1,
+        "flip": 0,
+        "tags": [
+          "Anger",
+          "Mental"
+        ], 
+        "combo": 0
+      },
+      {
         "name": "Manifest Collateral Damage",
         "description": "Cover MAG + 1d4 squares with manifested anger crystals. The squares must be contiguous and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the Upkeep phase. Using a movement card will break your connection with the anger. Direct (spike) damage does not affect you, but radiant damage does.<br/><br/> Retrieval: 3 Fatigue",
         "pri": "MAG + 1d8",
@@ -521,7 +556,6 @@
         "flip": 3,
         "tags": [
           "Anger",
-          "Emote",
           "Mental",
           "Area"
         ],
@@ -532,13 +566,12 @@
     "level 3": [
       {
         "name": "Manifest Defensiveness",
-        "description": "Momentarily create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by MAGd4. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>Return this card to your hand",
+        "description": "Momentarily create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by MAGd4. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Return this card to your hand",
         "pri": "MAG + 2d4",
         "ap": 1,
         "flip": 1,
         "tags": [
           "Anger",
-          "Emote",
           "Mental"
         ],
         "combo": 0,
@@ -546,14 +579,13 @@
       },
       {
         "name": "Unstoppable Rage",
-        "description": "<b>Upkeep: D*2 (D = 0 if you are fine, +1 for each state you are down)</b><br/><br/>Take no negative effects from damage or fatigue. You may not use any non-Anger 'Mental' card<br/><br/>Retrieval: 4 Fatigue",
+        "description": "<b>Upkeep: D*2 (D = 0 if you are fine, +1 for each state you are down)</b><br/><br/>Only useable while the 'Scapegoat' card is in effect. Take no negative effects from damage or fatigue. You may not use any non-Anger 'Mental' card<br/><br/>Retrieval: 4 Fatigue",
         "pri": "0",
         "ap": 4,
         "flip": 0,
         "tags": [
           "Trance",
           "Anger",
-          "Emote",
           "Mental",
           "Upkeep(MAG)"
         ],

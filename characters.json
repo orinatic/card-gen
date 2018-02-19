@@ -59,12 +59,14 @@
         "cards": [
             "Step",
             "Hard-Style Strike",
+            "Clumsy Dodge",
             "Megaton Hammer Strike",
             "Channel Anger",
             "Manifest Anger (Barb)",
             "Dagger Strike",
             "Manifest Collateral Damage",
             "Manifest Defensiveness",
+            "Scapegoat",
             "Unstoppable Rage",
             "Reckless Action"
         ],
@@ -84,6 +86,7 @@
         "name": "Medium Hunger/Instinct Spirit",
         "cards": [
             "QuickStep/Dodge",
+            "Clumsy Dodge",
             "Step",
             "Chomp",
             "Rip",
@@ -113,7 +116,9 @@
             "Manifest Anger (Barb)",
             "Manifest Defensiveness",
             "Channel Curiousity",
-            "Dagger Strike"
+            "Dagger Strike",
+            "Dagger Strike",
+            "Step"
         ],
         "modifiers": [
             "Dodge+",
@@ -127,6 +132,7 @@
         "cards": [
             "Prone",
             "Grappled",
+            "Grappling",
             "Grappling",
             "Pinned",
             "Latching On",

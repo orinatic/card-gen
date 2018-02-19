@@ -61,7 +61,7 @@ class TemplateService:
         for card in self.diff.getAddedCards(self.cards):
             self.addCardToSVG(card)
         for card in self.diff.getRemovedCards(self.cards):
-            print(f"removed card:{card}")
+            print(f"removed card from {card[4].text}: {card[1].text}")
 
         self.finishedPages.append(self.currentPage)
         for page in self.finishedPages:
