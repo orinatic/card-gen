@@ -31,7 +31,7 @@
       },
       {
         "name": "Hard-Style Strike",
-        "description": "Target: One square within reach 1 or your own square<br/><br/>Deal ({DMG}) damage.<br/><br/>Return this card to your hand",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Deal (1d4 - 2 + STR/2) damage.<br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 1,
@@ -41,14 +41,11 @@
           "basic attack"
         ],
         "combo": 1,
-        "cost": 0,
-        "variables": {
-          "DMG": "1d4 - 2 + STR/2"
-        }
+        "cost": 0
       },
       {
         "name": "Soft-Style Strike",
-        "description": "Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next tick have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.<br/><br/>Return this card to your hand",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC {DC} STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next round have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.<br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -65,7 +62,7 @@
       },
       {
         "name": "Dagger Strike",
-        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal ({ADV} adv: {DMG}) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal ({Range ADV} adv: {Range DMG}) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul><br/><br/>Return this card to your hand",
+        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal (TEC/2 - 2 adv: 1d8 + STR/2) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal (TEC/2 - 6 adv: 1d8 + STR/2, 1-3 on die means 0 dmg) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul><br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -75,17 +72,35 @@
           "basic attack"
         ],
         "combo": 1,
-        "cost": 0,
-        "variables": {
-          "ADV": "TEC/2 - 1",
-          "DMG": "1d8 + STR/2",
-          "Range ADV": "TEC - 5",
-          "Range DMG": "1d8 + STR/2, 1-3 on die means 0 dmg"
-        }
+        "cost": 0
+      },
+      {
+        "name": "Bright In The Face",
+        "description": "Requires a bright flashlight<br/><br/>Target anyone within line of sight. Any attack they make within the 90-degree cone centered on you has two degrees of disadvantage, as long as this card is active. Discard it if you activate a non-mental action.",
+        "pri": "20",
+        "ap": 2,
+        "flip": 1,
+        "tags": [
+          "basic attack"
+        ],
+        "combo": 0,
+        "cost": 0
+      },
+      {
+        "name": "Water Splash",
+        "description": "Requires some sort of splashable liquid.<br/><br/> Target a line of length 3. The nearest creature along that line gets hit by your liquid. Lose the liquid.",
+        "pri": "1d10+TEC/2",
+        "ap": 3,
+        "flip": 1,
+        "tags": [
+          "strike",
+          "basic attack"
+        ],
+        "combo": 0
       },
       {
         "name": "Longsword Strike",
-        "description": "Requires a longsword<br/><br/>Choose one of: <ul><li>Deal {DMG} damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul><br/><br/>Return this card to your hand",
+        "description": "Requires a longsword<br/><br/>Choose one of: <ul><li>Deal TEC adv: 1d12 + STR/2 damage, targeting a line of three squares.</li><li>Deal {DMG} damage, targeting a cone of two squares.</li></ul><br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 4,
         "flip": 2,
@@ -94,15 +109,25 @@
           "basic attack"
         ],
         "combo": 2,
-        "cost": 0,
-        "variables": {
-          "DMG": "TEC adv: 1d12 + STR/2"
-        }
+        "cost": 0
       },
       {
         "name": "Megaton Hammer Strike",
-        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone (except you) within one square of that roll 1d6 + AGL with DC (STR - 2) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next tick.<br/><br/>Return this card to your hand",
+        "description": "Requires a giant hammer<br/><br/>Choose one of: <ul><li>Overhand Strike: Deal STRd6 damage to a square within reach two of you. Anyone (except you) within one square of that roll 1d6 + AGL with DC (STR - 2) * 2 or fall prone</li><li>Sweep Strike: Deal (STR/2)d4 damage, targeting a cone of two squares.</li></ul> Lose 2 PRI on all actions next round.<br/><br/>Return this card to your hand",
         "pri": "1d4 + STR",
+        "ap": 4,
+        "flip": 2,
+        "tags": [
+          "strike",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0
+      },
+      {
+        "name": "Club Strike",
+        "description": "Requires a club of some sort<br/><br/>Deal (STR/2)d4 damage, targeting a cone of two squares.<br/><br/>Return this card to your hand",
+        "pri": "1d8 + TEC",
         "ap": 4,
         "flip": 2,
         "tags": [
@@ -121,12 +146,87 @@
         "tags": [],
         "combo": 1,
         "cost": 0
+      }, 
+      {
+        "name": "Take Aim...",
+        "description": "Chose a ranged weapon and select a line to target. Gain the 'Aimed' card for that ranged weapon with that target. Return this card to your hand. You may immediately play and activate a 'Ranged attack' card using your selected weapon.",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 2,
+        "tags": [],
+        "combo": 1
+      },
+      {
+        "name": "Fire! (handgun)",
+        "description": "Requires the 'aimed' card to be active for a handgun<br/><br/>Deal TEC/2 - 4 avg: 2d8 dmg, pen 3, with a miss threshold of 2 (1-2 on either die means 0 dmg) targeting a your aimed-at line, up to 20 squares. Roll damage for each target in the line seperately, and stop once any of them deal 0 damage. Remove 1 ammo. Do <b>not</b> discard your 'aimed' card<br/><br/>Return this card to your hand.",
+        "pri": "TEC + 2d12",
+        "ap": 1,
+        "flip": 0,
+        "tags": [
+          "ranged attack", 
+          "firearm"
+        ],
+        "combo": 0
+      },
+      {
+        "name": "Fire! (long gun)",
+        "description": "Requires the 'aimed' card to be active for a long gun<br/><br/>Deal TEC/2 - 3 avg: 2d8 dmg, pen 8, with a miss threshold of 2 (1-2 on either die means 0 dmg) targeting a your aimed-at line, up to 30 squares. Roll damage for each target in the line seperately, and stop once any of them deal 0 damage. Remove 1 ammo. Do <b>not</b> discard your 'aimed' card<br/><br/>Return this card to your hand.",
+        "pri": "TEC + 2d12",
+        "ap": 1,
+        "flip": 0,
+        "tags": [
+          "ranged attack", 
+          "firearm"
+        ],
+        "combo": 0
       }
     ],
     "level 1": [
+      {
+        "name": "Hard-Style Strike+",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Deal (TEC/2 advantage: 1d4 + STR/2) damage.<br/><br/>Return this card to your hand",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 2,
+        "tags": [
+          "strike",
+          "unarmed",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0
+      },
+      {
+        "name": "Soft-Style Strike+",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Your target rolls a DC [MAX(STR, TEC) + 4 + EM/2] STR or AGL + 1d8 check. If they fail, they move one square in any direction, your choice, and your strikes against them next round have +2 damage. If they fail by 2 or more, you may also give them the 'prone' card.<br/><br/>Return this card to your hand",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 3,
+        "tags": [
+          "strike",
+          "unarmed",
+          "basic attack"
+        ],
+        "combo": 2,
+        "cost": 0
+      },
+      {
+        "name": "Dagger Strike+",
+        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal (TEC/2 adv: 1d8 + STR/2) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal (TEC/2 - 3 adv: 1d8 + STR/2, 1-3 on die means 0 dmg) damage, targeting a line within reach STR * 4. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul><br/><br/>Return this card to your hand",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 2,
+        "tags": [
+          "strike",
+          "precise",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0
+      },
       { 
         "name": "Focus", 
-        "description": "Add +2 priority to another of your cards activated this tick. <br/><br/>Return this card to your hand",
+        "description": "Add +2 priority to another of your cards activated this round. <br/><br/>Return this card to your hand",
         "pri": "20",
         "ap": 1,
         "flip": 1,
@@ -136,7 +236,7 @@
       },
       { 
         "name": "Reckless Action", 
-        "description": "Add +1d6-2 priority to another of your cards activated this tick. <br/><br/>Return this card to your hand",
+        "description": "Add +1d6-2 priority to another of your cards activated this round. <br/><br/>Return this card to your hand",
         "pri": "20",
         "ap": 1,
         "flip": 1,
@@ -146,7 +246,7 @@
       },
       {
         "name": "Precise Strike",
-        "description": "Add +4 to the priority against armor of another card you activate this tick<br/><br/>Return this card to your hand",
+        "description": "Add +4 to the priority against armor of another card you activate this round<br/><br/>Return this card to your hand",
         "ap": 2,
         "flip": 2,
         "tags": [
@@ -157,7 +257,7 @@
       },
       {
         "name": "Parry",
-        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.<br/><br/>If you can set all of their relevant stats to 0, their card is cancelled, your attacker looses all their active AP, cannot refresh this tick, and, if you are in their square, you may move them to any adjacent square<br/><br/>Return this card to your hand",
+        "description": "Chose a 'strike' attack targeting your square or an adjacent square. Move one square toward the source of the attack. For the purposes of calculating the damage of that attack, subtract a total of {DMG} from whichever attributes of the attacker you see fit.<br/><br/>If you can set all of their relevant stats to 0, their card is cancelled, your attacker looses all their active AP, cannot refresh this round, and, if you are in their square, you may move them to any adjacent square<br/><br/>Return this card to your hand",
         "pri": "(TEC + AGL)/2 + 2d4",
         "ap": 4,
         "flip": 2,
@@ -194,12 +294,10 @@
           "DC": "5",
           "Extras": ""
         }
-      }
-    ],
-    "level 2": [
+      },
       {
         "name": "Judo Toss",
-        "description": "Target: One creature that has, this tick, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They cannot refresh their hand this tick. They gain the 'prone' status<br/><br/>Retrieval: 1 Fatigue for all copies",
+        "description": "Target: One creature that has, this round, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They cannot refresh their hand this round. They gain the 'prone' status<br/><br/>Retrieval: 1 Fatigue for all copies",
         "pri": "(TEC + AGL)/2 + 1d4",
         "ap": 4,
         "flip": 3,
@@ -210,6 +308,78 @@
         "combo": 3,
         "cost": "22 - EMP, min 12, half the time sunk into learning Parry counts for this as well"
       }
+    ],
+    "level 2": [
+      {
+        "name": "Judo Toss+",
+        "description": "Target: One creature that has, this round, moved to your square or a square you are currently adjacent to.<br/><br/>Continue their movement one extra square (or two if the one would mean they end up in your square). They immedately lose all AP they currently have in play, and all non-mental cards they currently have on the field are discarded. They cannot refresh their hand this round. They gain the 'prone' status<br/><br/>Retrieval: 1 Fatigue for all copies",
+        "pri": "(TEC + AGL)/2 + 1d10",
+        "ap": 4,
+        "flip": 3,
+        "tags": [
+          "throw",
+          "strike"
+        ],
+        "combo": 3,
+        "cost": "22 - EMP, min 12, half the time sunk into learning Parry counts for this as well"
+      },
+      {
+        "name": "Hard-Style Strike++",
+        "description": "Target: One square within reach 1 or your own square<br/><br/>Deal (TEC/2 advantage: 2d4 + STR) damage.<br/><br/>Return this card to your hand",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 2,
+        "tags": [
+          "strike",
+          "unarmed",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0
+      },
+      {
+        "name": "Dagger Strike++",
+        "description": "Requires a dagger<br/><br/>Choose one of: <ul><li>Deal (TEC/2 + 2 adv: 1d8 + STR/2) damage, targeting one square within reach 1 or your own square. Gain +2 PRI vs armor</li><li>Deal (TEC/2 - 1 adv: 1d8 + STR/2, 1-3 on die means 0 dmg) damage, targeting a line within reach STR * 6. Your dagger ends up at the end of the line or in the square of whatever you hit.</li></ul><br/><br/>Return this card to your hand",
+        "pri": "1d8+TEC",
+        "ap": 3,
+        "flip": 2,
+        "tags": [
+          "strike",
+          "precise",
+          "basic attack"
+        ],
+        "combo": 1,
+        "cost": 0
+      },
+      {
+        "name": "QuickStep/Dodge+",
+        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC 5. On a failure, gain the 'prone' card. On a success, you may move a third space in the same direction.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul><br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Retrieval: 1 Fatigue for all copies",
+        "pri": "2d4 + AGL",
+        "ap": 2,
+        "flip": 1,
+        "tags": [
+          "movement"
+        ],
+        "combo": 1,
+        "variables": {
+          "DC": "5",
+          "Extras": ""
+        }
+      }
+    ]
+  },
+  {
+    "name": "Generic Magic",
+    "cards": [
+      {
+        "name": "Tag Aspect",
+        "description": "Tag an aspect",
+        "pri": "SLFd4",
+        "ap": 10,
+        "flip": 0,
+        "tags": [ "magic" ],
+        "combo": 0
+      }
     ]
   },
   {
@@ -217,7 +387,7 @@
     "cards": [
       {
         "name": "Thick Skin",
-        "description": "DR 6. On any tick you use 'Chomp', reduce the PRI of this card to +0",
+        "description": "DR 6. On any round you use 'Chomp', reduce the PRI of this card to +0",
         "pri": "+8",
         "tags": [],
         "cost": 0
@@ -331,6 +501,10 @@
           "status"
         ],
         "cost": 0
+      }, 
+      {
+        "name": "Aimed",
+        "description": "When you gain this card, select a raged weapon and a target. As long as you have this card, you may fire the ranged weapon at the target. Remove this card if you take damage or activate any non-mental card other than 'Step'"
       }
     ]
   },
@@ -357,7 +531,7 @@
       },
       {
         "name": "Faux Plate",
-        "description": "DR 5. Reduce your AGL by 3 - STR",
+        "description": "DR 5. Reduce your AGL by 3 - STR<br/><br/>Conceptual Defense: 7",
         "pri": "+6",
         "tags": [
           "Equipment"
@@ -366,7 +540,7 @@
       },
       {
         "name": "Full Plate",
-        "description": "DR 8. Reduce your AGL by 7 - STR.",
+        "description": "DR 8. Reduce your AGL by 7 - STR.<br/><br/>Conceptual Defense: 12",
         "pri": "+8",
         "tags": [
           "Equipment"
@@ -375,12 +549,106 @@
       },
       {
         "name": "Bulletproof Vest",
-        "description": "DR 8. Reduce your AGL by 2-STR.",
+        "description": "DR 8. Reduce your AGL by 2-STR.<br/><br/>",
         "pri": "+4",
         "tags": [
           "Equipment"
         ],
         "cost": 0
+      },
+      {
+        "name": "Hunting Rifle",
+        "description": "Counts as a long gun. Has 30 rounds of ammunition.",
+        "tags": [
+          "Equipment"
+        ]
+      },
+      {
+        "name": "Pistol",
+        "description": "Counts as a pistol. Has 15 rounds of ammunition.",
+        "tags": [
+          "Equipment"
+        ]
+      },
+      {
+        "name": "BB Gun (long)",
+        "description": "Counts as a long gun, except attacks with it deal half damage with zero penetration. Has effectively infinite ammo (I think?)",
+        "tags": [
+          "Equipment"
+        ]
+      }, 
+      {
+        "name": "BB Gun (pistol)",
+        "description": "Counts as a pistol, except attacks with it deal half damage with zero penetration. Has effectively infinite ammo (I think?)",
+        "tags": [
+          "Equipment"
+        ]
+      },
+      {
+        "name": "Pocket Knife",
+        "description": "Counts as a dagger, except attacks with it deal half damage and throwing it has adds 4 levels of disadvantage<br/><br/>"
+      },
+      {
+        "name": "Grocery Store Katana",
+        "description": "Counts as a longsword. Whenever it's used, roll TEC. on 1 or less, it breaks"
+      },
+      {
+        "name": "Uncle Don Joseph's Sword Cane",
+        "description": "Counts as a longsword.<br/><br/>Conceptual Damage: 3d12 + STR/2"
+      },
+      {
+        "name": "Improvised Club",
+        "description": "Counts as a club"
+      },
+      {
+        "name": "Baseball Bat",
+        "description": "Counts as a club. Deal damage as though your STR was +2"
+      },
+      {
+        "name": "Sledgehammer",
+        "description": "Counts as a megaton hammer."
+      },
+      {
+        "name": "Amazon.com \"Holy\" Water",
+        "description": "Counts as a splashable liquid or throwable container, depending how it's prepared.<br/><br/>Conceptual Damage: 1d4 - 1"
+      }
+    ]
+  },
+  {
+    "name": "Honor",
+    "cards": [
+      {
+        "name": "Duel",
+        "description": "Upkeep: 2<br/><br/> Express a challenge to an enemy. They must roll SLF + 1d6 vs MAG + 3. If they fail, they may not attack anyone but you, and vice-versa. Anyone else wishing to attack either one of you must make the same check. <br/><br/>Retrieval: 1 Fatigue",
+        "pri": "EXPRd6",
+        "ap": 1,
+        "flip": 1,
+        "tags": [ "Honor", "Upkeep(MAG)" ],
+        "combo": 0,
+        "cost": 0
+      },
+      {
+        "name": "Code",
+        "description": "This must be taken as the first card in Honor. When you first gain this card, define the code that your character lives by. This can be explicit or implicit, and does not need to be concious on the part of the character. When playing your character, keep their code in mind -- most people with honor as a motivator won't break their code unless pushed <b>hard</b>. If your character breaks their code, they will gain some stress (1-10+, depending). Other cards will reference this one",
+        "tags": [ "Passive" ]
+      },
+      {
+        "name": "Take a Third Option",
+        "description": "When faced with a situation where the most straightforward approach would involve breaking their code, and they have harder option that doesn't, reduce the difficulty of the harder option by up to DI, minimum the difficulty of the original task",
+        "pri": "MAGd4",
+        "ap": 2,
+        "flip": 2,
+        "tags": [ "Honor", "Mental" ],
+        "combo": 1
+      },
+      {
+        "name": "Judgement",
+        "description": "Upkeep: 2<br/><br/> Target: Anyone who has done something contrary to your code, which has had substantial impact on you/your friends/the world <br/><br/>Gain +2 to all rolls opposed to your target",
+        "pri": "MAGd4",
+        "ap": 2,
+        "flip": 1,
+        "tags": [ "Honor", "Mental", "Upkeep(MAG)" ],
+        "combo": 0
       }
     ]
   },
@@ -409,7 +677,7 @@
       },
       {
         "name": "I've seen this coming!",
-        "description": "Target: Anyone within line of sight.<br/><br/> Decrease the priority of one of their cards by 2. If you have previously used Anticiate Action on the card, decrease priority by 4<br/><br/>Retrieval: 1 Fatigue",
+        "description": "Target: Anyone within line of sight.<br/><br/> Decrease the priority of one of their cards by 2. If you have previously used Anticipate Action on the card, decrease its priority by 4<br/><br/>Retrieval: 1 Fatigue",
         "pri": "MAGd4",
         "ap": 1,
         "flip": 1,
@@ -434,7 +702,7 @@
     "cards": [
       {
         "name": "Addicted To That Feel",
-        "description": "Target: Someone within line of sight who has activated a card within this tick. <br/><br/>Chose one card your target has activated this tick, call it C. They must roll DISC + 1d6 vs MAG + N, where N is 2 if C was unsuccessful, and 5 if C was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
+        "description": "Target: Someone within line of sight who has activated a card within this round. <br/><br/>Chose one card your target has activated this round, call it C. They must roll DISC + 1d6 vs MAG + N, where N is 2 if C was unsuccessful, and 5 if C was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the resources necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
         "pri": "MAG",
         "ap": 3,
         "flip": 1,
@@ -444,7 +712,7 @@
       },
       {
         "name": "Addicted To Those Feels",
-        "description": "Target: Someone within line of sight who has activated a card within this tick. <br/><br/>For each card your target has activated this tick, they must roll DISC + 1d6 vs MAG + N, where N is 2 if the card was unsuccessful, and 5 if it was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
+        "description": "Target: Someone within line of sight who has activated a card within this round. <br/><br/>For each card your target has activated this round, they must roll DISC + 1d6 vs MAG + N, where N is 2 if the card was unsuccessful, and 5 if it was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
         "pri": "MAG",
         "ap": 3,
         "flip": 1,
@@ -455,7 +723,7 @@
     ]
   },
   {
-    "name": "Need For Approval/Attention/Power Over Others",
+    "name": "Need For Approval",
     "cards": [
       {
         "name": "Notice Me (Senpai)!",
@@ -469,7 +737,7 @@
       }, 
       {
         "name": "Puppy-Dog Eyes",
-        "description": "Target: Anyone with line of sight to you.<br/><br/>This tick, if they are targeting you with a card you do not wish to be targeted with, They must roll 1d6 + DISC vs 1d6 + CHARM + MAG/2. If they lose, their card is negated as though they had voluntarity discarded it<br/><br/>Retrieval: 3 Fatigue",
+        "description": "Target: Anyone with line of sight to you.<br/><br/>This round, if they are targeting you with a card you do not wish to be targeted with, They must roll 1d6 + DISC vs 1d6 + CHARM + MAG/2. If they lose, their card is negated as though they had voluntarity discarded it<br/><br/>Retrieval: 3 Fatigue",
         "pri": "MAG + 2d4",
         "ap": 1,
         "flip": 1,
