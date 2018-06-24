@@ -76,7 +76,7 @@
       },
       {
         "name": "Bright In The Face",
-        "description": "Requires a bright flashlight<br/><br/>Target anyone within line of sight. Any attack they make within the 90-degree cone centered on you has two degrees of disadvantage, as long as this card is active. Discard it if you activate a non-mental action.",
+        "description": "Requires a bright flashlight<br/><br/>Target anyone within line of sight. Any attack they make within the 90-degree cone centered on you has two degrees of disadvantage, as long as this card is active. Discard this card if you activate a non-mental action.<br/><br/>Return this card to your hand",
         "pri": "20",
         "ap": 2,
         "flip": 1,
@@ -88,7 +88,7 @@
       },
       {
         "name": "Water Splash",
-        "description": "Requires some sort of splashable liquid.<br/><br/> Target a line of length 3. The nearest creature along that line gets hit by your liquid. Lose the liquid.",
+        "description": "Requires some sort of splashable liquid.<br/><br/> Target a line of length 3. The nearest creature along that line gets hit by your liquid. Lose the liquid.<br/><br/>Return this card to your hand",
         "pri": "1d10+TEC/2",
         "ap": 3,
         "flip": 1,
@@ -149,7 +149,7 @@
       }, 
       {
         "name": "Take Aim...",
-        "description": "Chose a ranged weapon and select a line to target. Gain the 'Aimed' card for that ranged weapon with that target. Return this card to your hand. You may immediately play and activate a 'Ranged attack' card using your selected weapon.",
+        "description": "Chose a ranged weapon and select a line to target. Gain the 'Aimed' card for that ranged weapon with that target. Return this card to your hand. You may immediately play and activate a 'Ranged attack' card using your selected weapon.<br/><br/>Return this card to your hand",
         "pri": "1d8+TEC",
         "ap": 3,
         "flip": 2,
@@ -158,7 +158,7 @@
       },
       {
         "name": "Fire! (handgun)",
-        "description": "Requires the 'aimed' card to be active for a handgun<br/><br/>Deal TEC/2 - 4 avg: 2d8 dmg, pen 3, with a miss threshold of 2 (1-2 on either die means 0 dmg) targeting a your aimed-at line, up to 20 squares. Roll damage for each target in the line seperately, and stop once any of them deal 0 damage. Remove 1 ammo. Do <b>not</b> discard your 'aimed' card<br/><br/>Return this card to your hand.",
+        "description": "Requires the 'aimed' card to be active for a handgun<br/><br/>Deal TEC/2 - 4 adv: 2d8 dmg, pen 3, with a miss threshold of 2 (1-2 on either die means 0 dmg) targeting a your aimed-at line, up to 20 squares. Roll damage for each target in the line seperately, and stop once any of them deal 0 damage. Remove 1 ammo. Do <b>not</b> discard your 'aimed' card<br/><br/>Return this card to your hand.",
         "pri": "TEC + 2d12",
         "ap": 1,
         "flip": 0,
@@ -170,7 +170,7 @@
       },
       {
         "name": "Fire! (long gun)",
-        "description": "Requires the 'aimed' card to be active for a long gun<br/><br/>Deal TEC/2 - 3 avg: 2d8 dmg, pen 8, with a miss threshold of 2 (1-2 on either die means 0 dmg) targeting a your aimed-at line, up to 30 squares. Roll damage for each target in the line seperately, and stop once any of them deal 0 damage. Remove 1 ammo. Do <b>not</b> discard your 'aimed' card<br/><br/>Return this card to your hand.",
+        "description": "Requires the 'aimed' card to be active for a long gun<br/><br/>Deal TEC/2 - 3 adv: 2d8 dmg, pen 8, with a miss threshold of 2 (1-2 on either die means 0 dmg) targeting a your aimed-at line, up to 30 squares. Roll damage for each target in the line seperately, and stop once any of them deal 0 damage. Remove 1 ammo. Do <b>not</b> discard your 'aimed' card<br/><br/>Return this card to your hand.",
         "pri": "TEC + 2d12",
         "ap": 1,
         "flip": 0,
@@ -282,18 +282,14 @@
       },
       {
         "name": "QuickStep/Dodge",
-        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC {DC}. On a failure, gain the 'prone' card.{Extras}.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul><br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Retrieval: 1 Fatigue for all copies",
+        "description": "Chose one of:<ul><li>Move one square in any direction. Next action in this slot gains +1 priority.</li><li>Move two squares in a straight line, and roll AGL + 1d6 with DC 4. On a failure, gain the 'prone' card.</li><li>Lose 2 priority on this card. Select any one non-area attack that is currently targeting your square. You are unaffected by it.</li></ul><br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Retrieval: 1 Fatigue for all copies",
         "pri": "2d4 + AGL",
         "ap": 2,
         "flip": 1,
         "tags": [
           "movement"
         ],
-        "combo": 0,
-        "variables": {
-          "DC": "5",
-          "Extras": ""
-        }
+        "combo": 0
       },
       {
         "name": "Judo Toss",
@@ -383,6 +379,15 @@
     ]
   },
   {
+    "name": "Traps",
+    "cards": [
+      {
+        "name": "Blade Swing",
+        "description": "Move one square along your predefined path. Deal 2d8 damage, pen 4, to anything in the square. If this card was activated "
+      }
+    ]
+  },
+  {
     "name": "Natural Abilities",
     "cards": [
       {
@@ -422,7 +427,7 @@
       {
         "name": "Spawn",
         "description": "Create 1d4 Minor Hunger Spirits adjancent to you.",
-        "pri": "MAG/2",
+        "pri": "SLF/2",
         "flip": 1,
         "ap": 6,
         "tags": [
@@ -434,7 +439,7 @@
       {
         "name": "Feed",
         "description": "Take 8 damage. Turn one Minor Hunger Spirit within your reach into a Medium Hunger Spirit",
-        "pri": "MAG * 2",
+        "pri": "SLF * 2",
         "flip": 1,
         "ap": 1,
         "tags": [
@@ -443,6 +448,54 @@
         ],
         "combo": 0,
         "cost": 0
+      },
+      {
+        "name": "Projectile Ick",
+        "description": "Target one square within radius 6. Deal SLFd4 - SLF (Min 0) dmg to everyone in the square",
+        "pri": "1d8 + SLF",
+        "flip": 1,
+        "ap": 4,
+        "tags": [
+          "area"
+        ],
+        "combo": 0
+      },
+      {
+        "name": "Oh Jeeze, Claws!",
+        "description": "Target one creature within range 1. Deal 1d4 + STR - 2 dmg to your target. If you deal damage, give them the 'queezy' status effect",
+        "pri": "1d8 + TEC",
+        "flip": 1,
+        "ap": 3,
+        "tags": [
+          "area"
+        ],
+        "combo": 1
+      },
+      {
+        "name": "Dodgey Lil Fuckers",
+        "description": "Ignore all non-area attacks with priority lower than this card",
+        "pri": "2d4 + AGL",
+        "tags": ["movement", "passive"],
+        "cost": 0
+      },
+      {
+        "name": "Engulf",
+        "description": "When you move into another creature's square, give them the 'Engulfed' card. Gain the 'Engulfing' card",
+        "pri": "--",
+        "tags": ["passive"]
+      },
+      {
+        "name": "Digest",
+        "description": "Each tick when you have a creature Englufed, deal 1d4 dmg, and 1 essence damage. Heal 5 dmg.",
+        "tags": ["passive"]
+      },
+      {
+        "name": "Spawn Minor Gross Spirit",
+        "description": "Take 5 dmg. Spawn a Minor Gross Spirit next to you",
+        "pri": "SLF",
+        "flip": 2,
+        "ap": 5,
+        "tags": []
       }
     ]
   },
@@ -495,7 +548,7 @@
       },
       {
         "name": "Chomped",
-        "description": "Bid STR<br/><br/>As long as this card is in effect, all 'movement' cards take + 1 AP, and apply to both you and the creature that has chomped you. All 'strike' cards have -1 priority. Each time you activate a 'movement' or 'strike' card, take 1d4-1 damage. Can be removed if you have at least one bid token on this card.",
+        "description": "Bid STR<br/><br/>As long as this card is in effect, all 'movement' cards take + 1 AP, and apply to both you and the creature that has chomped you. All 'strike' cards have -1 priority. Each time you activate a 'movement' or 'strike' card, take 1d4-1 damage. Each Tick, gain 1d4 - 1 stress. Can be removed if you have at least one bid token on this card.",
         "pri": "2",
         "tags": [
           "status"
@@ -504,7 +557,7 @@
       }, 
       {
         "name": "Aimed",
-        "description": "When you gain this card, select a raged weapon and a target. As long as you have this card, you may fire the ranged weapon at the target. Remove this card if you take damage or activate any non-mental card other than 'Step'"
+        "description": "When you gain this card, select a ranged weapon and a target. As long as you have this card, you may fire the ranged weapon at the target. Remove this card if you take damage or activate any non-mental card other than 'Step'"
       }
     ]
   },
@@ -593,7 +646,7 @@
         "description": "Counts as a longsword. Whenever it's used, roll TEC. on 1 or less, it breaks"
       },
       {
-        "name": "Uncle Don Joseph's Sword Cane",
+        "name": "Uncle Don's Sword Cane",
         "description": "Counts as a longsword.<br/><br/>Conceptual Damage: 3d12 + STR/2"
       },
       {
@@ -619,11 +672,11 @@
     "cards": [
       {
         "name": "Duel",
-        "description": "Upkeep: 2<br/><br/> Express a challenge to an enemy. They must roll SLF + 1d6 vs MAG + 3. If they fail, they may not attack anyone but you, and vice-versa. Anyone else wishing to attack either one of you must make the same check. <br/><br/>Retrieval: 1 Fatigue",
+        "description": "Upkeep: 2<br/><br/> Express a challenge to an enemy. They must roll SLF + 1d6 vs SLF + 3. If they fail, they may not attack anyone but you, and vice-versa. Anyone else wishing to attack either one of you must make the same check. <br/><br/>Retrieval: 1 Fatigue",
         "pri": "EXPRd6",
         "ap": 1,
         "flip": 1,
-        "tags": [ "Honor", "Upkeep(MAG)" ],
+        "tags": [ "Honor", "Upkeep(SLF)" ],
         "combo": 0,
         "cost": 0
       },
@@ -635,7 +688,7 @@
       {
         "name": "Take a Third Option",
         "description": "When faced with a situation where the most straightforward approach would involve breaking their code, and they have harder option that doesn't, reduce the difficulty of the harder option by up to DI, minimum the difficulty of the original task",
-        "pri": "MAGd4",
+        "pri": "SLFd4",
         "ap": 2,
         "flip": 2,
         "tags": [ "Honor", "Mental" ],
@@ -644,10 +697,10 @@
       {
         "name": "Judgement",
         "description": "Upkeep: 2<br/><br/> Target: Anyone who has done something contrary to your code, which has had substantial impact on you/your friends/the world <br/><br/>Gain +2 to all rolls opposed to your target",
-        "pri": "MAGd4",
+        "pri": "SLFd4",
         "ap": 2,
         "flip": 1,
-        "tags": [ "Honor", "Mental", "Upkeep(MAG)" ],
+        "tags": [ "Honor", "Mental", "Upkeep(SLF)" ],
         "combo": 0
       }
     ]
@@ -658,7 +711,7 @@
       {
         "name": "Anticipate Action",
         "description": "Target: Anyone within line of sight.<br/><br/> Look at one of their face-down cards. <br/><br/>Retrieval: 1 Fatigue",
-        "pri": "MAGd4",
+        "pri": "SLFd4",
         "ap": 1,
         "flip": 1,
         "tags": [ "Curiousity", "Mental" ],
@@ -667,8 +720,8 @@
       },
       {
         "name": "What's on your mind?",
-        "description": "Target: Anyone within line of sight.<br/><br/>  Bid MAG on this card. When you have 6 bid tokens on this card, you may look at your target's hand. <br/><br/>Retrieval: 2 Fatigue",
-        "pri": "MAGd4",
+        "description": "Target: Anyone within line of sight.<br/><br/>  Bid SLF on this card. When you have 6 bid tokens on this card, you may look at your target's hand. <br/><br/>Retrieval: 2 Fatigue",
+        "pri": "SLFd4",
         "ap": 1,
         "flip": 1,
         "tags": [ "Curiousity", "Mental" ],
@@ -678,7 +731,7 @@
       {
         "name": "I've seen this coming!",
         "description": "Target: Anyone within line of sight.<br/><br/> Decrease the priority of one of their cards by 2. If you have previously used Anticipate Action on the card, decrease its priority by 4<br/><br/>Retrieval: 1 Fatigue",
-        "pri": "MAGd4",
+        "pri": "SLFd4",
         "ap": 1,
         "flip": 1,
         "tags": [ "Curiousity", "Mental" ],
@@ -687,8 +740,8 @@
       },
       {
         "name": "Channel Curiousity",
-        "description": "<b>Upkeep: 2</b><br/><br/> Target: Anyone within MAG. <br/><br/>Increase your target's PRI on all cards by 1, or their KNOWLEDGE by 2 <br/><br/>Retrieval: 1 Fatigue",
-        "pri": "MAGd4",
+        "description": "<b>Upkeep: 2</b><br/><br/> Target: Anyone within SLF. <br/><br/>Increase your target's PRI on all cards by 1, or their KNOWLEDGE by 2 <br/><br/>Retrieval: 1 Fatigue",
+        "pri": "SLFd4",
         "ap": 2,
         "flip": 1,
         "tags": [ "Curiousity", "Mental" ],
@@ -702,8 +755,8 @@
     "cards": [
       {
         "name": "Addicted To That Feel",
-        "description": "Target: Someone within line of sight who has activated a card within this round. <br/><br/>Chose one card your target has activated this round, call it C. They must roll DISC + 1d6 vs MAG + N, where N is 2 if C was unsuccessful, and 5 if C was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the resources necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
-        "pri": "MAG",
+        "description": "Target: Someone within line of sight who has activated a card within this round. <br/><br/>Chose one card your target has activated this round, call it C. They must roll DISC + 1d6 vs SLF + N, where N is 2 if C was unsuccessful, and 5 if C was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the resources necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
+        "pri": "SLF",
         "ap": 3,
         "flip": 1,
         "tags": ["Hedonism", "Mental" ],
@@ -712,8 +765,8 @@
       },
       {
         "name": "Addicted To Those Feels",
-        "description": "Target: Someone within line of sight who has activated a card within this round. <br/><br/>For each card your target has activated this round, they must roll DISC + 1d6 vs MAG + N, where N is 2 if the card was unsuccessful, and 5 if it was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
-        "pri": "MAG",
+        "description": "Target: Someone within line of sight who has activated a card within this round. <br/><br/>For each card your target has activated this round, they must roll DISC + 1d6 vs SLF + N, where N is 2 if the card was unsuccessful, and 5 if it was successful. <br/>If they fail, they must immediately play the card again. They cannot voluntarily cancel it. If they do not have access to the card, they must spend the fatigue necessary to put the card back into their hand as soon as they are able, and must then immediately play it",
+        "pri": "SLF",
         "ap": 3,
         "flip": 1,
         "tags": ["Hedonism", "Mental" ],
@@ -728,7 +781,7 @@
       {
         "name": "Notice Me (Senpai)!",
         "description": "Chose any card currently in the queue for resolution that you are a valid target for. It now must target you.<br/><br/>Retrieval: 2 Fatigue",
-        "pri": "MAG + 2d4",
+        "pri": "SLF + 2d4",
         "ap": 2,
         "flip": 0,
         "tags": ["Attention", "Mental"],
@@ -737,8 +790,8 @@
       }, 
       {
         "name": "Puppy-Dog Eyes",
-        "description": "Target: Anyone with line of sight to you.<br/><br/>This round, if they are targeting you with a card you do not wish to be targeted with, They must roll 1d6 + DISC vs 1d6 + CHARM + MAG/2. If they lose, their card is negated as though they had voluntarity discarded it<br/><br/>Retrieval: 3 Fatigue",
-        "pri": "MAG + 2d4",
+        "description": "Target: Anyone with line of sight to you.<br/><br/>This round, if they are targeting you with a card you do not wish to be targeted with, They must roll 1d6 + DISC vs 1d6 + CHARM + SLF/2. If they lose, their card is negated as though they had voluntarity discarded it<br/><br/>Retrieval: 3 Fatigue",
+        "pri": "SLF + 2d4",
         "ap": 1,
         "flip": 1,
         "tags": ["Attention", "Mental"],
@@ -747,8 +800,8 @@
       },
       {
         "name": "Channel Attention-Seeking",
-        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within MAG <br/><br/>Increase or decrease your target's CHARM or DISC by 2<br/><br/>Retrieval: 1 Fatigue",
-        "pri": "MAG + 2d4",
+        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within SLF <br/><br/>Increase or decrease your target's CHARM or DISC by 2<br/><br/>Retrieval: 1 Fatigue",
+        "pri": "SLF + 2d4",
         "ap": 2,
         "flip": 0,
         "tags": [ "Attention", "Mental" ],
@@ -762,14 +815,14 @@
     "level 0": [
       {
         "name": "Channel Anger",
-        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within MAG.<br/><br/>Increase your target's STR, or decrease their AGL, EMP, or EXPR by 2.<br/><br/>Retrieval: 1 Fatigue",
-        "pri": "MAGd4",
+        "description": "<b>Upkeep: 2</b><br/><br/>Target: Anyone within SLF.<br/><br/>Increase your target's STR, or decrease their AGL, EMP, or EXPR by 2.<br/><br/>Retrieval: 1 Fatigue",
+        "pri": "SLFd4",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Anger",
           "Mental",
-          "Upkeep(MAG)"
+          "Upkeep(SLF)"
         ],
         "combo": 0,
         "cost": "0"
@@ -779,7 +832,7 @@
       {
         "name": "Manifest Anger (Barb)",
         "description": "<b>Upkeep: No cost, but anyone holding the dagger takes 1d4 - 2 damage</b><br/><br/>Create a cylindrical crystal the length and approximate shape of a tent spike. You may treat it as a dagger dealing 4d8 instead of 1d8 damage.<br/><br/>Retrieval: 2 Fatigue",
-        "pri": "MAGd4",
+        "pri": "SLFd4",
         "ap": 5,
         "flip": 0,
         "tags": [
@@ -792,13 +845,13 @@
       {
         "name": "Channel Anger+",
         "description": "<b>Upkeep: 3</b><br/><br/>Target: Anyone within touch.<br/><br/>Increase your targets STR, or decrease their AGL, EMP, or EXPR by 4.<br/><br/> Retrieval: 2 Fatigue",
-        "pri": "MAGd4",
+        "pri": "SLFd4",
         "ap": 2,
         "flip": 0,
         "tags": [
           "Anger",
           "Mental",
-          "Upkeep(MAG)"
+          "Upkeep(SLF)"
         ],
         "combo": 1
       }
@@ -807,7 +860,7 @@
       {
         "name": "Scapegoat",
         "description": "Chose a target within line of sight that has done something to anger you. Your choice on what qualifies. (If you're <b>that</b> kind of character, this could mean target anyone.) As long as this card is in effect, you may only take actions that directly lead toward you defeating that target. This includes defending yourself, but does not include attacking anything that is not <b>directly</b> in your way. Gain a +2 bonus on all actions against your scapegoat.",
-        "pri": "MAG",
+        "pri": "SLF",
         "ap": 1,
         "flip": 0,
         "tags": [
@@ -818,8 +871,8 @@
       },
       {
         "name": "Manifest Collateral Damage",
-        "description": "Cover MAG + 1d4 squares with manifested anger crystals. The squares must be contiguous and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the Upkeep phase. Using a movement card will break your connection with the anger. Direct (spike) damage does not affect you, but radiant damage does.<br/><br/> Retrieval: 3 Fatigue",
-        "pri": "MAG + 1d8",
+        "description": "Cover SLF + 1d4 squares with manifested anger crystals. The squares must be contiguous and start adjacent to you. For each affected square a creature is occupying, it takes 2d8 damage. <br/><br/>Any creature in one of the affected squares or adjacent to one of the affected squares takes 1d4 damage from radiant heat (and anything easily flammable nearbye will likely catch on fire) during the Upkeep phase. Using a movement card will break your connection with the anger. Direct (spike) damage does not affect you, but radiant damage does.<br/><br/> Retrieval: 3 Fatigue",
+        "pri": "SLF + 1d8",
         "ap": "5",
         "flip": 3,
         "tags": [
@@ -834,8 +887,8 @@
     "level 3": [
       {
         "name": "Manifest Defensiveness",
-        "description": "Momentarily create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by MAGd4. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Return this card to your hand",
-        "pri": "MAG + 2d4",
+        "description": "Momentarily create a small patch of anger crystals on your skin, right where a blow is about to strike you. Decrease the damage from a non-area attack targeting you by SLFd4. Take 1d6 - 4 damage. (The manifested anger burns you if you're too slow to remove it and is sometimes in uncomfortable places).<br/><br/>This card may be played as an interrupt (after cards are resolved)<br/><br/>Return this card to your hand",
+        "pri": "SLF + 2d4",
         "ap": 1,
         "flip": 1,
         "tags": [
@@ -855,7 +908,7 @@
           "Trance",
           "Anger",
           "Mental",
-          "Upkeep(MAG)"
+          "Upkeep(SLF)"
         ],
         "combo": 4,
         "cost": "15 + DISC (max 25)"

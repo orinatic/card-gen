@@ -13,11 +13,11 @@
             "BB Gun (pistol)",
             "Pocket Knife",
             "Grocery Store Katana",
-            "Uncle Don Joseph's Sword Cane",
+            "Uncle Don's Sword Cane",
             "Improvised Club",
             "Baseball Bat",
             "Sledgehammer",
-            "\"Holy\" Water"
+            "Amazon.com \"Holy\" Water"
         ]
     },
     {
@@ -101,9 +101,39 @@
         ]
     },
     {
+        "name": "Swinging Blade Trap",
+        "cards": [
+            "Blade Swing"
+        ]
+    },
+    {
+        "name": "Minor Gross Spirit",
+        "cards": [
+            "Dodgey Lil Fuckers",
+            "Step",
+            "Projectile Ick",
+            "Oh Jeeze, Claws!"
+        ]
+    },
+    {
+        "name": "Giant Shower Hairball Spirit",
+        "cards": [
+            "Amorphous Body",
+            "Step",
+            "Engulf",
+            "Spawn Minor Gross Spirit",
+            "Engulfed",
+            "Engulfing",
+            "Engulfed",
+            "Engulfing",
+            "Engulfed",
+            "Engulfing"
+        ]
+    },
+    {
         "name": "Minor Hunger/Instinct Spirit",
         "cards": [
-            "QuickStep/Dodge",
+            "Dodgey Lil Fuckers",
             "Step",
             "Chomp"
         ]
