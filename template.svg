@@ -21,10 +21,8 @@
             </foreignObject>
         </switch>
 	<text transform="rotate(90)" stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="-10" x="100" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="Character Name">CHARACTER NAME HERE</text>
-        <text stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="41.5" x="10" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="flip">FLIP: --</text>
+        <text stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="41.5" x="10" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="ap">AP: --</text>
         <text stroke="#000000" xml:space="preserve" text-anchor="end" font-family="serif" font-size="24" y="41.5" x="440" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="pri">PRI: -- </text>
-        <text stroke="#000000" xml:space="preserve" text-anchor="start" font-family="serif" font-size="24" y="640" x="10" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="ap">AP: --</text>
-        <text stroke="#000000" xml:space="preserve" text-anchor="end" font-family="serif" font-size="24" y="640" x="440" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000" id="combo">COMBO: --</text>
     </g>
 </svg>
   </body>

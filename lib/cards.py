@@ -71,7 +71,7 @@ class Cards:
         for (card) in cardJSONS:
             card_svg = self.ts.getNewCard()
             card = self.substituteVariables(card)
-            for attribute, value in {attr:card[attr] for attr in card if (attr not in Constants.invisibleAttributes)}.items():
+            for attribute, value in {attr:card[attr] for attr in card}.items():
                 node = card_svg.find(f".//*[@id='{attribute}']")
                 if(node.tag == f"{Constants.ns['svg']}text"):
                     if(attribute == 'name'):

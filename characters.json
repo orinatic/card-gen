@@ -22,9 +22,10 @@
     },
     {
         "name": "Basic Learned",
-        "cards": [           
+        "cards": [
+            "Heroic Resolve",
             "Clumsy Dodge",
-            "Step",
+            "Basic Movement",
             "Hard-Style Strike",
             "Soft-Style Strike",
             "Dagger Strike",
@@ -37,14 +38,15 @@
             "Fire! (long gun)",
             "Tag Aspect",
             "Bright In The Face",
-            "Water Splash"
+            "Water Splash",
+            "Brace"
         ]
     },
     {
         "name": "Utter Noob",
         "cards": [
             "Clumsy Dodge",
-            "Step",
+            "Basic Movement",
             "Hard-Style Strike",
             "Dagger Strike"
         ]
@@ -55,7 +57,7 @@
             "QuickStep/Dodge+",
             "QuickStep/Dodge+",
             "QuickStep/Dodge+",
-            "Step",
+            "Basic Movement",
             "Hard-Style Strike++",
             "Soft-Style Strike+",
             "Parry",
@@ -72,7 +74,7 @@
         "name": "Needy Swordsman",
         "cards": [
             "QuickStep/Dodge",
-            "Step",
+            "Basic Movement",
             "Hard-Style Strike+",
             "Weapon Block",
             "Longsword Strike",
@@ -86,7 +88,7 @@
     {
         "name": "Berserker",
         "cards": [
-            "Step",
+            "Basic Movement",
             "Hard-Style Strike+",
             "Clumsy Dodge",
             "Megaton Hammer Strike",
@@ -110,7 +112,7 @@
         "name": "Minor Gross Spirit",
         "cards": [
             "Dodgey Lil Fuckers",
-            "Step",
+            "Basic Movement",
             "Projectile Ick",
             "Oh Jeeze, Claws!"
         ]
@@ -119,7 +121,7 @@
         "name": "Giant Shower Hairball Spirit",
         "cards": [
             "Amorphous Body",
-            "Step",
+            "Basic Movement",
             "Engulf",
             "Spawn Minor Gross Spirit",
             "Engulfed",
@@ -134,18 +136,18 @@
         "name": "Minor Hunger/Instinct Spirit",
         "cards": [
             "Dodgey Lil Fuckers",
-            "Step",
+            "Basic Movement",
             "Chomp"
         ]
     },
     {
-        "name": "Medium Hunger/Instinct Spirit",
+        "name": "Giant Not-Marten",
         "cards": [
             "QuickStep/Dodge",
-            "Clumsy Dodge",
-            "Step",
-            "Chomp",
+            "Basic Movement",
+            "Giant Bite",
             "Rip",
+            "Pounce",
             "Thick Skin"
         ]
     },
@@ -154,7 +156,7 @@
         "cards": [
             "Thick Skin",
             "QuickStep/Dodge",
-            "Step",
+            "Basic Movement",
             "Chomp",
             "Rip",
             "Spawn",
@@ -176,7 +178,7 @@
             "Channel Curiousity",
             "Dagger Strike+",
             "Dagger Strike+",
-            "Step"
+            "Basic Movement"
         ]
     },
     {
@@ -196,7 +198,7 @@
         "name": "Physical Level 0",
         "cards": [
             "Clumsy Dodge",
-            "Step",
+            "Basic Movement",
             "Hard-Style Strike",
             "Soft-Style Strike",
             "Dagger Strike",
